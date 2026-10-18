@@ -1,0 +1,292 @@
+[
+  {
+    "recording": "movie1",
+    "selected": true,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie1/movie1.mp4",
+        "exists": true,
+        "sha256": "13b6a74fd86e05431a02d51b90fe9e81da816f8276a43f3a528969163e8e2e26"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie1/movie1_track.mat",
+        "exists": true,
+        "sha256": "98fa9a40bca8b830f9df822f905f37bc86f2b4586385075ce4a32d64c40080fe"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie1/movie1_actions.mat",
+        "exists": true,
+        "sha256": "dfb69d52d41ef79513d98b5950fb453bf2cd287f0791df8ba2d2b21be01d6927"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie1/movie1_feat.mat",
+        "exists": true,
+        "sha256": "90600afced46bc313dc7ba33d8b13878c3bb9a8b21396ca7456fe6a78ec58800"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": false
+  },
+  {
+    "recording": "movie2",
+    "selected": true,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie2/movie2.mp4",
+        "exists": true,
+        "sha256": "3e4187cf84c91608a8108404766c83f5a271ebb4aba8f67572d569fa3128acdc"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie2/movie2_track.mat",
+        "exists": true,
+        "sha256": "21fc1570707331004179be6abca64c921410a2fc6ede94df6e6803bcbc0d5e84"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie2/movie2_actions.mat",
+        "exists": true,
+        "sha256": "f228fc472f1343ed8ed3df4f3cfb7cb1a1fc48420a7915a1f0973b550a0ec230"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie2/movie2_feat.mat",
+        "exists": true,
+        "sha256": "d4e6ee20da92ee61df86272c0bce5eaf2a342f5a866ccb1f7b55012e7eed587f"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": false
+  },
+  {
+    "recording": "movie3",
+    "selected": true,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie3/movie3.mp4",
+        "exists": true,
+        "sha256": "fb2f74ee54894f0b2271c05c0e80c8c1b4e55e60e7c4b3d5bd06425fbce116db"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie3/movie3_track.mat",
+        "exists": true,
+        "sha256": "c8edc60ca8046b00f08fe3819c53516f1c7f2a91d65ae1b710526490ec093068"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie3/movie3_actions.mat",
+        "exists": true,
+        "sha256": "2ca1336da0a6d8c6a014fec08aec00c4844c800fe8d4c6570a4671b33a0a6e5f"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie3/movie3_feat.mat",
+        "exists": true,
+        "sha256": "b36ce8171eeb4c9349a456d50fb3009b1246940f04f5875dd0af75a8ca89bd18"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": false
+  },
+  {
+    "recording": "movie4",
+    "selected": true,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie4/movie4.mp4",
+        "exists": true,
+        "sha256": "b1ae5d6a38e1e469f8f7c4b759b5879380845584585d36ecb31347d7dd557fc4"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie4/movie4_track.mat",
+        "exists": true,
+        "sha256": "8a90f573babbbc91483d668109573448aa0d050373deb09646dd0a8aee88410b"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie4/movie4_actions.mat",
+        "exists": true,
+        "sha256": "1228b7ce6ad1206bb5eb7d4c0f682d0d7bba69d7321f51f5d6ec2d51be3327c3"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie4/movie4_feat.mat",
+        "exists": true,
+        "sha256": "1e9e5eca4fec598a490af8f8518de430fe53a2c9f66505c33ee6d82dfe0bd60b"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": false
+  },
+  {
+    "recording": "movie5",
+    "selected": true,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie5/movie5.mp4",
+        "exists": true,
+        "sha256": "3e92c3b54a615afc0531bef1fd396fd283b01d7f0d15eaa7b2e9c404536cb783"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie5/movie5_track.mat",
+        "exists": true,
+        "sha256": "5bc84a0daf828a74f7efc7651df641db9ac7bd021cfaf0ec561c14eed71691ef"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie5/movie5_actions.mat",
+        "exists": true,
+        "sha256": "2990a62c06eb9db624de6aab3157d4238ac301f57c7f0e3670fd51e6cce2301b"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie5/movie5_feat.mat",
+        "exists": true,
+        "sha256": "dd6b0d71696cf2e23cd21159de88736fc0227dd2fbf5efd0cac63aaef9f8c1d7"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": false
+  },
+  {
+    "recording": "movie6",
+    "selected": false,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie6/movie6.mp4",
+        "exists": true,
+        "sha256": "4aff7066d3b0d3fca55b95aba4ab9d88195568ea9bec424a6f39d68204dbefe1"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie6/movie6_track.mat",
+        "exists": true,
+        "sha256": "c5617f3ef0c063d9f3d72029cebe76a2f9feda52a8e9c889e1b7df441841aff2"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie6/movie6_actions.mat",
+        "exists": true,
+        "sha256": "79ce425aba834bcddfc0259fea8612ef955472f099843ab6f9539aed31173643"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie6/movie6_feat.mat",
+        "exists": true,
+        "sha256": "a9822937de94722853d9e0d0115d2bf215ed850b67070cb6fec688bc371a299d"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": true
+  },
+  {
+    "recording": "movie7",
+    "selected": false,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie7/movie7.mp4",
+        "exists": true,
+        "sha256": "ef0de87f5c055455c0c950e6cc29d1dc7cb03d72df415cf1f547c5f1c426f167"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie7/movie7_track.mat",
+        "exists": true,
+        "sha256": "87f992d61203d1a93e082a744bd8e1d4f02a71932101f405d4cf388baca7a30f"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie7/movie7_actions.mat",
+        "exists": true,
+        "sha256": "92affc5752c99b696a0bebc7ea4e7a78aa0db6bd71a7140e5edb9013ec27a850"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie7/movie7_feat.mat",
+        "exists": true,
+        "sha256": "8d5bbfd05139d16bc0456718300f4c299a845fe9aa88460a755929c60ddfa802"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": true
+  },
+  {
+    "recording": "movie8",
+    "selected": false,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie8/movie8.mp4",
+        "exists": true,
+        "sha256": "67afba68d08ad9db80f5d1951f6dab6d3f2ffe8fc3dfa014b161b4c9970511dc"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie8/movie8_track.mat",
+        "exists": true,
+        "sha256": "f0084efdc6d7d101557fac055fa486bb4173fdd6102b4a9f9481e35b749a2b81"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie8/movie8_actions.mat",
+        "exists": true,
+        "sha256": "c738e6088045fdbd52c48eec3d35157641a19518a3d76e0f5a513a881c54a431"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie8/movie8_feat.mat",
+        "exists": true,
+        "sha256": "5bc704d13f89a3c97a28670e8da05e272796076f994dbf4912a1fc07419c8b0f"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": true
+  },
+  {
+    "recording": "movie9",
+    "selected": false,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie9/movie9.mp4",
+        "exists": true,
+        "sha256": "4c6c52e8a1688d5a87e04c4c5239c0a65c9c2556b322f6f3cd9eb6a5cffe745d"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie9/movie9_track.mat",
+        "exists": true,
+        "sha256": "be27fc1ff1f2b9d85f0588093d24f2c780ffe91fa2657c0ef3f69c8a49bd4be0"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie9/movie9_actions.mat",
+        "exists": true,
+        "sha256": "7583b327fa598998f48a5f1de947b182b97051f8a1aa4a626afdfe70a8bfe7ba"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie9/movie9_feat.mat",
+        "exists": true,
+        "sha256": "369e16fefce0d7482e7e3a510e3fb1d0a1e2ad9dd75499137b1c01e43ff256fb"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": true
+  },
+  {
+    "recording": "movie10",
+    "selected": false,
+    "files": {
+      ".mp4": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie10/movie10.mp4",
+        "exists": true,
+        "sha256": "5af4480bf7eba730464d88c41b7708b76b0366af522fae56bd1142a9106b8cd9"
+      },
+      "_track.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie10/movie10_track.mat",
+        "exists": true,
+        "sha256": "4f7a5bdc2b088f2f006402fc8ef4c0ace276da790bde0dc01d172a0848fe6cdb"
+      },
+      "_actions.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie10/movie10_actions.mat",
+        "exists": true,
+        "sha256": "def8d1032e05654c8391ad3a797f5467c9217a4f032fa30df5e946d9bca6a49d"
+      },
+      "_feat.mat": {
+        "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie10/movie10_feat.mat",
+        "exists": true,
+        "sha256": "6249e0dd268c5fa22712fb4c749d55b10d9056e98c5b341585474c94a55742ae"
+      }
+    },
+    "diameter_mm": 16,
+    "diameter_evidence": "published nominal Aggression assay dimension; no per-recording measurement certificate",
+    "already_examined_original_test": true
+  }
+]

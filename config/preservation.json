@@ -1,0 +1,22 @@
+{
+  "v2_archive_sha256": "a74f316402eabc71e58f367b3932d89b1db183d7b4510c2edf838dc7770f000a",
+  "frozen_files": {
+    "configuration.json": "3558522f7b842abbc91ed6315b1f7d7c5e8ed3d1fba2707772b53cfd9b7dc83d",
+    "feature-schema.json": "fa0d07e21f7a029309814dafeea69e595f310d141c61277c130109b30b43a109",
+    "lunge-detector.joblib": "508f49002159bb6da8be4c42f38c76ba43215b692e96aa73276e287cedb86a42",
+    "requirements-frozen.txt": "2cc7b9c789e5aaf58a4c924ec2c25d63c7b4245b14eb178124923b4fe4e3daab",
+    "runtime/analyze.py": "f2ba86211a26bd3f482b23406f3b1a9ca50c71f71be0aea145a1d659e09550af",
+    "runtime/scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runtime/scripts/event_detection.py": "f6a8a9f97ae8ebe22e2dc1d01b5545efde258afcc1fb55b59fa45d1cacfab145",
+    "runtime/scripts/lunge_pipeline.py": "9d806b1e747500f9d2674425f8d53fed1e1572d1cc8802ebbe08f18691de79f5",
+    "runtime/scripts/temporal_features.py": "1d47f1a06e5f716ea8ce0b5138e74a6ec81361694240d7acda2342055f0c37e7"
+  },
+  "extractor_sources": {
+    "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/drosophila-aggression/app.py": "85a92f6752b4000688d7539b6cb3e5983bc24c44bd3fefdf21c5a88d9d11edea",
+    "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/drosophila-aggression/scripts/auto_calibration.py": "a587e6cca0aa8c96919d0ada7a6c281029c3aba43ef53e821ef3b6cf830f41e4",
+    "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/raw-video-integration/day5/adapter.py": "b1f28e1c12ad55ad87847b6f3cf1a5e140c82f3b9785bbe5e0540f116ce9aaf4",
+    "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/raw-video-integration/auto-calibration/automatic_calibration.m": "3861a7840e0dd56f422a448a5061863816d269b1c9e0a45b4f550332f6a616b1",
+    "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/raw-video-integration/auto-calibration/infer_parameters.m": "074ac587af071699d4e479a0635055558f372ed9de0a17b4e3d93371cc409920",
+    "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/raw-video-integration/auto-calibration/refine_parameters.m": "229d979792a2dc56719491bcdcabf471d90c8f0bcf50cec65eb42672a55aa0a3"
+  }
+}

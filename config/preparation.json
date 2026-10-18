@@ -1,0 +1,14 @@
+{
+ "version":"2.1-dataset-v1",
+ "selected_recordings":["movie1","movie2","movie3","movie4","movie5"],
+ "splits":{"movie1":"train","movie2":"train","movie3":"train","movie4":"train","movie5":"validation"},
+ "independent_final_test":[],
+ "consumed_test_recordings":["movie6","movie7","movie8","movie9","movie10"],
+ "nominal_diameter_mm":16,
+ "diameter_source":"https://thesis.caltech.edu/10281/7/eyjolfsdottir_eyrun_2017.pdf, Figure 3.2, Aggression setup",
+ "diameter_uncertainty":"Published cohort-level nominal dimension; no individual calibration measurement certificate",
+ "alignment":{"maximum_position_error_pixels":3,"minimum_assignment_margin_pixels":4,"minimum_reference_separation_pixels":8,"minimum_stable_mapping_frames":15,"boundary_exclusion_frames":5},
+ "label_policy":"Source lunge bouts are positive; absent bouts inferred negative only under exhaustive-annotation assumption. Unknown/nonzero annotation flags and uncertain mapping excluded. No explicit expert negative intervals.",
+ "imputation":"Do not fit a preprocessor yet. Retain finite-feature complete rows for model-ready subsets; full grid and missing masks retained separately.",
+ "training_performed":false
+}
