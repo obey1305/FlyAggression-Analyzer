@@ -1,0 +1,72 @@
+{
+  "candidate": "day4-raw-random-forest",
+  "training_recordings": [
+    "movie1",
+    "movie2",
+    "movie3",
+    "movie4"
+  ],
+  "validation_recordings": [
+    "movie5"
+  ],
+  "feature_names": [
+    "vel",
+    "ang_vel",
+    "min_wing_ang",
+    "max_wing_ang",
+    "mean_wing_length",
+    "axis_ratio",
+    "fg_body_ratio",
+    "contrast",
+    "dist_to_other",
+    "angle_between",
+    "facing_angle",
+    "leg_dist",
+    "vel_diff1",
+    "vel_diff2",
+    "ang_vel_diff1",
+    "ang_vel_diff2",
+    "min_wing_ang_diff1",
+    "min_wing_ang_diff2",
+    "max_wing_ang_diff1",
+    "max_wing_ang_diff2",
+    "mean_wing_length_diff1",
+    "mean_wing_length_diff2",
+    "axis_ratio_diff1",
+    "axis_ratio_diff2",
+    "fg_body_ratio_diff1",
+    "fg_body_ratio_diff2",
+    "contrast_diff1",
+    "contrast_diff2",
+    "dist_to_other_diff1",
+    "dist_to_other_diff2",
+    "angle_between_diff1",
+    "angle_between_diff2",
+    "facing_angle_diff1",
+    "facing_angle_diff2",
+    "leg_dist_diff1",
+    "leg_dist_diff2"
+  ],
+  "n_estimators": 128,
+  "max_depth": 20,
+  "min_samples_leaf": 2,
+  "max_features": "sqrt",
+  "random_state": 501,
+  "n_jobs": 4,
+  "class_weights": {
+    "0": 1.0,
+    "1": 12.271444242002705
+  },
+  "weight_rule": "negative=1; positive=sqrt(training_negative/training_positive)",
+  "preprocessing": "median imputer fitted only on training rows; no scaling",
+  "threshold": 0.5,
+  "searches": 0,
+  "independent_test_evaluated": false,
+  "input_sha256": {
+    "train.parquet": "3c968bbde7f2cb67499503a73dd0ba35b5f754402a9297f1a2e3a396cf8c7215",
+    "validation.parquet": "7a2c811cf2134171f769bc63af63e3a62e89fdd6a21a75f337b9f22d9d801324"
+  },
+  "original_model_sha256": "508f49002159bb6da8be4c42f38c76ba43215b692e96aa73276e287cedb86a42",
+  "python": "3.12.14",
+  "sklearn": "1.9.1"
+}

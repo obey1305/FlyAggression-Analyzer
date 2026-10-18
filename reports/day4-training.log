@@ -1,0 +1,60 @@
+Training fixed RF on 410956 rows
+{
+  "status": "PASS",
+  "fit_seconds": 49.171937166000134,
+  "training_rows": 410956,
+  "training_positive_frames": 2711,
+  "metrics": {
+    "candidate": {
+      "frames": 100479,
+      "positive_frames": 527,
+      "predicted_positive_frames": 159,
+      "confusion_matrix": [
+        [
+          99917,
+          35
+        ],
+        [
+          403,
+          124
+        ]
+      ],
+      "precision": 0.779874213836478,
+      "recall": 0.23529411764705882,
+      "f1": 0.36151603498542273,
+      "average_precision": 0.6134501383815172
+    },
+    "previous": {
+      "frames": 100479,
+      "positive_frames": 527,
+      "predicted_positive_frames": 62,
+      "confusion_matrix": [
+        [
+          99939,
+          13
+        ],
+        [
+          478,
+          49
+        ]
+      ],
+      "precision": 0.7903225806451613,
+      "recall": 0.09297912713472485,
+      "f1": 0.166383701188455,
+      "average_precision": 0.5500911803690036
+    }
+  },
+  "f1_difference": 0.19513233379696773,
+  "threshold": 0.5,
+  "comparison": "same auto-extracted movie5 features and identical eligible aligned labels; unsmoothed frame probabilities",
+  "full_grid_predictions": 108000,
+  "model_sha256": "23138ccd8fdf4402c33033bcd477dc16e9e857d5b989837123fc565f6465b44e",
+  "reload_probability_tolerance": 1e-14,
+  "training_only_imputer_verified": true,
+  "original_frozen_files_unchanged": true,
+  "input_sha256": {
+    "train.parquet": "3c968bbde7f2cb67499503a73dd0ba35b5f754402a9297f1a2e3a396cf8c7215",
+    "validation.parquet": "7a2c811cf2134171f769bc63af63e3a62e89fdd6a21a75f337b9f22d9d801324"
+  },
+  "independent_test_available": false
+}

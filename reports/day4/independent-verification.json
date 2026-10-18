@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "manual_confusion_metrics_match": true,
+  "both_saved_models_reproduce_full_grid_probabilities": true,
+  "training_medians_match": true,
+  "dataset_hashes_unchanged": true,
+  "frozen_nine_files_and_v2_archive_unchanged": true,
+  "full_grid_rows": 108000,
+  "common_eligible_rows": 100479,
+  "model_sha256": "23138ccd8fdf4402c33033bcd477dc16e9e857d5b989837123fc565f6465b44e"
+}

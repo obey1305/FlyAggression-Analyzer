@@ -1,0 +1,14 @@
+{
+  "DAY4-REPORT.md": "74274f170329b3e943f12fe7c43f3a230bd83d73cb8ae0e9d6150b6df8e30be9",
+  "config/day4-training.json": "e8e9c5b85f3275f088ae89de7997726038f6a4fd47e3e941769f0c5843abcb74",
+  "models/day4-raw-random-forest.joblib": "23138ccd8fdf4402c33033bcd477dc16e9e857d5b989837123fc565f6465b44e",
+  "reports/day4/feature-importances.csv": "d3234c68abc29c70722ca89aa6ce86c6edeef8d28c94157b436619771e32571e",
+  "reports/day4/independent-verification.json": "bd3d1f0cfa73fa2b34165a5ab816a5ab4c7f7008188977d044f3e3c4b6b3352b",
+  "reports/day4/metrics.json": "6d8ff08cda17a644b87ebbdfb28ac5341bbd24c3d96d65a8243cfaf26d430283",
+  "reports/day4/movie5-eligible-probabilities.csv": "7d4ad74d72223f9d405f5293fe9e268c73b93b4de6b4bd9ebb4bb32f7ab963a7",
+  "reports/day4/movie5-full-grid-probabilities.parquet": "e673ee15a3e481de182f153802c2a2226bd81c187a36fba0796dd443842af8e4",
+  "reports/day4/tests.log": "38df48fdda89007b062a40228ddc38ec477bd682e38e294ca7d5baea985e7934",
+  "scripts/train_day4.py": "bb7d011b91e9e34e77097d3fc2bff93f6a219301617b494bfb03a719f635d4c7",
+  "scripts/verify_day4.py": "a2264563d7416f8f0547cc30eca8b8db5bfe35e394b5ca797c7894b20d318c7b",
+  "tests/test_training.py": "b83664a47e9097da8d84891308adef8a86f7288751eebd731b6be1bd8c12de7e"
+}
