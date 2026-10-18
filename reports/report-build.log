@@ -1,0 +1,6 @@
+recording      split  total  eligible  lunging  negative  excluded_positive  retained_percent
+   movie1      train 108000    106851      245    106606                 42             98.94
+   movie2      train 108000     96199      858     95341               1315             89.07
+   movie3      train 108000    103081     1129    101952                526             95.45
+   movie4      train 108000    104825      479    104346                218             97.06
+   movie5 validation 108000    100479      527     99952                659             93.04

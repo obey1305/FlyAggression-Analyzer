@@ -1,0 +1,11 @@
+# Exact 36-feature contract
+
+First 12 fields: vel, ang_vel, min_wing_ang, max_wing_ang, mean_wing_length, axis_ratio, fg_body_ratio, contrast, dist_to_other, angle_between, facing_angle, leg_dist. Remaining fields are each base's `_diff1`, `_diff2`, interleaved in that same base order. `dist_to_wall` is not a classifier input.
+
+The native tracker supplies velocity (mm/s), angular velocity (rad/s), wing angles (rad), mean wing length (mm), body axis ratio, foreground/body-area ratio, contrast, distance to the other fly (mm), relative/facing angles (rad) and minimum foreground separation (mm). `leg_dist` is the upstream minimum foreground separation, not a directly measured anatomical leg-tip distance.
+
+The adapter divides mean_wing_length, axis_ratio and contrast by each source stream's full-recording NaN-aware median, skipping division only for a zero or invalid denominator. It applies log10(x + 0.001) to vel, min_wing_ang, max_wing_ang and fg_body_ratio; ang_vel uses log10(x + 0.000001). Transform conventions depend on the native units. Outputs keep legacy unprefixed names even when transformed. Physical input units are metadata conventions conditional on calibration; log/normalized bases are dimensionless numeric representations under those conventions.
+
+For each transformed base, valid convolution uses kernels `[0, .5, -.5, 0, 0]` and `[0, .25, -.5, .25, 0]`, padding the first and last filter responses twice to restore frame count. These are fixed discrete filter responses, not physical per-second derivatives. Compute on complete consecutive streams before quality masks or dataset splitting. Missing values remain and propagate through filters; they are never silently filled. Model-ready complete rows exclude nonfinite values; full-grid audits retain them.
+
+The extractor is snapshotted and hashed. No feature definition, physical scale factor or classifier threshold is adjusted to improve agreement with legacy predictions or validation scores. Geometry/physical-scale differences between recordings are recorded in each calibration metadata file. Whole-stream normalization is part of the existing extractor, not a fitted dataset-wide preprocessor. No training/validation rows are combined to fit an imputer or scaler here.

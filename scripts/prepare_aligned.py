@@ -57,18 +57,29 @@ def annotation_labels(src,nframes):
     if name=='unknown' or flag!=0:unknown[fly,int(start)-1:int(end)]=True
  y[unknown]=-1;return y
 
+def close_bout_exclusions(bouts):
+ d=bouts.copy();d['excluded_by_overlap_closure']=False
+ while True:
+  changed=False
+  for i,row in d[d.whole_bout_eligible].iterrows():
+   bad=d[(~d.whole_bout_eligible)&d.reference_fly_id.eq(row.reference_fly_id)]
+   if ((bad.start_frame<=row.end_frame)&(bad.end_frame>=row.start_frame)).any():
+    d.loc[i,'whole_bout_eligible']=False;d.loc[i,'excluded_by_overlap_closure']=True;changed=True
+  if not changed:break
+ return d
+
 def prepare(rec):
  cfg=json.loads((ROOT/'config/preparation.json').read_text());d=ROOT/'data'/rec
  names=json.loads((ROOT/'config/feature-columns.json').read_text());feat=loadmat(d/'features36.mat',simplify_cells=True)['feat'];data=feat['data']
  assert list(feat['names'])==names and data.shape==(2,54000,36)
  old,ow,_,_=load_track(SOURCE/rec/(rec+'_track.mat'));new,nw,_,_=load_track(d/'tracks.mat');mapping,good,diag=align_positions(old,new,ow,nw,cfg['alignment']);n=data.shape[1]
  offsets=[]
- for shift in range(-3,4):
+ for shift in cfg['frame_offset_diagnostic']['new_frame_offsets']:
   lo=max(0,-shift);hi=min(n,n-shift);a=old[:,lo:hi];b=new[:,lo+shift:hi+shift]
   direct=np.linalg.norm(a-b,axis=2).sum(axis=0);swap=np.linalg.norm(a-b[::-1],axis=2).sum(axis=0)
   offsets.append({'recording':rec,'new_frame_offset':shift,'median_best_pair_error_pixels':float(np.nanmedian(np.minimum(direct,swap)))})
  zero=offsets[3]['median_best_pair_error_pixels'];best=min(x['median_best_pair_error_pixels'] for x in offsets)
- if zero>best+.05:good[:]=False
+ if zero>best+cfg['frame_offset_diagnostic']['maximum_zero_offset_excess_median_pair_error_pixels']:good[:]=False
  pd.DataFrame(offsets).to_csv(d/'frame-offset-diagnostic.csv',index=False)
  src=loadmat(SOURCE/rec/(rec+'_actions.mat'),simplify_cells=True);y=annotation_labels(src,n)
  audit=pd.DataFrame({'frame':np.arange(1,n+1),'new_fly1_maps_to_reference':mapping+1,'alignment_reliable':good,'reference_tracking_warning':ow,'new_tracking_warning':nw,**diag})
@@ -84,11 +95,24 @@ def prepare(rec):
   target=np.where(usable,source_y,-1).astype('int8')
   df=pd.DataFrame(data[fly],columns=names)
   for k,v in {'recording':rec,'split':cfg['splits'][rec],'fly_id':fly+1,'frame':np.arange(1,n+1),'reference_fly_id':reference_id+1,'alignment_reliable':good,'annotation_reliable':source_y>=0,'features_finite':finite,'source_lunge_label':source_y,'target_lunge':target,'eligible':usable,'explicit_confirmed_negative':False}.items():df[k]=v
-  df.to_parquet(d/f'full-grid-fly{fly+1}.parquet',index=False);parts.append(df[usable].copy())
+  df.to_parquet(d/f'full-grid-fly{fly+1}.parquet',index=False);parts.append(df.loc[usable,names+['recording','split','fly_id','frame','reference_fly_id','target_lunge']].copy())
   counts.append({'recording':rec,'fly_id':fly+1,'split':cfg['splits'][rec],'total_frames':n,'identity_reliable_frames':int(good.sum()),'annotation_uncertain_frames':int((source_y<0).sum()),'nonfinite_feature_rows':int((~finite).sum()),'eligible_frames':int(usable.sum()),'lunge_frames':int((target==1).sum()),'inferred_nonlunge_frames':int((target==0).sum()),'positive_frames_before_alignment_filter':int((source_y==1).sum()),'positive_frames_excluded':int(((source_y==1)&~usable).sum()),'reference_id_reassignment_frames':int((reference_id!=fly).sum())})
   for j,name in enumerate(names):
    v=data[fly,:,j];clean=v[np.isfinite(v)]
    features.append({'recording':rec,'fly_id':fly+1,'feature':name,'nan':int(np.isnan(v).sum()),'inf':int(np.isinf(v).sum()),'min':float(clean.min()),'q01':float(np.quantile(clean,.01)),'median':float(np.median(clean)),'q99':float(np.quantile(clean,.99)),'max':float(clean.max())})
+ # Preserve complete source bout identity and mark eligibility without fragmenting events.
+ boutrows=[]
+ lunge_index=list(src['behs']).index('lunge')
+ for ref in [0,1]:
+  cell=np.asarray(src['bouts'][ref,lunge_index]);bouts=cell.reshape(-1,3) if cell.size else np.empty((0,3))
+  for event_id,(start,end,flag) in enumerate(bouts,1):
+   a,b=int(start)-1,int(end);mapped=np.where(mapping[a:b]==0,ref,1-ref)
+   one_stream=np.unique(mapped).size==1;newfly=int(mapped[0]) if one_stream else -1
+   identity_ok=bool(good[a:b].all()) and one_stream
+   annotation_ok=bool((y[ref,a:b]>=0).all()) and flag==0
+   features_ok=bool(np.isfinite(data[newfly,a:b]).all()) if one_stream else False
+   boutrows.append(dict(recording=rec,source_event_id=event_id,reference_fly_id=ref+1,new_fly_id=newfly+1,start_frame=int(start),end_frame=int(end),source_flag=float(flag),identity_reliable=identity_ok,annotation_reliable=annotation_ok,features_finite=features_ok,whole_bout_eligible=identity_ok and annotation_ok and features_ok))
+ close_bout_exclusions(pd.DataFrame(boutrows)).to_csv(d/'aligned-lunge-bouts.csv',index=False)
  eligible=pd.concat(parts,ignore_index=True);eligible.to_parquet(d/'eligible.parquet',index=False)
  pd.DataFrame(counts).to_csv(d/'coverage.csv',index=False);pd.DataFrame(features).to_csv(d/'feature-distributions.csv',index=False)
  return counts,features

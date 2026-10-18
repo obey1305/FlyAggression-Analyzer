@@ -27,6 +27,10 @@ def review(rec):
  if not cases:raise ValueError('No eligible positive review examples for '+rec)
  canvas=Image.new('RGB',(7*300,len(cases)*330+30),'white');draw=ImageDraw.Draw(canvas)
  for row,c in enumerate(cases):
+  clip=ROOT/'reports'/f"{rec}-reference{c['reference_fly']}-source{c['new_source_fly']}-event{c['start_frame']}.mp4"
+  begin=max(0,(c['start_frame']-11)/30);duration=(c['end_frame']-c['start_frame']+21)/30
+  subprocess.run(['/opt/homebrew/bin/ffmpeg','-y','-ss',str(begin),'-i',str(SOURCE/rec/(rec+'.mp4')),'-t',str(duration),'-an','-c:v','libx264','-pix_fmt','yuv420p','-loglevel','error',str(clip)],check=True)
+  c['review_clip']=str(clip.relative_to(ROOT))
   draw.text((5,row*330),f"{rec}: reference fly {c['reference_fly']} -> new fly {c['new_source_fly']}, source lunge {c['start_frame']} to {c['end_frame']}",fill='black')
   for col,frame in enumerate(c['frames']):
    cmd=['/opt/homebrew/bin/ffmpeg','-ss',str((frame-1)/30),'-i',str(SOURCE/rec/(rec+'.mp4')),'-frames:v','1','-f','image2pipe','-vcodec','png','-loglevel','error','-']

@@ -1,0 +1,57 @@
+[
+  {
+    "recording": "movie1",
+    "shape": [
+      2,
+      54000,
+      36
+    ],
+    "max_finite_absolute_difference": 8.881784197001252e-16,
+    "nan_values": 66,
+    "official_matlab_augmentation_parity": true
+  },
+  {
+    "recording": "movie2",
+    "shape": [
+      2,
+      54000,
+      36
+    ],
+    "max_finite_absolute_difference": 8.881784197001252e-16,
+    "nan_values": 0,
+    "official_matlab_augmentation_parity": true
+  },
+  {
+    "recording": "movie3",
+    "shape": [
+      2,
+      54000,
+      36
+    ],
+    "max_finite_absolute_difference": 8.881784197001252e-16,
+    "nan_values": 0,
+    "official_matlab_augmentation_parity": true
+  },
+  {
+    "recording": "movie4",
+    "shape": [
+      2,
+      54000,
+      36
+    ],
+    "max_finite_absolute_difference": 6.661338147750939e-16,
+    "nan_values": 75,
+    "official_matlab_augmentation_parity": true
+  },
+  {
+    "recording": "movie5",
+    "shape": [
+      2,
+      54000,
+      36
+    ],
+    "max_finite_absolute_difference": 8.881784197001252e-16,
+    "nan_values": 0,
+    "official_matlab_augmentation_parity": true
+  }
+]

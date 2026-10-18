@@ -1,6 +1,6 @@
 # FlyAggression Analyzer 2.1 — Days 1–3 data preparation
 
-Separate Git repository/branch `v2.1`; the surrounding workspace was not a Git repository. This work prepares data only. No new classifier is fitted, and the Version 2.0 app, tracker, original frozen model and release archive are preserved.
+Separate Git repository/branch `v2.1`; the surrounding workspace was not a Git repository. This work prepares data only. No new aggression classifier is fitted, and the Version 2.0 app, tracker, original frozen model and release archive are preserved.
 
 ## Cohort
 
@@ -36,3 +36,20 @@ Use the existing pinned interpreter `../drosophila-aggression/.venv/bin/python`.
 ```
 
 Generation is resumable at completed recording boundaries. Existing intermediates/results are retained. Do not mix earlier manually calibrated movie6/movie8 feature files into this automatically calibrated cohort. No accuracy improvement or generalization claim follows from preparing this dataset.
+
+## Final verification and reporting
+
+After generation/preparation, independently compare augmentation with the official MATLAB function and run the remaining audit/report steps:
+
+```sh
+/Applications/MATLAB_R2026a.app/bin/matlab -batch "run(fullfile(pwd,'scripts','verify_augmentation.m'))"
+../drosophila-aggression/.venv/bin/python scripts/check_augmentation.py
+../drosophila-aggression/.venv/bin/python scripts/review_examples.py
+../drosophila-aggression/.venv/bin/python scripts/prepare_aligned.py
+../drosophila-aggression/.venv/bin/python scripts/audit_dataset.py
+../drosophila-aggression/.venv/bin/python scripts/build_report.py
+```
+
+Visual-review image/clip generation additionally uses the installed `/opt/homebrew/bin/ffmpeg`; this is an inspection dependency, not a new tracking algorithm. Review the resulting frames manually before accepting the visual-review note. The stored note records the current review, not a claim that future regenerated images were inspected automatically.
+
+Current outcome: 410,956 finite training rows (2,711 positives), 100,479 finite validation rows (527 positives), six preparation tests and independent dataset/official-MATLAB checks pass. Only about 54% of annotation-reliable positive frames remain after conservative filters. This is an important selection bias, not evidence of improved detection. No new aggression classifier or fitted dataset-wide preprocessor was produced.

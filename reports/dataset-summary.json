@@ -1,0 +1,19 @@
+{
+  "train": {
+    "recordings": [
+      "movie1",
+      "movie2",
+      "movie3",
+      "movie4"
+    ],
+    "rows": 410956,
+    "lunge_frames": 2711
+  },
+  "validation": {
+    "recordings": [
+      "movie5"
+    ],
+    "rows": 100479,
+    "lunge_frames": 527
+  }
+}

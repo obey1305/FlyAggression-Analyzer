@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "recording": "movie1",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "eligible_rows": 106851,
+      "positive_rows": 245,
+      "excluded_rows": 1149
+    },
+    {
+      "recording": "movie2",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "eligible_rows": 96199,
+      "positive_rows": 858,
+      "excluded_rows": 11801
+    },
+    {
+      "recording": "movie3",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "eligible_rows": 103081,
+      "positive_rows": 1129,
+      "excluded_rows": 4919
+    },
+    {
+      "recording": "movie4",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "eligible_rows": 104825,
+      "positive_rows": 479,
+      "excluded_rows": 3175
+    },
+    {
+      "recording": "movie5",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "eligible_rows": 100479,
+      "positive_rows": 527,
+      "excluded_rows": 7521
+    }
+  ],
+  "version2_preserved": true,
+  "nine_frozen_files_unchanged": true,
+  "extractor_unchanged": true,
+  "no_classifier_or_preprocessor_fit": true,
+  "independent_test_available": false,
+  "dataset_sha256": {
+    "train.parquet": "3c968bbde7f2cb67499503a73dd0ba35b5f754402a9297f1a2e3a396cf8c7215",
+    "validation.parquet": "7a2c811cf2134171f769bc63af63e3a62e89fdd6a21a75f337b9f22d9d801324"
+  }
+}

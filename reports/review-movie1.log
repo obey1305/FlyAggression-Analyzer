@@ -1,0 +1,36 @@
+[
+  {
+    "recording": "movie1",
+    "reference_fly": 1,
+    "new_source_fly": 1,
+    "start_frame": 36219,
+    "end_frame": 36223,
+    "frames": [
+      36216,
+      36218,
+      36219,
+      36221,
+      36223,
+      36224,
+      36226
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation"
+  },
+  {
+    "recording": "movie1",
+    "reference_fly": 2,
+    "new_source_fly": 2,
+    "start_frame": 40909,
+    "end_frame": 40913,
+    "frames": [
+      40906,
+      40908,
+      40909,
+      40911,
+      40913,
+      40914,
+      40916
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation"
+  }
+]

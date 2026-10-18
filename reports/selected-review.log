@@ -1,0 +1,190 @@
+[
+  {
+    "recording": "movie1",
+    "reference_fly": 1,
+    "new_source_fly": 1,
+    "start_frame": 36219,
+    "end_frame": 36223,
+    "frames": [
+      36216,
+      36218,
+      36219,
+      36221,
+      36223,
+      36224,
+      36226
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie1-reference1-source1-event36219.mp4"
+  },
+  {
+    "recording": "movie1",
+    "reference_fly": 2,
+    "new_source_fly": 2,
+    "start_frame": 40909,
+    "end_frame": 40913,
+    "frames": [
+      40906,
+      40908,
+      40909,
+      40911,
+      40913,
+      40914,
+      40916
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie1-reference2-source2-event40909.mp4"
+  }
+]
+[
+  {
+    "recording": "movie2",
+    "reference_fly": 1,
+    "new_source_fly": 2,
+    "start_frame": 47576,
+    "end_frame": 47580,
+    "frames": [
+      47573,
+      47575,
+      47576,
+      47578,
+      47580,
+      47581,
+      47583
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie2-reference1-source2-event47576.mp4"
+  },
+  {
+    "recording": "movie2",
+    "reference_fly": 2,
+    "new_source_fly": 2,
+    "start_frame": 6167,
+    "end_frame": 6171,
+    "frames": [
+      6164,
+      6166,
+      6167,
+      6169,
+      6171,
+      6172,
+      6174
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie2-reference2-source2-event6167.mp4"
+  }
+]
+[
+  {
+    "recording": "movie3",
+    "reference_fly": 1,
+    "new_source_fly": 1,
+    "start_frame": 12471,
+    "end_frame": 12475,
+    "frames": [
+      12468,
+      12470,
+      12471,
+      12473,
+      12475,
+      12476,
+      12478
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie3-reference1-source1-event12471.mp4"
+  },
+  {
+    "recording": "movie3",
+    "reference_fly": 2,
+    "new_source_fly": 2,
+    "start_frame": 50416,
+    "end_frame": 50420,
+    "frames": [
+      50413,
+      50415,
+      50416,
+      50418,
+      50420,
+      50421,
+      50423
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie3-reference2-source2-event50416.mp4"
+  }
+]
+[
+  {
+    "recording": "movie4",
+    "reference_fly": 1,
+    "new_source_fly": 2,
+    "start_frame": 24588,
+    "end_frame": 24592,
+    "frames": [
+      24585,
+      24587,
+      24588,
+      24590,
+      24592,
+      24593,
+      24595
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie4-reference1-source2-event24588.mp4"
+  },
+  {
+    "recording": "movie4",
+    "reference_fly": 2,
+    "new_source_fly": 2,
+    "start_frame": 44956,
+    "end_frame": 44960,
+    "frames": [
+      44953,
+      44955,
+      44956,
+      44958,
+      44960,
+      44961,
+      44963
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie4-reference2-source2-event44956.mp4"
+  }
+]
+[
+  {
+    "recording": "movie5",
+    "reference_fly": 1,
+    "new_source_fly": 2,
+    "start_frame": 36285,
+    "end_frame": 36289,
+    "frames": [
+      36282,
+      36284,
+      36285,
+      36287,
+      36289,
+      36290,
+      36292
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie5-reference1-source2-event36285.mp4"
+  },
+  {
+    "recording": "movie5",
+    "reference_fly": 2,
+    "new_source_fly": 1,
+    "start_frame": 36279,
+    "end_frame": 36283,
+    "frames": [
+      36276,
+      36278,
+      36279,
+      36281,
+      36283,
+      36284,
+      36286
+    ],
+    "review_scope": "source ID correspondence and annotated temporal neighborhood; not independent expert behavior confirmation",
+    "review_clip": "reports/movie5-reference2-source1-event36279.mp4"
+  }
+]

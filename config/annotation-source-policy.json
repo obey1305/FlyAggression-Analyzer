@@ -1,0 +1,11 @@
+{
+  "primary": "Each selected recording uses its corresponding movieN_actions.mat; original reference tracks anchor its fly IDs",
+  "secondary_available": [
+    {
+      "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie6/movie6_second_actions.mat",
+      "sha256": "5ca5fef728cd230c6cd6276d9e6bcb3ad54f106b26e201a71fa26e28fd797bab",
+      "used": false,
+      "reason": "Same already-consumed recording, not an independent new video or selected cohort member"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+recording,fly_id,split,total_frames,identity_reliable_frames,annotation_uncertain_frames,nonfinite_feature_rows,eligible_frames,lunge_frames,inferred_nonlunge_frames,positive_frames_before_alignment_filter,positive_frames_excluded,reference_id_reassignment_frames
+movie1,1,train,54000,53427,0,8,53424,15,53409,16,1,1526
+movie1,2,train,54000,53427,0,0,53427,230,53197,271,41,1526
+movie2,1,train,54000,48172,36,0,48141,26,48115,95,69,47856
+movie2,2,train,54000,48172,131,0,48058,832,47226,2078,1246,47856
+movie3,1,train,54000,51739,109,0,51666,246,51420,389,143,3499
+movie3,2,train,54000,51739,410,0,51415,883,50532,1266,383,3499
+movie4,1,train,54000,52653,290,9,52362,44,52318,74,30,912
+movie4,2,train,54000,52653,202,0,52463,435,52028,623,188,912
+movie5,1,validation,54000,50354,99,0,50289,42,50247,260,218,52784
+movie5,2,validation,54000,50354,208,0,50190,485,49705,926,441,52784

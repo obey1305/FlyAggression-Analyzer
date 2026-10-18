@@ -1,0 +1,6 @@
+recording,center,radius_px,nominal_mm,pixels_per_mm,fps,generation_seconds,reuse
+movie1,"[71, 70]",65,16,8.125,30,0.8,True
+movie2,"[73, 71]",66,16,8.25,30,467.86,False
+movie3,"[74, 72]",66,16,8.25,30,437.17,False
+movie4,"[72, 69]",66,16,8.25,30,291.14,False
+movie5,"[72, 76]",65,16,8.125,30,625.12,False

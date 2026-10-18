@@ -12,9 +12,19 @@ def quote(p):return "'"+str(p).replace("'","''")+"'"
 def main():
  snapshot=ROOT/'source-snapshot';snapshot.mkdir(exist_ok=True)
  sourcefiles=[P/'app.py',P/'scripts/auto_calibration.py',R/'day5/adapter.py',*sorted((R/'auto-calibration').glob('*.m'))]
- for p in sourcefiles:shutil.copy2(p,snapshot/p.name)
+ for p in sourcefiles:
+  target=snapshot/p.name
+  if target.exists():assert sha(target)==sha(p), 'Snapshot/source mismatch: '+p.name
+  else:shutil.copy2(p,target)
+ archive=OUT/'FlyAggression-Analyzer-v2.0.zip';saved=snapshot/'Version2.0-release.zip'
+ if saved.exists():assert sha(saved)==sha(archive), 'Version2.0 release changed'
+ else:shutil.copy2(archive,saved)
  preservation={'v2_archive_sha256':sha(OUT/'FlyAggression-Analyzer-v2.0.zip'),'frozen_files':json.loads((P/'models/final-v1/freeze-manifest.json').read_text())['files'],'extractor_sources':{str(p):sha(p) for p in sourcefiles}}
- (ROOT/'config/preservation.json').write_text(json.dumps(preservation,indent=2))
+ baseline=ROOT/'config/preservation.json'
+ if baseline.exists():
+  previous=json.loads(baseline.read_text())
+  for key in preservation:assert previous[key]==preservation[key], 'Preserved release/extractor changed'
+ else:baseline.write_text(json.dumps(preservation,indent=2))
  inventory=[]
  for i in range(1,11):
   rec=f'movie{i}';folder=SOURCE/rec
@@ -22,8 +32,12 @@ def main():
  (ROOT/'config/source-inventory.json').write_text(json.dumps(inventory,indent=2))
  for i in range(1,6):
   rec=f'movie{i}';d=ROOT/'data'/rec;d.mkdir(exist_ok=True);started=time.monotonic()
-  if (d/'generation.json').exists():print('Already complete',rec,flush=True);continue
-  video=SOURCE/rec/(rec+'.mp4');cal=d/'calibration.mat';native=d/'raw-features.mat';track=d/'tracks.mat'
+  video=SOURCE/rec/(rec+'.mp4')
+  if (d/'generation.json').exists():
+   old=json.loads((d/'generation.json').read_text());assert old['video_sha256']==sha(video), 'Source video changed: '+rec
+   for name,digest in old['files'].items():assert sha(d/name)==digest, 'Generated artifact changed: '+rec+'/'+name
+   print('Already complete and hashes verified',rec,flush=True);continue
+  cal=d/'calibration.mat';native=d/'raw-features.mat';track=d/'tracks.mat'
   if i==1:
    old=R/'auto-calibration/movie1-verified-run';m=json.loads((old/'integration-manifest.json').read_text())
    assert m['status']=='complete' and sha(video)==m['video_sha256']

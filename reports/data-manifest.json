@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "data_files": {
+    "data/train.parquet": {
+      "bytes": 115473046,
+      "sha256": "3c968bbde7f2cb67499503a73dd0ba35b5f754402a9297f1a2e3a396cf8c7215"
+    },
+    "data/validation.parquet": {
+      "bytes": 29114803,
+      "sha256": "7a2c811cf2134171f769bc63af63e3a62e89fdd6a21a75f337b9f22d9d801324"
+    },
+    "data/movie1/eligible.parquet": {
+      "bytes": 31982982,
+      "sha256": "53b98c8621f757578229199dd05567772bcbef536a91090adee0208aeebffbfb"
+    },
+    "data/movie1/alignment-audit.parquet": {
+      "bytes": 1738095,
+      "sha256": "c0aba30a7b03667192ea4082b6c4595c7d2e59ea50581897824265c370543bf6"
+    },
+    "data/movie1/aligned-lunge-bouts.csv": {
+      "bytes": 4169,
+      "sha256": "153ea5635e22dd70a747bab8063b7c8758c29bdd25d6c2ca73c34774cf405835"
+    },
+    "data/movie1/full-grid-fly1.parquet": {
+      "bytes": 17571442,
+      "sha256": "4a64f2a5e12a82587cbc2d182f7d261ee7f5f3bbd53f4b3d8ca0db0474e40e4b"
+    },
+    "data/movie1/full-grid-fly2.parquet": {
+      "bytes": 17698839,
+      "sha256": "1704f6b5764c5bfb34fdc6eda6533e147c082c20f0bfd0c63ed1ecf8d21c0245"
+    },
+    "data/movie2/eligible.parquet": {
+      "bytes": 30345757,
+      "sha256": "caefaeeec355b85d02cd63dc894360937e2e73f19e3e5fe55821fd231519094a"
+    },
+    "data/movie2/alignment-audit.parquet": {
+      "bytes": 1881269,
+      "sha256": "1eed9fb3ac6fd34edc39fa01283ee1b6ae38d6047cc5fa044b72903e5cdb7e14"
+    },
+    "data/movie2/aligned-lunge-bouts.csv": {
+      "bytes": 31793,
+      "sha256": "d24bac55e6d7b71b53914f2aeef3a03800048c95cecdc1eaf1868f87a4ff9d29"
+    },
+    "data/movie2/full-grid-fly1.parquet": {
+      "bytes": 18664931,
+      "sha256": "e118a82b098535db30a6816334f850bd01a90014fdb002c6f226c0a4c35cb2b8"
+    },
+    "data/movie2/full-grid-fly2.parquet": {
+      "bytes": 18636077,
+      "sha256": "95e121c54fb55d1b2b55ffb914c32db981b476e573e1bddcbd56ad12aac51e75"
+    },
+    "data/movie3/eligible.parquet": {
+      "bytes": 32218531,
+      "sha256": "859b142304cf61e22bfc2701e86e929ceac085006d52f08f4d09ca987e38edc6"
+    },
+    "data/movie3/alignment-audit.parquet": {
+      "bytes": 1790231,
+      "sha256": "32259d611066f130faa569917483d89606c3924da27347c62e320e65e037bfb0"
+    },
+    "data/movie3/aligned-lunge-bouts.csv": {
+      "bytes": 24622,
+      "sha256": "41da7d086736abb3ad12673f1824b441236327330251c1875432a246737dd03c"
+    },
+    "data/movie3/full-grid-fly1.parquet": {
+      "bytes": 18331766,
+      "sha256": "2ed536d95e05f46d1539b64623a7bd4f06532b8555e85b1378a43bb0f162c980"
+    },
+    "data/movie3/full-grid-fly2.parquet": {
+      "bytes": 18621379,
+      "sha256": "00c263ec8f4e6a441a0fe03b851ea68a5b9bd44619043398d9319d76fe33bd0e"
+    },
+    "data/movie4/eligible.parquet": {
+      "bytes": 31035566,
+      "sha256": "e58f1a5d12a85a22f35869ecc7889924dde64045e49d7d5c49bf2908ff59b0d4"
+    },
+    "data/movie4/alignment-audit.parquet": {
+      "bytes": 1632233,
+      "sha256": "115163b49d008d9ad89e071741ebbca6b0cbd9d81d2239519ed19e8dfeec487c"
+    },
+    "data/movie4/aligned-lunge-bouts.csv": {
+      "bytes": 10344,
+      "sha256": "bf419882700c2f5582a7e4a8797e104319ab02e461174c0c7b4c3187b9c23232"
+    },
+    "data/movie4/full-grid-fly1.parquet": {
+      "bytes": 17382654,
+      "sha256": "0299b524fa7f5097cea4a499792bcd9fbb2baf8c72213e44232e797f85279aba"
+    },
+    "data/movie4/full-grid-fly2.parquet": {
+      "bytes": 17510207,
+      "sha256": "fcc0790a56a705bcb0b416cb960fcceea981f5faed628cbe94b8d970415f7474"
+    },
+    "data/movie5/eligible.parquet": {
+      "bytes": 29114803,
+      "sha256": "7a2c811cf2134171f769bc63af63e3a62e89fdd6a21a75f337b9f22d9d801324"
+    },
+    "data/movie5/alignment-audit.parquet": {
+      "bytes": 1672522,
+      "sha256": "367dcddd59f5e0ee0fe27e83628ad15c6d8037046a8ee85265a98b17f510db9f"
+    },
+    "data/movie5/aligned-lunge-bouts.csv": {
+      "bytes": 17632,
+      "sha256": "beb1ee53a14561fcd40d6100cdd610ea3f940e64cb3d1b613f61e2f26e72a7d4"
+    },
+    "data/movie5/full-grid-fly1.parquet": {
+      "bytes": 16316427,
+      "sha256": "0f110651e237b154427cfc2194aaf04de036c9c464500c57d02bef01fe1f3273"
+    },
+    "data/movie5/full-grid-fly2.parquet": {
+      "bytes": 17989452,
+      "sha256": "653cc70eb0b6467cd3068ae6fb329cf4b6241bc0ff461db018a381e28e499c26"
+    }
+  },
+  "dataset_verification": "reports/verification.json",
+  "augmentation_verification": "reports/augmentation-verification.json",
+  "preparation_tests": 6,
+  "new_model_trained": false
+}
