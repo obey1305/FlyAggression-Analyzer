@@ -1,0 +1,16 @@
+2026-10-20 00:21:49.302 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-20 00:21:49.475 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.2026-10-20 00:21:49.693 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+F..
+======================================================================
+FAIL: test_app_both_modes_and_original_example (test_app_v21.IntegrationTests.test_app_both_modes_and_original_example)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/tests/test_app_v21.py", line 20, in test_app_both_modes_and_original_example
+    self.assertFalse(any('local Streamlit interface to frozen release 1.0.0' in w.value for w in app.markdown))
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.323s
+
+FAILED (failures=1)

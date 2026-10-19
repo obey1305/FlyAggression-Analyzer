@@ -1,0 +1,2 @@
+recording,flies,frames_per_fly,fps,recording_seconds,recording_minutes,fly_minutes_observed,summed_fly_event_count,total_lunge_fly_seconds,fly_event_onsets_per_recording_minute,events_per_fly_minute,mean_fly_event_seconds
+movie1-first300,2,300,30.0,10.0,0.16666666666666666,0.3333333333333333,3,0.30000000000000004,18.0,9.0,0.10000000000000002

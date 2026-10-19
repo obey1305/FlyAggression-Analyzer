@@ -1,0 +1,68 @@
+{
+  "release_version": "2.1.0",
+  "candidate_id": "deep",
+  "threshold": 0.15,
+  "event_rules": {
+    "median_window": 3,
+    "max_gap_frames": 1,
+    "min_event_frames": 3
+  },
+  "source_feature_names": [
+    "vel",
+    "ang_vel",
+    "min_wing_ang",
+    "max_wing_ang",
+    "mean_wing_length",
+    "axis_ratio",
+    "fg_body_ratio",
+    "contrast",
+    "dist_to_other",
+    "angle_between",
+    "facing_angle",
+    "leg_dist",
+    "vel_diff1",
+    "vel_diff2",
+    "ang_vel_diff1",
+    "ang_vel_diff2",
+    "min_wing_ang_diff1",
+    "min_wing_ang_diff2",
+    "max_wing_ang_diff1",
+    "max_wing_ang_diff2",
+    "mean_wing_length_diff1",
+    "mean_wing_length_diff2",
+    "axis_ratio_diff1",
+    "axis_ratio_diff2",
+    "fg_body_ratio_diff1",
+    "fg_body_ratio_diff2",
+    "contrast_diff1",
+    "contrast_diff2",
+    "dist_to_other_diff1",
+    "dist_to_other_diff2",
+    "angle_between_diff1",
+    "angle_between_diff2",
+    "facing_angle_diff1",
+    "facing_angle_diff2",
+    "leg_dist_diff1",
+    "leg_dist_diff2"
+  ],
+  "feature_engineering_version": 0,
+  "mode": "raw-video-only",
+  "model_sha256": "d8193350a2d100f761e84c2d60609b5f9c17cb4bcc651c82bbf2e3dc5f831f5a",
+  "adapter_sha256": "b1f28e1c12ad55ad87847b6f3cf1a5e140c82f3b9785bbe5e0540f116ce9aaf4",
+  "training_recordings": [
+    "movie1",
+    "movie2",
+    "movie3",
+    "movie4"
+  ],
+  "selection_recordings": [
+    "movie5"
+  ],
+  "scientific_status": "development validation; selected uncertain-frame subset; no untouched final test",
+  "protocol_sha256": "a7cb75d5f362a90721e44782a7a738876239543db76bb81bc293e59d89590006",
+  "fit_seconds": {
+    "balanced": null,
+    "deep": null,
+    "subsample": null
+  }
+}

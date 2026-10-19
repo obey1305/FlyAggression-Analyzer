@@ -1,0 +1,22 @@
+day4 complete
+Fitting balanced
+balanced complete
+Fitting deep
+deep complete
+Fitting subsample
+subsample complete
+Selected frame candidate deep threshold 0.15 F1 0.6232247284878863
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/scripts/optimize_days5_7.py", line 98, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/scripts/optimize_days5_7.py", line 76, in main
+    rules={'median_window':median,'max_gap_frames':gap,'min_event_frames':duration};metrics,*_=event_eval(grid,p,valid,truth,rules,threshold);eventrows.append({**rules,**metrics})
+                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/scripts/optimize_days5_7.py", line 32, in event_eval
+    metrics,matches,po,go=event.match_events(predicted,truth,.3)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/drosophila-aggression/models/final-v1/runtime/scripts/event_detection.py", line 62, in match_events
+    if d.duplicated(cols[:3]).any() or not (d.end_frame>=d.start_frame).all():raise ValueError('Invalid or duplicate events')
+                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid or duplicate events

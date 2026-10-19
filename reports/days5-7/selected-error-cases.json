@@ -1,0 +1,56 @@
+[
+  {
+    "outcome": "FP",
+    "frame": 12578,
+    "fly_id": 2,
+    "reference_fly_id": 1,
+    "probability_lunge": 0.8984375,
+    "position_error_pixels": 1.0199683621687787,
+    "separation_pixels": 28.055873509586903
+  },
+  {
+    "outcome": "FP",
+    "frame": 15714,
+    "fly_id": 2,
+    "reference_fly_id": 1,
+    "probability_lunge": 0.84375,
+    "position_error_pixels": 1.064299391469776,
+    "separation_pixels": 23.64428608753794
+  },
+  {
+    "outcome": "FP",
+    "frame": 38160,
+    "fly_id": 2,
+    "reference_fly_id": 1,
+    "probability_lunge": 0.6875,
+    "position_error_pixels": 0.5197719979289888,
+    "separation_pixels": 22.205991123994185
+  },
+  {
+    "outcome": "FN",
+    "frame": 16269,
+    "fly_id": 2,
+    "reference_fly_id": 1,
+    "probability_lunge": 0.0,
+    "position_error_pixels": 1.193264859622962,
+    "separation_pixels": 25.566523985939384
+  },
+  {
+    "outcome": "FN",
+    "frame": 10583,
+    "fly_id": 2,
+    "reference_fly_id": 1,
+    "probability_lunge": 0.0,
+    "position_error_pixels": 0.5767350763284279,
+    "separation_pixels": 18.890364777477913
+  },
+  {
+    "outcome": "FN",
+    "frame": 33561,
+    "fly_id": 2,
+    "reference_fly_id": 1,
+    "probability_lunge": 0.0,
+    "position_error_pixels": 2.0061097294905084,
+    "separation_pixels": 19.341424636867036
+  }
+]

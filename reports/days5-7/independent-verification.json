@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "recordings": [
+    {
+      "recording": "movie1",
+      "whole_expert_events": 60,
+      "event_scorable_rows": 106847,
+      "status": "PASS"
+    },
+    {
+      "recording": "movie2",
+      "whole_expert_events": 199,
+      "event_scorable_rows": 96071,
+      "status": "PASS"
+    },
+    {
+      "recording": "movie3",
+      "whole_expert_events": 265,
+      "event_scorable_rows": 102935,
+      "status": "PASS"
+    },
+    {
+      "recording": "movie4",
+      "whole_expert_events": 113,
+      "event_scorable_rows": 104774,
+      "status": "PASS"
+    },
+    {
+      "recording": "movie5",
+      "whole_expert_events": 124,
+      "event_scorable_rows": 100425,
+      "status": "PASS"
+    }
+  ],
+  "frame_grid_candidates": 28,
+  "event_grid_candidates": 27,
+  "manual_frame_metrics": true,
+  "independent_maximum_cardinality_event_matching": true,
+  "whole_bout_coverage_reconstructed": true,
+  "selected_predictions_reproduced": true,
+  "original_frozen_release_archive_and_extractors_preserved": true,
+  "independent_test_available": false,
+  "model_sha256": "d8193350a2d100f761e84c2d60609b5f9c17cb4bcc651c82bbf2e3dc5f831f5a"
+}

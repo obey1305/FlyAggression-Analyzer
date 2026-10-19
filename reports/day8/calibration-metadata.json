@@ -1,0 +1,16 @@
+{
+  "fps": 30,
+  "frames": 54000,
+  "width": 144,
+  "height": 144,
+  "center_pixels": [
+    71,
+    70
+  ],
+  "radius_pixels": 65,
+  "arena_diameter_mm": 16,
+  "pixels_per_mm": 8.125,
+  "boundary_edge_support": 1,
+  "flies": 2,
+  "experimental": true
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "server_health": true,
+  "port": 8502,
+  "desktop_launcher_matches_build": true,
+  "desktop_report_matches_build": true,
+  "old_launcher_preserved": true
+}

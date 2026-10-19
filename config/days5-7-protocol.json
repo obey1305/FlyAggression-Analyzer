@@ -1,0 +1,109 @@
+{
+  "training_recordings": [
+    "movie1",
+    "movie2",
+    "movie3",
+    "movie4"
+  ],
+  "selection_recordings": [
+    "movie5"
+  ],
+  "untouched_test_recordings": [],
+  "excluded_consumed_recordings": [
+    "movie6",
+    "movie7",
+    "movie8",
+    "movie9",
+    "movie10"
+  ],
+  "additional_fits": 3,
+  "variants": {
+    "day4": {},
+    "balanced": {
+      "class_weight": "balanced"
+    },
+    "deep": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    },
+    "subsample": {
+      "class_weight": "balanced_subsample",
+      "min_samples_leaf": 4
+    }
+  },
+  "thresholds": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "threshold_selection": "frame F1, precision, recall descending; candidate ID ascending; higher threshold tie",
+  "event_grid": {
+    "median_window": [
+      1,
+      3,
+      5
+    ],
+    "max_gap_frames": [
+      0,
+      1,
+      2
+    ],
+    "min_event_frames": [
+      1,
+      2,
+      3
+    ]
+  },
+  "event_selection": "event F1, precision, recall descending; smaller median, gap, duration tie",
+  "event_iou": 0.3,
+  "coverage": "same conservative whole-bout overlap closure for all models; uncertain source bouts censor both streams",
+  "labels": "provided mapped expert intervals; no new manual biology labels",
+  "fit_preprocessing": "training rows only",
+  "feature_names": [
+    "vel",
+    "ang_vel",
+    "min_wing_ang",
+    "max_wing_ang",
+    "mean_wing_length",
+    "axis_ratio",
+    "fg_body_ratio",
+    "contrast",
+    "dist_to_other",
+    "angle_between",
+    "facing_angle",
+    "leg_dist",
+    "vel_diff1",
+    "vel_diff2",
+    "ang_vel_diff1",
+    "ang_vel_diff2",
+    "min_wing_ang_diff1",
+    "min_wing_ang_diff2",
+    "max_wing_ang_diff1",
+    "max_wing_ang_diff2",
+    "mean_wing_length_diff1",
+    "mean_wing_length_diff2",
+    "axis_ratio_diff1",
+    "axis_ratio_diff2",
+    "fg_body_ratio_diff1",
+    "fg_body_ratio_diff2",
+    "contrast_diff1",
+    "contrast_diff2",
+    "dist_to_other_diff1",
+    "dist_to_other_diff2",
+    "angle_between_diff1",
+    "angle_between_diff2",
+    "facing_angle_diff1",
+    "facing_angle_diff2",
+    "leg_dist_diff1",
+    "leg_dist_diff2"
+  ],
+  "random_seed": 501,
+  "data_sha256": {
+    "train.parquet": "3c968bbde7f2cb67499503a73dd0ba35b5f754402a9297f1a2e3a396cf8c7215",
+    "validation.parquet": "7a2c811cf2134171f769bc63af63e3a62e89fdd6a21a75f337b9f22d9d801324"
+  }
+}

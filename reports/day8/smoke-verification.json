@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "fresh_auto_calibration": true,
+  "calibration_source": "full movie1 recording; first300-frame excerpt alone failed two-fly reliability guard",
+  "fresh_raw_video_tracking_and_extraction": true,
+  "raw_frames_per_fly": 300,
+  "raw_model_version": "2.1.0",
+  "raw_model_sha256": "d8193350a2d100f761e84c2d60609b5f9c17cb4bcc651c82bbf2e3dc5f831f5a",
+  "raw_event_rules": {
+    "median_window": 3,
+    "max_gap_frames": 1,
+    "min_event_frames": 3
+  },
+  "raw_threshold": 0.15,
+  "csv_png_zip_exports": true,
+  "matlab_original_model_sha256": "508f49002159bb6da8be4c42f38c76ba43215b692e96aa73276e287cedb86a42",
+  "original_matlab_events": 325,
+  "elapsed_seconds": 37.06207570799597,
+  "scientific_scope": "functional smoke only: automatic calibration from full training movie1, applied to fresh 10-second tracking excerpt; not accuracy validation"
+}

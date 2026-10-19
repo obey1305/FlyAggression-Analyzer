@@ -1,0 +1,8 @@
+{
+  "files": {
+    "lunge-detector.joblib": "d8193350a2d100f761e84c2d60609b5f9c17cb4bcc651c82bbf2e3dc5f831f5a",
+    "configuration.json": "cfa92a10e4c3c085f7a694b5e25a529366427fac1b6d89f55d3af2e9fbb5dd64"
+  },
+  "validation_scope": "development movie5; no independent test",
+  "selection_complete": true
+}
