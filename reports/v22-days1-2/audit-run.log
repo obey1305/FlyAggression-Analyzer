@@ -1,0 +1,11 @@
+Audit movie1
+Audit movie2
+Audit movie3
+Audit movie4
+Audit movie5
+recording  baseline_reliable_identity_frames  candidate_reliable_identity_frames  supported_bridge_frames  mapping_corrections_on_bridged_frames  bridges_accepted  uncertain_frames_remaining  baseline_whole_events  candidate_whole_events  raw_same_ID_position_error_median_pixels  aligned_baseline_position_error_median_pixels
+   movie1                              53427                               53427                        0                                      0                 0                         573                     60                      60                                  0.168717                                       0.239458
+   movie2                              48172                               48172                        0                                      0                 0                        5828                    199                     199                                 35.657177                                       0.159974
+   movie3                              51739                               51739                        0                                      0                 0                        2261                    265                     265                                  0.057580                                       0.085856
+   movie4                              52653                               52653                        0                                      0                 0                        1347                    113                     113                                  0.113867                                       0.160459
+   movie5                              50354                               50354                        0                                      0                 0                        3646                    124                     124                                 38.407086                                       0.647574

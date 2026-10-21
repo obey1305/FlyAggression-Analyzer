@@ -1,0 +1,29 @@
+{
+  "primary_reason_order": [
+    "missing_track_coordinates",
+    "nonfinite_feature_measurements",
+    "source_lunge_flag",
+    "annotation_unknown",
+    "annotation_flagged_overlap",
+    "reference_tracking_warning",
+    "new_tracking_warning",
+    "position_disagreement",
+    "assignment_margin",
+    "close_contact_separation",
+    "assignment_changes_within_bout",
+    "short_stable_run",
+    "context_buffer",
+    "recording_boundary",
+    "frame_alignment_gate",
+    "same_reference_bout_closure",
+    "whole_bout_event_censoring"
+  ],
+  "overlapping_counts": "not additive",
+  "frame_count_semantics": "Direct reasons count affected frames within a bout. Source-lunge flags, within-bout assignment changes and same-reference closure expose the whole affected bout duration; these are not counts of switch frames.",
+  "source_bout_keys": [
+    "recording",
+    "reference_fly_id",
+    "source_event_id"
+  ],
+  "window_counts": "bout allocated to 60-second window containing its start, without splitting or double counting"
+}

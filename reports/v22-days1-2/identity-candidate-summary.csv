@@ -1,0 +1,6 @@
+recording,baseline_reliable_identity_frames,candidate_reliable_identity_frames,supported_bridge_frames,mapping_corrections_on_bridged_frames,bridges_accepted,uncertain_frames_remaining,baseline_whole_events,candidate_whole_events,raw_same_ID_position_error_median_pixels,aligned_baseline_position_error_median_pixels
+movie1,53427,53427,0,0,0,573,60,60,0.1687172375929836,0.23945815694064448
+movie2,48172,48172,0,0,0,5828,199,199,35.65717695477685,0.15997397436862054
+movie3,51739,51739,0,0,0,2261,265,265,0.05758020716973366,0.08585645346579211
+movie4,52653,52653,0,0,0,1347,113,113,0.1138670053805331,0.16045903523588514
+movie5,50354,50354,0,0,0,3646,124,124,38.40708553657079,0.6475743224347782

@@ -1,0 +1,12 @@
+{
+  "data/v22-derived/movie1/reference-fly1.parquet": "3c1f12598c6f03b3f26590750fe5111ec7df463c517ef7040290fec77dbf3496",
+  "data/v22-derived/movie1/reference-fly2.parquet": "8790846535b265532d559e74e85bffb7978c4a92490033ced77e0b26a7434040",
+  "data/v22-derived/movie2/reference-fly1.parquet": "6a767222e5e9b286ddb20c42493998cf44359c9ccbf71433fd5900d50aa7874c",
+  "data/v22-derived/movie2/reference-fly2.parquet": "6648fdd287c372c36b0149618591346a43b725f73f29c3bd79b916b9aae30d45",
+  "data/v22-derived/movie3/reference-fly1.parquet": "23183fc30557b1359bea552e6a70ebdd9a555c37a9025907c1549dd2d5f3454e",
+  "data/v22-derived/movie3/reference-fly2.parquet": "ac49071610b4889dabb2fc99c67aeefe986d5b856c6661e5b3f2a6d492301ca4",
+  "data/v22-derived/movie4/reference-fly1.parquet": "17235a36c70a708d15a1417da9fb690c645d41dff37dedc1cbfe9f5944234276",
+  "data/v22-derived/movie4/reference-fly2.parquet": "3c5e7f3922b41b98cd1f86eab4e448384dc96286405b656bca57bbadd3147228",
+  "data/v22-derived/movie5/reference-fly1.parquet": "df636e3541bf66d77ee0d1c65f97d1b50d74775c869036145bc6da91c3e93f8c",
+  "data/v22-derived/movie5/reference-fly2.parquet": "baa9e9f528ec5c11cf8b44ea770aa0a2c7c2ecef7b6d660571b7038059463b9e"
+}

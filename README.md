@@ -1,3 +1,9 @@
+# Version 2.2 development — Days 1–2
+
+Offline exclusion audit and conservative reference-assisted identity alignment. See [Days 1–2 report](DAYS1-2-REPORT.md). No new classifier or runtime integration is included; Version 2.1 remains the working application.
+
+The following inherited documentation describes the preserved Version 2.1 baseline.
+
 # FlyAggression Analyzer 2.1
 
 Completed local research prototype through Days9–10. See **FINAL-REPORT.pdf** for the measured results and limitations, **INSTALLATION.md** for setup, and **DEMONSTRATION.md** for the PRJ501 walkthrough.

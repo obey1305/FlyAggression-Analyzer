@@ -1,0 +1,13 @@
+recording  classification                           
+movie1     supported_reference_correspondence_change     1
+movie2     ambiguous_pairing_flicker                    25
+           supported_reference_correspondence_change    13
+           unresolved_anchor_evidence                    2
+movie3     ambiguous_pairing_flicker                     4
+           supported_reference_correspondence_change    13
+           unresolved_anchor_evidence                    4
+movie4     ambiguous_pairing_flicker                     2
+           supported_reference_correspondence_change     2
+movie5     ambiguous_pairing_flicker                    14
+           supported_reference_correspondence_change     4
+           unresolved_anchor_evidence                   11

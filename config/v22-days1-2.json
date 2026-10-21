@@ -1,0 +1,23 @@
+{
+  "version": "2.2-days1-2-development",
+  "input_root": "../flyaggression-v2.1",
+  "recordings": ["movie1", "movie2", "movie3", "movie4", "movie5"],
+  "excluded_consumed_recordings": ["movie6", "movie7", "movie8", "movie9", "movie10"],
+  "baseline": "Version2.1 whole-bout event evaluation coverage, without model fitting or scoring",
+  "reference_assisted_identity_bridge": {
+    "maximum_gap_frames": 12,
+    "anchor_frames_each_side": 15,
+    "maximum_pair_error_pixels": 3,
+    "minimum_separation_pixels": 4,
+    "maximum_axial_orientation_error_radians": 0.5235987755982988,
+    "minimum_orientation_advantage_radians": 0.7853981633974483,
+    "maximum_aligned_step_residual_pixels": 2,
+    "maximum_assignment_changes_within_bridge": 1,
+    "native_and_reference_tracking_warning_policy": "hard exclusion; never override",
+    "missing_coordinates_or_orientation_policy": "hard exclusion; never interpolate"
+  },
+  "threshold_policy": "Predeclared conservative evidence rules; not tuned to labels, coverage or classifier performance",
+  "annotation_policy": "Source unknown/nonzero flags remain excluded; never relabel automatically",
+  "output_policy": "Separate derived reference-aligned track views with source-fly provenance; never modify original tracks/features or feed this candidate into Version2.1",
+  "scope": "Offline reference-assisted alignment prototype, not reference-free identity tracking or certified biological identity"
+}

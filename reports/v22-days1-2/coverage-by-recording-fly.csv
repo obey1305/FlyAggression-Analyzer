@@ -1,0 +1,11 @@
+recording,reference_fly_id,source_bouts,v21_retained_bouts,candidate_retained_bouts,baseline_scorable_reference_frames,candidate_identity_reliable_frames,baseline_identity_reliable_frames
+movie1,1,4,3,3,53425,53427,53427
+movie1,2,67,57,57,53422,53427,53427
+movie2,1,518,191,191,47996,48172,48172
+movie2,2,32,8,8,48075,48172,48172
+movie3,1,55,18,18,51575,51739,51739
+movie3,2,371,247,247,51360,51739,51739
+movie4,1,7,2,2,52331,52653,52653
+movie4,2,171,111,111,52443,52653,52653
+movie5,1,244,118,118,50186,50354,50354
+movie5,2,59,6,6,50239,50354,50354

@@ -1,0 +1,12 @@
+test_ambiguous_parallel_axes_remain_uncertain (test_identity.IdentityTests.test_ambiguous_parallel_axes_remain_uncertain) ... ok
+test_long_gap_not_filled (test_identity.IdentityTests.test_long_gap_not_filled) ... ok
+test_missing_orientation_not_interpolated (test_identity.IdentityTests.test_missing_orientation_not_interpolated) ... ok
+test_motion_disagreement_not_bridged (test_identity.IdentityTests.test_motion_disagreement_not_bridged) ... ok
+test_original_arrays_unmodified (test_identity.IdentityTests.test_original_arrays_unmodified) ... ok
+test_pose_and_continuity_supported_bridge (test_identity.IdentityTests.test_pose_and_continuity_supported_bridge) ... ok
+test_warning_not_overridden (test_identity.IdentityTests.test_warning_not_overridden) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.013s
+
+OK
