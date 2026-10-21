@@ -1,0 +1,19 @@
+test_duplicate_keys (test_days3_6.CalibrationDatasetTests.test_duplicate_keys) ... ok
+test_flagged_overlap_remains_unknown (test_days3_6.CalibrationDatasetTests.test_flagged_overlap_remains_unknown) ... ok
+test_inclusive_annotation_boundaries (test_days3_6.CalibrationDatasetTests.test_inclusive_annotation_boundaries) ... ok
+test_invalid_scale (test_days3_6.CalibrationDatasetTests.test_invalid_scale) ... ok
+test_out_of_bounds_annotation (test_days3_6.CalibrationDatasetTests.test_out_of_bounds_annotation) ... ok
+test_physical_scaling_only (test_days3_6.CalibrationDatasetTests.test_physical_scaling_only) ... ok
+test_recording_leakage (test_days3_6.CalibrationDatasetTests.test_recording_leakage) ... ok
+test_ambiguous_parallel_axes_remain_uncertain (test_identity.IdentityTests.test_ambiguous_parallel_axes_remain_uncertain) ... ok
+test_long_gap_not_filled (test_identity.IdentityTests.test_long_gap_not_filled) ... ok
+test_missing_orientation_not_interpolated (test_identity.IdentityTests.test_missing_orientation_not_interpolated) ... ok
+test_motion_disagreement_not_bridged (test_identity.IdentityTests.test_motion_disagreement_not_bridged) ... ok
+test_original_arrays_unmodified (test_identity.IdentityTests.test_original_arrays_unmodified) ... ok
+test_pose_and_continuity_supported_bridge (test_identity.IdentityTests.test_pose_and_continuity_supported_bridge) ... ok
+test_warning_not_overridden (test_identity.IdentityTests.test_warning_not_overridden) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.003s
+
+OK

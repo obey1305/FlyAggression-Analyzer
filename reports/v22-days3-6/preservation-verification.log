@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "preserved_v21_files": 438,
+  "preserved_external_files": 2,
+  "source_bouts": 1528,
+  "retained_bouts": 761,
+  "excluded_bouts": 767,
+  "derived_rows_verified": 540000,
+  "legacy_nonfinite_flags_explained_by_assignment_changes": 12,
+  "additional_supported_corrections": 0
+}

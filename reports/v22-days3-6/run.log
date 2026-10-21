@@ -1,0 +1,69 @@
+Calibration/alignment movie1
+Calibration/alignment movie2
+Calibration/alignment movie3
+Calibration/alignment movie4
+Calibration/alignment movie5
+Fresh fit 410956 rows
+{
+  "status": "PASS",
+  "fit_seconds": 49.4576349590061,
+  "training_rows": 410956,
+  "training_positive_frames": 2711,
+  "validation_rows": 100479,
+  "validation_positive_frames": 527,
+  "training_only_imputer_verified": true,
+  "max_probability_difference_vs_v21": 0.0,
+  "frame_metrics": {
+    "candidate": {
+      "threshold": 0.15,
+      "frames": 100479,
+      "positive_frames": 527,
+      "predicted_positive_frames": 670,
+      "confusion_matrix": [
+        [
+          99655,
+          297
+        ],
+        [
+          154,
+          373
+        ]
+      ],
+      "precision": 0.5567164179104478,
+      "recall": 0.7077798861480076,
+      "f1": 0.6232247284878863,
+      "average_precision": 0.6168956858581135
+    },
+    "v21": {
+      "threshold": 0.15,
+      "frames": 100479,
+      "positive_frames": 527,
+      "predicted_positive_frames": 670,
+      "confusion_matrix": [
+        [
+          99655,
+          297
+        ],
+        [
+          154,
+          373
+        ]
+      ],
+      "precision": 0.5567164179104478,
+      "recall": 0.7077798861480076,
+      "f1": 0.6232247284878863,
+      "average_precision": 0.6168956858581135
+    }
+  },
+  "event_rules": {
+    "median_window": 3,
+    "max_gap_frames": 1,
+    "min_event_frames": 3
+  },
+  "recovered_bouts": 0,
+  "physical_scale_verified": false,
+  "classifier_fits": 1,
+  "temporal_configurations": 27,
+  "model_reload_verified": true,
+  "independent_test": false
+}

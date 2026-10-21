@@ -1,0 +1,6 @@
+recording,source_bouts,retained_expert_bouts,recovered_bouts,remaining_excluded_bouts,eligible_frames,positive_frames,best_offset,zero_offset_error,dataset_identical_to_v21
+movie1,71,60,0,11,106851,245,0,0.3633963451459161,True
+movie2,550,199,0,351,96199,858,0,0.23337104643647422,True
+movie3,426,265,0,161,103081,1129,0,0.11962041950906137,True
+movie4,178,113,0,65,104825,479,0,0.23913528007822799,True
+movie5,303,124,0,179,100479,527,0,1.0257160369033778,True

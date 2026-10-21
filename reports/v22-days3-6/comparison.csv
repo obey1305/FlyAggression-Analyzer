@@ -1,0 +1,3 @@
+model,recording,scope,frame_precision,frame_recall,frame_f1,event_iou_threshold,event_predicted_events,event_expert_events,event_true_positive_events,event_false_positive_events,event_false_negative_events,event_precision,event_recall,event_f1,event_fragmented_expert_events
+v21,movie5,"development selection, not independent validation",0.5567164179104478,0.7077798861480076,0.6232247284878863,0.3,114,124,90,24,34,0.7894736842105263,0.7258064516129032,0.7563025210084033,0
+candidate,movie5,"development selection, not independent validation",0.5567164179104478,0.7077798861480076,0.6232247284878863,0.3,114,124,90,24,34,0.7894736842105263,0.7258064516129032,0.7563025210084033,0

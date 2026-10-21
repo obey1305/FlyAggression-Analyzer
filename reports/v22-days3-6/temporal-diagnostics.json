@@ -1,0 +1,32 @@
+{
+  "matched_events": 90,
+  "median_onset_error_frames": 0.0,
+  "median_absolute_onset_error_frames": 0.0,
+  "median_offset_error_frames": 0.0,
+  "median_absolute_offset_error_frames": 1.0,
+  "predicted_duration_quantiles_frames": {
+    "0": 3.0,
+    "0.25": 3.0,
+    "0.5": 4.0,
+    "0.75": 5.0,
+    "1": 10.0
+  },
+  "predictions_overlapping_multiple_expert_bouts": 1,
+  "expert_bouts_overlapping_multiple_predictions": 0,
+  "false_positive_events": 24,
+  "missed_expert_events": 34,
+  "caution": "overlap topology does not establish biological fragmentation or merging; coverage is restricted",
+  "false_positive_duration_counts": {
+    "3": 11,
+    "4": 7,
+    "5": 3,
+    "6": 1,
+    "8": 2
+  },
+  "missed_expert_duration_counts": {
+    "3": 1,
+    "4": 33
+  },
+  "false_positives_overlapping_retained_expert": 1,
+  "missed_experts_overlapping_prediction": 2
+}

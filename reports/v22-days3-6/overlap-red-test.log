@@ -1,0 +1,26 @@
+.F.....
+======================================================================
+FAIL: test_flagged_overlap_remains_unknown (test_days3_6.CalibrationDatasetTests.test_flagged_overlap_remains_unknown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.2/tests/v22/test_days3_6.py", line 22, in test_flagged_overlap_remains_unknown
+    np.testing.assert_array_equal(boundary_labels(5,[(2,3,1),(3,4,0)]),[0,-1,-1,1,0])
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/drosophila-aggression/.venv/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 1128, in assert_array_equal
+    assert_array_compare(operator.__eq__, actual, desired, err_msg=err_msg,
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/drosophila-aggression/.venv/lib/python3.12/site-packages/numpy/testing/_private/utils.py", line 988, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not equal
+
+Mismatched elements: 1 / 5 (20%)
+Mismatch at index:
+ [2]: 1 (ACTUAL), -1 (DESIRED)
+Max absolute difference among violations: 2
+Max relative difference among violations: 2.
+ ACTUAL: array([ 0, -1,  1,  1,  0], dtype=int8)
+ DESIRED: array([ 0, -1, -1,  1,  0])
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.004s
+
+FAILED (failures=1)

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "source_files_verified": 20,
+  "annotation_boundary_rows_verified": 540000,
+  "revised_full_grid_identical_to_v21": true,
+  "frame_and_event_coverage_identical_to_v21": true,
+  "source_bouts": 1528,
+  "retained_bouts": 761,
+  "recovered_bouts": 0,
+  "training_only_imputer_verified": true,
+  "serialized_candidate_probabilities_verified": true,
+  "event_metrics_recomputed": true,
+  "physical_diameter_independently_verified": false
+}

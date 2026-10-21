@@ -1,3 +1,7 @@
+# Version 2.2 development — Days 3–6
+
+See [Days 3–6 report](DAYS3-6-REPORT.md) for calibration audit, rebuilt data, separate fresh candidate and temporal search. No accuracy or coverage improvement was measured. Nominal physical scale remains unverified per recording; candidate is offline and not integrated.
+
 # Version 2.2 development — Days 1–2
 
 Offline exclusion audit and conservative reference-assisted identity alignment. See [Days 1–2 report](DAYS1-2-REPORT.md). No new classifier or runtime integration is included; Version 2.1 remains the working application.
