@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "fresh_frozen_inference_runs": 2,
+  "fitting_performed": false,
+  "settings_changed": false,
+  "identical_features_and_coverage": true,
+  "probabilities_reproduce_frozen_development_artifacts": true,
+  "full_grid_rows_per_model": 108000,
+  "frame_scorable_rows": 100479,
+  "event_scorable_rows": 100425,
+  "whole_expert_events": 124,
+  "independent_final_test": false
+}

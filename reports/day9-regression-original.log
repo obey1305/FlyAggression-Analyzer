@@ -1,0 +1,64 @@
+test_definitive_excludes_experimental (test_additional_behaviors.BehaviorTests.test_definitive_excludes_experimental) ... ok
+test_references_keep_identities_and_censoring (test_additional_behaviors.BehaviorTests.test_references_keep_identities_and_censoring) ... ok
+test_default_ui (test_auto_calibration.AutoCalibrationTests.test_default_ui) ... 2026-10-21 06:01:29.592 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_invalid_diameter_and_empty (test_auto_calibration.AutoCalibrationTests.test_invalid_diameter_and_empty) ... ok
+test_module_present (test_auto_calibration.AutoCalibrationTests.test_module_present) ... ok
+test_censor_whole_partial_reference_and_overlap_chain (test_event_detection.CensoringTests.test_censor_whole_partial_reference_and_overlap_chain) ... ok
+test_duplicate_keys_rejected (test_event_detection.EventTests.test_duplicate_keys_rejected) ... ok
+test_fill_only_bounded_short_gaps (test_event_detection.EventTests.test_fill_only_bounded_short_gaps) ... ok
+test_fly_identity_and_recording_boundaries (test_event_detection.EventTests.test_fly_identity_and_recording_boundaries) ... ok
+test_inclusive_duration_and_minimum_length (test_event_detection.EventTests.test_inclusive_duration_and_minimum_length) ... ok
+test_invalid_frames_and_missing_frames_are_hard_boundaries (test_event_detection.EventTests.test_invalid_frames_and_missing_frames_are_hard_boundaries) ... ok
+test_matching_never_crosses_fly_identity (test_event_detection.EventTests.test_matching_never_crosses_fly_identity) ... ok
+test_maximum_cardinality_matching_prevents_greedy_loss (test_event_detection.EventTests.test_maximum_cardinality_matching_prevents_greedy_loss) ... ok
+test_median_smoothing_removes_isolated_spike (test_event_detection.EventTests.test_median_smoothing_removes_isolated_spike) ... ok
+test_one_prediction_cannot_match_two_expert_events (test_event_detection.EventTests.test_one_prediction_cannot_match_two_expert_events) ... ok
+test_archive_is_complete (test_gui_service.GuiServiceTests.test_archive_is_complete) ... ok
+test_frozen_example_and_exports (test_gui_service.GuiServiceTests.test_frozen_example_and_exports) ... ok
+test_invalid_file (test_gui_service.GuiServiceTests.test_invalid_file) ... ok
+test_wrong_extension (test_gui_service.GuiServiceTests.test_wrong_extension) ... ok
+test_zero_event_charts (test_gui_service.GuiServiceTests.test_zero_event_charts) ... ok
+test_inclusive_endpoints_and_fly_identity (test_labels.LabelTests.test_inclusive_endpoints_and_fly_identity) ... ok
+test_invalid_intervals_rejected (test_labels.LabelTests.test_invalid_intervals_rejected) ... ok
+test_unknown_and_nonzero_flag_mask_supervision (test_labels.LabelTests.test_unknown_and_nonzero_flag_mask_supervision) ... ok
+test_annotation_and_target_columns_never_become_predictors (test_lunge_baseline.BaselineTests.test_annotation_and_target_columns_never_become_predictors) ... ok
+test_precision_recall_f1_and_error_types (test_lunge_baseline.BaselineTests.test_precision_recall_f1_and_error_types) ... ok
+test_zero_predicted_positive_is_defined (test_lunge_baseline.BaselineTests.test_zero_predicted_positive_is_defined) ... ok
+test_all_missing_training_feature_is_rejected (test_ml_preparation.MLPreparationTests.test_all_missing_training_feature_is_rejected) ... ok
+test_imputation_uses_only_training_median (test_ml_preparation.MLPreparationTests.test_imputation_uses_only_training_median) ... ok
+test_unknown_and_flags_excluded_background_explicitly_inferred (test_ml_preparation.MLPreparationTests.test_unknown_and_flags_excluded_background_explicitly_inferred) ... ok
+test_inclusive_overlap (test_model_comparison.ComparisonTests.test_inclusive_overlap) ... ok
+test_movie5_reference_preserves_censoring (test_model_comparison.ComparisonTests.test_movie5_reference_preserves_censoring) ... ok
+test_invalid_keys_rejected (test_optimized_rules.OptimizedRulesTests.test_invalid_keys_rejected) ... ok
+test_legacy_defaults (test_optimized_rules.OptimizedRulesTests.test_legacy_defaults) ... ok
+test_saved_rules (test_optimized_rules.OptimizedRulesTests.test_saved_rules) ... ok
+test_duplicate_names_rejected (test_pipeline.PipelineTests.test_duplicate_names_rejected) ... ok
+test_feature_order_is_aligned_by_saved_names (test_pipeline.PipelineTests.test_feature_order_is_aligned_by_saved_names) ... ok
+test_frequency_denominators_and_inclusive_durations (test_pipeline.PipelineTests.test_frequency_denominators_and_inclusive_durations) ... ok
+test_missing_feature_and_bad_fly_count_rejected (test_pipeline.PipelineTests.test_missing_feature_and_bad_fly_count_rejected) ... ok
+test_single_frame_dimension_is_preserved (test_pipeline.PipelineTests.test_single_frame_dimension_is_preserved) ... ok
+test_zero_events_have_zero_count_and_frequency_but_undefined_mean (test_pipeline.PipelineTests.test_zero_events_have_zero_count_and_frequency_but_undefined_mean) ... ok
+test_overlap_is_not_double_counted_in_occupancy (test_quantification.QuantificationTests.test_overlap_is_not_double_counted_in_occupancy) ... ok
+test_single_frame_and_inclusive_duration (test_quantification.QuantificationTests.test_single_frame_and_inclusive_duration) ... ok
+test_analysis_error_is_visible (test_streamlit_app.StreamlitAppTests.test_analysis_error_is_visible) ... 2026-10-21 06:01:31.947 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_empty_and_development_example (test_streamlit_app.StreamlitAppTests.test_empty_and_development_example) ... 2026-10-21 06:01:32.005 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_fixed_schema_and_causal_context (test_temporal_features.CompactFeatureTests.test_fixed_schema_and_causal_context) ... ok
+test_constant_windows_have_exactly_zero_variance (test_temporal_features.NumericalStabilityTests.test_constant_windows_have_exactly_zero_variance) ... ok
+test_centered_context_and_bounded_lookahead (test_temporal_features.OfflineFeatureTests.test_centered_context_and_bounded_lookahead) ... ok
+test_history_resets_and_partner_identity (test_temporal_features.TemporalFeatureTests.test_history_resets_and_partner_identity) ... ok
+test_pair_features_require_exactly_two_flies (test_temporal_features.TemporalFeatureTests.test_pair_features_require_exactly_two_flies) ... ok
+test_trailing_mean_never_uses_future_or_other_fly (test_temporal_features.TemporalFeatureTests.test_trailing_mean_never_uses_future_or_other_fly) ... ok
+test_square_root_training_imbalance (test_temporal_features.WeightPolicyTests.test_square_root_training_imbalance) ... ok
+test_real_video_result_downloads (test_video_service.VideoTests.test_real_video_result_downloads) ... ok
+test_reject_invalid_upload (test_video_service.VideoTests.test_reject_invalid_upload) ... ok
+test_service_exists (test_video_service.VideoTests.test_service_exists) ... ok
+test_video_mode (test_video_service.VideoTests.test_video_mode) ... 2026-10-21 06:01:33.673 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 4.194s
+
+OK

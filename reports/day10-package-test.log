@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": {
+    "zip_crc_and_all_packaged_hashes": true,
+    "modified_package_file_rejected": true,
+    "relocated_original_model_route": true,
+    "relocated_raw_model_route": true,
+    "raw_adapter_mat_rejected_by_original_mode": true,
+    "app_original_example_and_raw_mode": true
+  },
+  "archive_sha256": "927870333df17f71fd831d91a0055823d8af3e4e842e5bd7868292064f93032c",
+  "environment": "existing pinned Python environment; no clean dependency installation performed",
+  "raw_tracking_in_relocated_package": false,
+  "raw_tracking_note": "Full tracking tested in workspace; relocated check verifies packaged source hashes and executes frozen inference and GUI routing."
+}

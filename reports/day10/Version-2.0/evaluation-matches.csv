@@ -1,0 +1,12 @@
+recording,fly_id,pred_event_id,expert_event_id,iou,overlap_frames,onset_error_frames,duration_error_frames
+movie5,2,1,63,0.5,2,0,-2
+movie5,2,2,79,0.5,2,1,-2
+movie5,2,4,94,0.5,2,1,-2
+movie5,2,5,97,0.5,2,1,-2
+movie5,2,6,127,0.75,3,0,-1
+movie5,2,7,140,0.4,2,-1,-1
+movie5,2,8,184,0.6666666666666666,2,1,-1
+movie5,2,9,188,0.4,2,-1,-1
+movie5,2,10,197,0.5,2,1,-2
+movie5,2,12,229,0.5,2,2,-2
+movie5,2,13,242,0.5,2,1,-2

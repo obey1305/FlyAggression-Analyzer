@@ -1,0 +1,11 @@
+restoredefaultpath; addpath('/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/raw-video-integration/FlyTracker'); modpath;
+c=load('/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/reports/day9/movie1/calibration.mat');assert(isfield(c,'calib'),'Missing calib struct');
+assert(c.calib.n_flies==2,'Expected two flies');assert(c.calib.FPS==30,'Calibration must specify 30 FPS');
+assert(isfinite(c.calib.PPM) && c.calib.PPM>0,'Invalid pixels per mm');
+v=VideoReader('/Users/adityasinghchauhan/Documents/Codex/2026-10-16/files-mentioned-by-the-user-codex/outputs/day3-videos/external-benchmark/Aggression/movie1/movie1.mp4');assert(abs(v.FrameRate-30)<1e-6,'Video must be 30 FPS');
+videos=struct('dir_in','/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/reports/day9/movie1/run/input','dir_out','/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/reports/day9/movie1/run/tracking','filter','recording.mp4');
+options=struct('num_cores',4,'num_chunks',16,'save_JAABA',false,'save_xls',false,'save_seg',false,'isdisplay',false,'do_delete_intermediate_results',true,'do_use_scratch_folder_for_intermediates',false,'n_flies',2,'do_compute_relative_features',true);
+tracker(videos,options,'/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/reports/day9/movie1/calibration.mat');
+f=load('/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.1/reports/day9/movie1/run/tracking/recording/recording-feat.mat');
+assert(size(f.feat.data,1)==2 && abs(size(f.feat.data,2)-v.Duration*v.FrameRate)<=1,'Feature/video frame mismatch');
+fprintf('RAW_VIDEO_TRACKING_PASS\n');

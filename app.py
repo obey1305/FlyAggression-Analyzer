@@ -9,7 +9,8 @@ import hashlib,json,io
 import pandas as pd
 import streamlit as st
 import altair as alt
-from scripts.gui_service import analyze_upload,chart_data,archive_downloads,ROOT
+from scripts.gui_service import chart_data,archive_downloads,ROOT
+from feature_service_v21 import analyze_upload
 from video_service_v21 import analyze_video_upload,graphical_report
 from scripts.auto_calibration import prepare_auto_calibration
 st.set_page_config(page_title='FlyAggression Analyzer',page_icon='🪰',layout='wide')

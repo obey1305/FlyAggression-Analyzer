@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "empty MP4",
+      "status": "PASS",
+      "handled_error": "The uploaded video is empty.",
+      "seconds": 2.7375004719942808e-05
+    },
+    {
+      "case": "wrong video extension",
+      "status": "PASS",
+      "handled_error": "Choose a supported MP4 video.",
+      "seconds": 9.187500108964741e-05
+    },
+    {
+      "case": "missing consent",
+      "status": "PASS",
+      "handled_error": "Confirm experimental raw-video analysis before starting.",
+      "seconds": 2.2080057533457875e-06
+    },
+    {
+      "case": "missing calibration",
+      "status": "PASS",
+      "handled_error": "Provide a FlyTracker arena calibration MAT file.",
+      "seconds": 1.3374999980442226e-05
+    },
+    {
+      "case": "invalid physical diameter",
+      "status": "PASS",
+      "handled_error": "Enter the measured arena diameter in millimetres.",
+      "seconds": 9.292009053751826e-06
+    },
+    {
+      "case": "corrupted MP4 calibration",
+      "status": "PASS",
+      "handled_error": "This detector requires a 30 FPS video.",
+      "seconds": 5.693278332997579
+    },
+    {
+      "case": "incompatible 15fps MP4 calibration",
+      "status": "PASS",
+      "handled_error": "This detector requires a 30 FPS video.",
+      "seconds": 6.478131541996845
+    },
+    {
+      "case": "corrupted calibration raw analysis",
+      "status": "PASS",
+      "handled_error": "Video processing failed: The calibration MAT file could not be read.",
+      "seconds": 10.352496333012823
+    },
+    {
+      "case": "corrupted MATLAB features",
+      "status": "PASS",
+      "handled_error": "MATLAB analysis failed: Mat file appears to be truncated",
+      "seconds": 2.3187145000119926
+    }
+  ]
+}

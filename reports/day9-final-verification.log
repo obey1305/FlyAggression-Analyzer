@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "v21_test_count": 26,
+  "original_test_count": 55,
+  "handled_invalid_input_cases": 9,
+  "export_audits_including_onset_stop_and_frame_event_membership": [
+    {
+      "folder": "reports/day9/movie1/run/experimental-results",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "total_events": 68,
+      "total_fly_seconds": 11.2,
+      "inclusive_durations_verified": true,
+      "per_fly_and_recording_frequency_denominators_verified": true,
+      "source_frame_order_and_keys_verified": true
+    },
+    {
+      "folder": "reports/day10/Version-2.0",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "total_events": 48,
+      "total_fly_seconds": 3.8,
+      "inclusive_durations_verified": true,
+      "per_fly_and_recording_frequency_denominators_verified": true,
+      "source_frame_order_and_keys_verified": true
+    },
+    {
+      "folder": "reports/day10/Version-2.1",
+      "status": "PASS",
+      "full_grid_rows": 108000,
+      "total_events": 340,
+      "total_fly_seconds": 57.0,
+      "inclusive_durations_verified": true,
+      "per_fly_and_recording_frequency_denominators_verified": true,
+      "source_frame_order_and_keys_verified": true
+    }
+  ],
+  "original_frozen_release_unchanged": true,
+  "raw_frozen_release_unchanged": true,
+  "v20_archive_unchanged": true,
+  "adapter_automatic_calibration_and_native_helpers_unchanged": true,
+  "training_or_tuning_performed": false,
+  "raw_model_sha256": "d8193350a2d100f761e84c2d60609b5f9c17cb4bcc651c82bbf2e3dc5f831f5a",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "streamlit": "1.66.0",
+    "matplotlib": "3.11.2",
+    "h5py": "3.16.0",
+    "joblib": "1.6.0"
+  }
+}
