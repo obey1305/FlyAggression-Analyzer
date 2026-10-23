@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "model_version": "2.2.0",
+  "frames_per_fly": 300,
+  "actual_upload_service_success": true,
+  "elapsed_seconds": 26.941060208002455,
+  "png_zip_verified": true,
+  "scope": "functional10second training-source excerpt with calibration from matching fullmovie; no independentaccuracy"
+}

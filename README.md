@@ -1,3 +1,7 @@
+# FlyAggression Analyzer Version2.2 research release
+
+See [final report](FINAL-REPORT-V22.md), [installation/user guide](INSTALLATION-V22.md) and [demonstration](DEMONSTRATION-V22.md). Both workflows are integrated and tested. Retrospective evaluation found no accuracy, identity or annotation-coverage improvement over2.1; no independent annotated test recording was available. Historical reports below describe earlier development stages.
+
 # Version 2.2 development — Days 3–6
 
 See [Days 3–6 report](DAYS3-6-REPORT.md) for calibration audit, rebuilt data, separate fresh candidate and temporal search. No accuracy or coverage improvement was measured. Nominal physical scale remains unverified per recording; candidate is offline and not integrated.

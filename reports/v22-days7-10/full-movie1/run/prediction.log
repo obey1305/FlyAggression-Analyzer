@@ -1,0 +1,5 @@
+Complete: 54,000 frames × two flies, 36 predictors; no annotations used.
+recording  fly_id  lunge_count  total_lunge_seconds  lunge_frequency_per_minute
+   movie1       1            6             1.166667                         0.2
+   movie1       2           63            10.133333                         2.1
+CSV results: /Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.2/reports/v22-days7-10/full-movie1/run/experimental-results

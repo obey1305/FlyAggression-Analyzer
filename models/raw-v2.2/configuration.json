@@ -1,0 +1,63 @@
+{
+  "release_version": "2.2.0",
+  "mode": "raw-video-only",
+  "threshold": 0.15,
+  "event_rules": {
+    "median_window": 3,
+    "max_gap_frames": 1,
+    "min_event_frames": 3
+  },
+  "source_feature_names": [
+    "vel",
+    "ang_vel",
+    "min_wing_ang",
+    "max_wing_ang",
+    "mean_wing_length",
+    "axis_ratio",
+    "fg_body_ratio",
+    "contrast",
+    "dist_to_other",
+    "angle_between",
+    "facing_angle",
+    "leg_dist",
+    "vel_diff1",
+    "vel_diff2",
+    "ang_vel_diff1",
+    "ang_vel_diff2",
+    "min_wing_ang_diff1",
+    "min_wing_ang_diff2",
+    "max_wing_ang_diff1",
+    "max_wing_ang_diff2",
+    "mean_wing_length_diff1",
+    "mean_wing_length_diff2",
+    "axis_ratio_diff1",
+    "axis_ratio_diff2",
+    "fg_body_ratio_diff1",
+    "fg_body_ratio_diff2",
+    "contrast_diff1",
+    "contrast_diff2",
+    "dist_to_other_diff1",
+    "dist_to_other_diff2",
+    "angle_between_diff1",
+    "angle_between_diff2",
+    "facing_angle_diff1",
+    "facing_angle_diff2",
+    "leg_dist_diff1",
+    "leg_dist_diff2"
+  ],
+  "feature_engineering_version": 0,
+  "model_sha256": "8be5bf703442f1035fadc0ae23a0215c8d61b7257de18b54d764adbe57219909",
+  "adapter_sha256": "b1f28e1c12ad55ad87847b6f3cf1a5e140c82f3b9785bbe5e0540f116ce9aaf4",
+  "scientific_status": "retrospective development evaluation; no independent generalization or accuracy improvement established",
+  "candidate_source_sha256": "9180cd7c2261f6b0bc9030655b9c01ae7f49d9224eedca3e958432409f2d2d05",
+  "training_recordings": [
+    "movie1",
+    "movie2",
+    "movie3",
+    "movie4"
+  ],
+  "selection_recordings": [
+    "movie5"
+  ],
+  "identity_policy": "native source identities; no unsupported reference-assisted correction integrated"
+}

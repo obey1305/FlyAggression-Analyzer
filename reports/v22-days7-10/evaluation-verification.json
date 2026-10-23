@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "a0a8c722046ff888b4de9f0f1aed60fbd87fb9bde93f82b89ab65c70b0d7d688",
+  "paired_probabilities_exactly_equal": true,
+  "model_files_unchanged": true,
+  "model_fits": 0,
+  "independent_recordings": 0,
+  "recording_roles_explicit": true,
+  "retrospective_movies": [
+    "movie1",
+    "movie2",
+    "movie3",
+    "movie4",
+    "movie5"
+  ]
+}

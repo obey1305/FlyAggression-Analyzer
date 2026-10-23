@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "preserved_v21_files": 438,
+  "preserved_default_launcher_and_v21_archive": true,
+  "original_frozen_files": 9,
+  "retrospective_recordings": 5,
+  "independent_recordings": 0,
+  "no_new_fitting_or_selection_in_evaluation": true,
+  "paired_scores_exactly_equal": true,
+  "fresh_run_events": 69,
+  "full_run_seconds": 250.09002925000095,
+  "actual_upload_service": true,
+  "invalid_input_cases": 9,
+  "package_files_verified": 434,
+  "archive_sha256": "58310191ada051433d020c355803f24ed0f451766bd1a9e7b0323ac08de3b8d9",
+  "coverage_gain": 0,
+  "accuracy_gain": 0,
+  "version21_worktree_clean": true
+}

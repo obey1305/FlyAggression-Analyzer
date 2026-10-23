@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "same_fresh_features_models_identical_predictions_and_events": true,
+  "fresh_event_count": 69,
+  "historical_v21_fresh_run_event_count": 68,
+  "comparison_scope": "historical runs have different fresh tracking; not a classifier improvement",
+  "finite_feature_values_changed_vs_cached_v21": 198,
+  "maximum_feature_change_vs_cached_v21": 0.1021845781085257,
+  "nonfinite_mask_differences_vs_cached_v21": 0
+}

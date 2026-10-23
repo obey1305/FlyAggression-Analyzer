@@ -3,3 +3,5 @@ source-snapshot/
 __pycache__/
 *.pyc
 .runtime/
+
+reports/v22-days7-10/full-movie1/run/input/

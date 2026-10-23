@@ -9,5 +9,5 @@ def analyze_upload(content,filename,progress=None):
   try:feat=loadmat(io.BytesIO(content),variable_names=['feat'],simplify_cells=True).get('feat')
   except (ValueError,OSError,NotImplementedError,TypeError,IndexError):feat=None
   if isinstance(feat,dict) and 'integration_status' in feat:
-   raise ValueError('This MAT file contains raw-video-derived features. Use Experimental raw video with its source MP4 and the Version 2.1 model; original-feature mode requires compatible original features.')
+   raise ValueError('This MAT file contains raw-video-derived features. Use Experimental raw video with its source MP4 and the Version 2.2 model; original-feature mode requires compatible original features.')
  return original_analyze_upload(content,filename,progress)

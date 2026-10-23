@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "run_type": "fresh complete 30-minute movie1 training-source functional test; not independent accuracy",
+  "video_sha256": "13b6a74fd86e05431a02d51b90fe9e81da816f8276a43f3a528969163e8e2e26",
+  "automatic_calibration_seconds": 26.009275249991333,
+  "tracking_adapter_prediction_seconds": 222.83851950000098,
+  "total_seconds": 250.09002925000095,
+  "model_sha256": "8be5bf703442f1035fadc0ae23a0215c8d61b7257de18b54d764adbe57219909",
+  "threshold": 0.15,
+  "event_rules": {
+    "median_window": 3,
+    "max_gap_frames": 1,
+    "min_event_frames": 3
+  },
+  "audit": {
+    "status": "PASS",
+    "full_grid_rows": 108000,
+    "total_events": 69,
+    "total_fly_seconds": 11.3,
+    "inclusive_durations_verified": true,
+    "per_fly_and_recording_frequency_denominators_verified": true,
+    "source_frame_order_and_keys_verified": true
+  },
+  "features_shape": [
+    2,
+    54000,
+    36
+  ],
+  "nominal_arena_mm": 16,
+  "physical_diameter_caveat": "published benchmark nominal, not independently measured per recording",
+  "tracking_identity_audit": {
+    "frames": 54000,
+    "reliable_reference_mapping_frames": 53427,
+    "uncertain_reference_mapping_frames": 573,
+    "pointwise_mapping_changes": 1,
+    "new_tracking_warning_frames": 32,
+    "biological_identity_continuity_certified": false
+  },
+  "csv_png_zip_parity": true,
+  "inference_annotation_files_read": false,
+  "reference_tracks_used_after_inference_for_audit_only": true
+}

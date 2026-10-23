@@ -1,0 +1,9 @@
+{
+  "package": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/FlyAggression-Analyzer-v2.2-Release",
+  "archive": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/FlyAggression-Analyzer-v2.2-Release.zip",
+  "archive_sha256": "58310191ada051433d020c355803f24ed0f451766bd1a9e7b0323ac08de3b8d9",
+  "archive_bytes": 160444969,
+  "files": 434,
+  "python_environment_bundled": false,
+  "matlab_bundled": false
+}

@@ -1,0 +1,9 @@
+empty MP4 PASS
+wrong video extension PASS
+missing consent PASS
+missing calibration PASS
+invalid physical diameter PASS
+corrupted MP4 calibration PASS
+incompatible 15fps MP4 calibration PASS
+corrupted calibration raw analysis PASS
+corrupted MATLAB features PASS

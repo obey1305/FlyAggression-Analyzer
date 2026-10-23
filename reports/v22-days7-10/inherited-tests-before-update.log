@@ -1,0 +1,76 @@
+test_actual_raw_result_renders_with_correct_provenance (test_app_v21.IntegrationTests.test_actual_raw_result_renders_with_correct_provenance) ... 2026-10-23 09:57:42.708 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-23 09:57:43.083 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_app_both_modes_and_original_example (test_app_v21.IntegrationTests.test_app_both_modes_and_original_example) ... 2026-10-23 09:57:43.466 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_model_and_config_cannot_silently_mix (test_app_v21.IntegrationTests.test_model_and_config_cannot_silently_mix) ... FAIL
+test_release_configuration_is_consistent (test_app_v21.IntegrationTests.test_release_configuration_is_consistent) ... FAIL
+test_known_raw_adapter_features_rejected_in_original_mode (test_feature_routing.FeatureRoutingTests.test_known_raw_adapter_features_rejected_in_original_mode) ... ERROR
+test_valid_original_features_keep_original_model (test_feature_routing.FeatureRoutingTests.test_valid_original_features_keep_original_model) ... ok
+test_frequency_denominator_rejected (test_final_audit.FinalAuditTests.test_frequency_denominator_rejected) ... ok
+test_off_by_one_duration_rejected (test_final_audit.FinalAuditTests.test_off_by_one_duration_rejected) ... ok
+test_swapped_frame_order_rejected (test_final_audit.FinalAuditTests.test_swapped_frame_order_rejected) ... ok
+test_valid_inclusive_measurements (test_final_audit.FinalAuditTests.test_valid_inclusive_measurements) ... ok
+test_wrong_event_onset_rejected (test_final_audit.FinalAuditTests.test_wrong_event_onset_rejected) ... ok
+test_preserve_source_event_endpoints_and_mapped_id (test_optimization.OptimizationTests.test_preserve_source_event_endpoints_and_mapped_id) ... ok
+test_source_ids_remain_unique_after_time_varying_mapping (test_optimization.OptimizationTests.test_source_ids_remain_unique_after_time_varying_mapping) ... ok
+test_threshold_recall_and_confusion (test_optimization.OptimizationTests.test_threshold_recall_and_confusion) ... ok
+test_uncertain_bout_is_removed_whole_from_both_streams (test_optimization.OptimizationTests.test_uncertain_bout_is_removed_whole_from_both_streams) ... ok
+test_alignment_module (test_preparation.PreparationTests.test_alignment_module) ... ok
+test_bout_exclusion_overlap_closure (test_preparation.PreparationTests.test_bout_exclusion_overlap_closure) ... ok
+test_overlapping_flies_never_confirmed (test_preparation.PreparationTests.test_overlapping_flies_never_confirmed) ... ok
+test_reference_warning_is_buffered (test_preparation.PreparationTests.test_reference_warning_is_buffered) ... ok
+test_swapped_ids_and_ambiguity (test_preparation.PreparationTests.test_swapped_ids_and_ambiguity) ... ok
+test_unknown_flag_and_inclusive_boundaries (test_preparation.PreparationTests.test_unknown_flag_and_inclusive_boundaries) ... ok
+test_changed_model_rejected_before_loading (test_routing.RoutingTests.test_changed_model_rejected_before_loading) ... ok
+test_missing_release_has_clear_error (test_routing.RoutingTests.test_missing_release_has_clear_error) ... ok
+test_confusion_and_threshold (test_training.TrainingTests.test_confusion_and_threshold) ... ok
+test_imputer_fits_training_only (test_training.TrainingTests.test_imputer_fits_training_only) ... ok
+test_recording_leakage_rejected (test_training.TrainingTests.test_recording_leakage_rejected) ... ok
+
+======================================================================
+ERROR: test_known_raw_adapter_features_rejected_in_original_mode (test_feature_routing.FeatureRoutingTests.test_known_raw_adapter_features_rejected_in_original_mode)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.2/tests/test_feature_routing.py", line 7, in test_known_raw_adapter_features_rejected_in_original_mode
+    with self.assertRaisesRegex(ValueError,'raw-video-derived'):analyze_upload((ROOT/'data/movie5/features36.mat').read_bytes(),'features.mat')
+                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityasinghchauhan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityasinghchauhan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.2/data/movie5/features36.mat'
+
+======================================================================
+FAIL: test_model_and_config_cannot_silently_mix (test_app_v21.IntegrationTests.test_model_and_config_cannot_silently_mix)
+----------------------------------------------------------------------
+ValueError: Raw release model routing mismatch
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.2/tests/test_app_v21.py", line 15, in test_model_and_config_cannot_silently_mix
+    with self.assertRaisesRegex(ValueError,'configuration mismatch'):validate_release(p)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "configuration mismatch" does not match "Raw release model routing mismatch"
+
+======================================================================
+FAIL: test_release_configuration_is_consistent (test_app_v21.IntegrationTests.test_release_configuration_is_consistent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.2/tests/test_app_v21.py", line 8, in test_release_configuration_is_consistent
+    model,cfg=validate_release();self.assertTrue(model.is_file());self.assertEqual(cfg['mode'],'raw-video-only');self.assertEqual(cfg['release_version'],'2.1.0')
+                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '2.2.0' != '2.1.0'
+- 2.2.0
+?   ^
++ 2.1.0
+?   ^
+
+
+----------------------------------------------------------------------
+Ran 26 tests in 6.056s
+
+FAILED (failures=2, errors=1)

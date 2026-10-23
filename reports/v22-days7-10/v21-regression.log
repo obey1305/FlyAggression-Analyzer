@@ -1,0 +1,34 @@
+test_actual_raw_result_renders_with_correct_provenance (test_app_v21.IntegrationTests.test_actual_raw_result_renders_with_correct_provenance) ... 2026-10-23 09:56:08.130 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-23 09:56:08.502 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_app_both_modes_and_original_example (test_app_v21.IntegrationTests.test_app_both_modes_and_original_example) ... 2026-10-23 09:56:09.068 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_model_and_config_cannot_silently_mix (test_app_v21.IntegrationTests.test_model_and_config_cannot_silently_mix) ... ok
+test_release_configuration_is_consistent (test_app_v21.IntegrationTests.test_release_configuration_is_consistent) ... ok
+test_known_raw_adapter_features_rejected_in_original_mode (test_feature_routing.FeatureRoutingTests.test_known_raw_adapter_features_rejected_in_original_mode) ... ok
+test_valid_original_features_keep_original_model (test_feature_routing.FeatureRoutingTests.test_valid_original_features_keep_original_model) ... ok
+test_frequency_denominator_rejected (test_final_audit.FinalAuditTests.test_frequency_denominator_rejected) ... ok
+test_off_by_one_duration_rejected (test_final_audit.FinalAuditTests.test_off_by_one_duration_rejected) ... ok
+test_swapped_frame_order_rejected (test_final_audit.FinalAuditTests.test_swapped_frame_order_rejected) ... ok
+test_valid_inclusive_measurements (test_final_audit.FinalAuditTests.test_valid_inclusive_measurements) ... ok
+test_wrong_event_onset_rejected (test_final_audit.FinalAuditTests.test_wrong_event_onset_rejected) ... ok
+test_preserve_source_event_endpoints_and_mapped_id (test_optimization.OptimizationTests.test_preserve_source_event_endpoints_and_mapped_id) ... ok
+test_source_ids_remain_unique_after_time_varying_mapping (test_optimization.OptimizationTests.test_source_ids_remain_unique_after_time_varying_mapping) ... ok
+test_threshold_recall_and_confusion (test_optimization.OptimizationTests.test_threshold_recall_and_confusion) ... ok
+test_uncertain_bout_is_removed_whole_from_both_streams (test_optimization.OptimizationTests.test_uncertain_bout_is_removed_whole_from_both_streams) ... ok
+test_alignment_module (test_preparation.PreparationTests.test_alignment_module) ... ok
+test_bout_exclusion_overlap_closure (test_preparation.PreparationTests.test_bout_exclusion_overlap_closure) ... ok
+test_overlapping_flies_never_confirmed (test_preparation.PreparationTests.test_overlapping_flies_never_confirmed) ... ok
+test_reference_warning_is_buffered (test_preparation.PreparationTests.test_reference_warning_is_buffered) ... ok
+test_swapped_ids_and_ambiguity (test_preparation.PreparationTests.test_swapped_ids_and_ambiguity) ... ok
+test_unknown_flag_and_inclusive_boundaries (test_preparation.PreparationTests.test_unknown_flag_and_inclusive_boundaries) ... ok
+test_changed_model_rejected_before_loading (test_routing.RoutingTests.test_changed_model_rejected_before_loading) ... ok
+test_missing_release_has_clear_error (test_routing.RoutingTests.test_missing_release_has_clear_error) ... ok
+test_confusion_and_threshold (test_training.TrainingTests.test_confusion_and_threshold) ... ok
+test_imputer_fits_training_only (test_training.TrainingTests.test_imputer_fits_training_only) ... ok
+test_recording_leakage_rejected (test_training.TrainingTests.test_recording_leakage_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 7.993s
+
+OK

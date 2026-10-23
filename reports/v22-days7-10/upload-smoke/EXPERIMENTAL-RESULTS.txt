@@ -1,0 +1,1 @@
+EXPERIMENTAL VERSION 2.2 RAW-VIDEO RESULTS. Development validation on selected reliable intervals only; full-video biological accuracy is not established. Source identities preserved, including possible switches. Original feature classifier unchanged.

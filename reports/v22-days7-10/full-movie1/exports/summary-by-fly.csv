@@ -1,0 +1,3 @@
+recording,fly_id,frame_count,fps,recording_seconds,recording_minutes,valid_frame_count,analyzed_seconds,lunge_count,total_lunge_frames,total_lunge_seconds,mean_event_seconds,lunge_frequency_per_minute,lunge_frequency_per_analyzed_minute,time_in_lunge_fraction
+movie1,1,54000,30.0,1800.0,30.0,54000,1800.0,6,35,1.1666666666666667,0.19444444444444445,0.2,0.2,0.0006481481481481481
+movie1,2,54000,30.0,1800.0,30.0,54000,1800.0,63,304,10.133333333333333,0.16084656084656082,2.1,2.1,0.005629629629629629

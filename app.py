@@ -1,4 +1,4 @@
-"""FlyAggression Analyzer Version 2.1 local integration build."""
+"""FlyAggression Analyzer Version 2.2 local integration build."""
 from pathlib import Path
 import sys
 BUILD=Path(__file__).resolve().parent
@@ -15,7 +15,7 @@ from video_service_v21 import analyze_video_upload,graphical_report
 from scripts.auto_calibration import prepare_auto_calibration
 st.set_page_config(page_title='FlyAggression Analyzer',page_icon='🪰',layout='wide')
 st.markdown('''<style>.block-container{padding-top:3.5rem;max-width:1280px} [data-testid="stMetric"]{background:#f4f7fb;border:1px solid #e1e7f0;border-radius:12px;padding:18px} [data-testid="stMetric"] *{color:#172b4d!important} [data-testid="stMetricValue"]{font-size:1.6rem} .eyebrow{font-size:12px;font-weight:600;color:#75a2d4;letter-spacing:.12em} h1{letter-spacing:-.035em}</style>''',unsafe_allow_html=True)
-st.markdown('<div class="eyebrow">RAW VIDEO RESEARCH PROTOTYPE · VERSION 2.1</div>',unsafe_allow_html=True)
+st.markdown('<div class="eyebrow">RAW VIDEO RESEARCH PROTOTYPE · VERSION 2.2</div>',unsafe_allow_html=True)
 st.title('FlyAggression Analyzer')
 st.write('Analyse compatible MATLAB features or experimental two-fly raw videos.')
 with st.sidebar:
@@ -23,7 +23,7 @@ with st.sidebar:
  mode=st.radio('Input mode',['MATLAB features','Experimental raw video'])
  upload=None;video=None;calibration=None;consent=False
  if mode=='Experimental raw video':
-  st.warning('Experimental Version 2.1 raw-video model. Development validation only; full-video biological accuracy is not established. Requires two flies, 30 fps and matching calibration.')
+  st.warning('Experimental Version 2.2 raw-video model. No measured accuracy gain over 2.1; retrospective evaluation only; full-video biological accuracy is not established. Requires two flies, 30 fps and matching calibration.')
   video=st.file_uploader('Raw video (MP4)',type=['mp4'])
   calibration_mode=st.radio('Arena calibration',['Automatic arena detection','Upload calibration file'])
   boundary_ok=True
@@ -58,10 +58,10 @@ with st.sidebar:
  st.divider()
  example=st.button('Load development example',width='stretch') if mode=='MATLAB features' else False
  if mode=='MATLAB features':st.caption('Movie5 is a known development recording, not an independent test.')
- st.divider();st.caption(('Raw-video model 2.1.0' if mode=='Experimental raw video' else 'Original feature model 1.0.0')+' · 36 features\n\nAdditional behaviours are not included in these results.')
+ st.divider();st.caption(('Raw-video model 2.2.0' if mode=='Experimental raw video' else 'Original feature model 1.0.0')+' · 36 features\n\nAdditional behaviours are not included in these results.')
 
 # A changed upload clears old results to prevent downloading a previous recording as the new file.
-identity=('2.1',mode,upload.name,hashlib.sha256(upload.getvalue()).hexdigest()) if upload is not None else (mode,video.name,hashlib.sha256(video.getvalue()).hexdigest(),hashlib.sha256(calibration.getvalue()).hexdigest() if calibration else None,consent) if video else (mode,None)
+identity=('2.2',mode,upload.name,hashlib.sha256(upload.getvalue()).hexdigest()) if upload is not None else (mode,video.name,hashlib.sha256(video.getvalue()).hexdigest(),hashlib.sha256(calibration.getvalue()).hexdigest() if calibration else None,consent) if video else (mode,None)
 if st.session_state.get('upload_identity')!=identity:
  st.session_state['upload_identity']=identity;st.session_state.pop('result',None);st.session_state.pop('analysis_error',None)
 if analyze or example or video_analyze:
@@ -90,7 +90,7 @@ if result is None:
 if result.get('experimental') and result.get('report_version')!=2:
  result['downloads']['experimental-report.png']=graphical_report(result);result['report_version']=2
 st.success('Analysis complete · '+result['filename'])
-if result.get('experimental'):st.warning('Experimental Version 2.1 raw-video predictions. Validation used selected reliable intervals from a development recording; full-video accuracy is not established.')
+if result.get('experimental'):st.warning('Experimental Version 2.2 raw-video predictions. No measured accuracy improvement. Source identities may switch. Validation used selected reliable intervals from a development recording; full-video accuracy is not established.')
 flies=result['byfly'];events=result['events'];record=result['byrecording'].iloc[0];charts=chart_data(result)
 a,b=st.columns(2)
 c,d=st.columns(2)

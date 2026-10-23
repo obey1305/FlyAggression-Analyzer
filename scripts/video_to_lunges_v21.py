@@ -1,4 +1,4 @@
-"""Version 2.1 two-fly video -> existing FlyTracker -> frozen raw-video classifier."""
+"""Version 2.2 two-fly video -> existing FlyTracker -> frozen raw-video classifier."""
 import argparse
 import hashlib
 import json
@@ -61,10 +61,10 @@ fprintf('RAW_VIDEO_TRACKING_PASS\\n');
         manifest['stages'].append('Python feature adapter');save()
         with (output/'prediction.log').open('w') as log:
             subprocess.run([sys.executable,str(FINAL/'runtime/analyze.py'),'--input',str(feature),'--output-dir',str(output/'experimental-results'),'--model',str(selected_model),'--fps','30','--recording-id',video.stem],cwd=FINAL/'runtime',stdout=log,stderr=subprocess.STDOUT,check=True)
-        manifest['stages'].append('frozen Version 2.1 raw-specific inference and selected event rules')
+        manifest['stages'].append('frozen Version 2.2 raw-specific inference and selected event rules')
         manifest['frozen_files_after']=verify_freeze()
         manifest['status']='complete';manifest['elapsed_seconds']=time.monotonic()-started
-        (output/'experimental-results/EXPERIMENTAL-RESULTS.txt').write_text('EXPERIMENTAL VERSION 2.1 RAW-VIDEO RESULTS. Development validation on selected reliable intervals only; full-video biological accuracy is not established. Source identities preserved, including possible switches. Original feature classifier unchanged.\n')
+        (output/'experimental-results/EXPERIMENTAL-RESULTS.txt').write_text('EXPERIMENTAL VERSION 2.2 RAW-VIDEO RESULTS. Development validation on selected reliable intervals only; full-video biological accuracy is not established. Source identities preserved, including possible switches. Original feature classifier unchanged.\n')
         save();return manifest
     except Exception as exc:
         manifest.update(status='failed',error=str(exc),elapsed_seconds=time.monotonic()-started);save();raise

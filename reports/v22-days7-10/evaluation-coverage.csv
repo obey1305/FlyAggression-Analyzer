@@ -1,0 +1,6 @@
+recording,scope,total_fly_frame_rows,eligible_frame_rows,event_scorable_rows,source_expert_bouts,retained_expert_bouts,excluded_expert_bouts,bout_coverage_fraction
+movie1,training-resubstitution,108000,106851,106847,71,60,11,0.8450704225352113
+movie2,training-resubstitution,108000,96199,96071,550,199,351,0.3618181818181818
+movie3,training-resubstitution,108000,103081,102935,426,265,161,0.6220657276995305
+movie4,training-resubstitution,108000,104825,104774,178,113,65,0.6348314606741573
+movie5,retrospective-development-selection,108000,100479,100425,303,124,179,0.40924092409240925
