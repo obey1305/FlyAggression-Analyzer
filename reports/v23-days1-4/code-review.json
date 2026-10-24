@@ -1,0 +1,17 @@
+{
+  "scope": "Additive v2.3 import, calibration, tracking IO, feature audit, provenance guard and report claims",
+  "reviewer": "review_day4 read-only reviewer",
+  "findings": [
+    {
+      "severity": "important",
+      "issue": "Derived MAT initially omitted adapter provenance marker; original-feature workflow could accept it",
+      "resolution": "Pinned integration_status saved in feat; test_derived_routing confirms rejection before original classifier path"
+    }
+  ],
+  "final_review": "No remaining material findings; full native-error and actual timestamp receipts still needed at review time",
+  "new_classifier_predictions_examined": false,
+  "outstanding_checks_completed_after_review": {
+    "full_video_verification": "PASS",
+    "final_integrity_verification": "PASS"
+  }
+}

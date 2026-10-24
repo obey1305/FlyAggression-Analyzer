@@ -1,0 +1,15 @@
+test_generated_mat_cannot_enter_original_workflow (test_derived_routing.DerivedRoutingTests.test_generated_mat_cannot_enter_original_workflow) ... ok
+test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) ... ok
+test_inclusive_single_source_frame (test_import.ImportTests.test_inclusive_single_source_frame) ... ok
+test_invalid_geometry_and_rate (test_import.ImportTests.test_invalid_geometry_and_rate) ... ok
+test_long_video_no_drift (test_import.ImportTests.test_long_video_no_drift) ... ok
+test_rectangle_edges_inclusive (test_import.ImportTests.test_rectangle_edges_inclusive) ... ok
+test_short_tail_is_clipped (test_import.ImportTests.test_short_tail_is_clipped) ... ok
+test_unobserved_lunge_is_flagged (test_import.ImportTests.test_unobserved_lunge_is_flagged) ... ok
+test_inclusive_warning_interval (test_tracking_io.TrackingIOTests.test_inclusive_warning_interval) ... ok
+test_matlab_empty_dimensions_are_not_warning_rows (test_tracking_io.TrackingIOTests.test_matlab_empty_dimensions_are_not_warning_rows) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.133s
+
+OK

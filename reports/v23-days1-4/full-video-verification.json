@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "native_decode_exit_code": 0,
+  "native_decoded_frames": 255929,
+  "analysis_decoded_frames": 38390,
+  "all_analysis_timestamps_monotonic": true,
+  "max_analysis_grid_timestamp_error_seconds": 3.333334461785853e-07,
+  "first_analysis_timestamp_seconds": 0.0,
+  "last_analysis_timestamp_seconds": 1279.633333,
+  "native_decode_error_log_bytes": 0
+}

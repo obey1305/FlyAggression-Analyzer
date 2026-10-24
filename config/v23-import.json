@@ -1,0 +1,24 @@
+{
+  "version": "2.3-days1-4",
+  "recording_namespace": "flyvsfly_boymeetsboy_movie5",
+  "dataset_record": "https://data.caltech.edu/records/zrznw-w7386",
+  "source_fps": 200,
+  "source_frames": 255929,
+  "analysis_fps": 30,
+  "analysis_frames": 38390,
+  "sampling": "nearest source frame at each analysis time, clipped tail; integer mapping CSV retained; no interpolation",
+  "arena": {
+    "geometry": "manual rectangular tracking region",
+    "bounds_xyxy_inclusive": [20, 10, 620, 479],
+    "padding_pixels": 12,
+    "tracking_bounds_xyxy_inclusive": [8, 1, 632, 480],
+    "pixels_per_mm": 12,
+    "physical_scale_status": "published nominal cohort value; no per-record independent measurement",
+    "published_nominal_dimensions_mm": [50, 40],
+    "evidence": "https://projet.liris.cnrs.fr/imagine/pub/proceedings/ECCV-2014/papers/8690/86900772.pdf",
+    "warning": "Mask is a padded tracking region, not a measurement of physical walls. Bottom/top image clipping can still affect bodies. Wall distance is excluded from the36 inputs."
+  },
+  "model_policy": "Frozen v2.2 bundle retained byte-for-byte. No classifier loading, inference, fitting, threshold changes or event scoring in Days1–4.",
+  "annotation_policy": "Primary and second annotator retained separately;1-based inclusive source-frame bounds; extra columns preserved with no assumed semantics. No unannotated frames certified as expert negatives.",
+  "feature_policy": "Reuse pinned raw13→36 adapter at30FPS; retain missingness and source tracking warnings. Matching names/dimensions alone do not establish scientific compatibility."
+}

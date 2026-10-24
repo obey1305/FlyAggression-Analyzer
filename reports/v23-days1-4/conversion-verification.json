@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "native_frames": 255929,
+  "native_fps": 200,
+  "analysis_frames": 38390,
+  "analysis_fps": 30,
+  "maximum_sample_time_error_seconds": 0.0016666666667788377,
+  "source_duration_seconds": 1279.645,
+  "analysis_duration_seconds": 1279.6666666666667,
+  "duration_grid_tail_difference_seconds": 0.021666666666760648,
+  "decoded_yuv_frame_hash_parity": true,
+  "matlab_rgb_decoder_caveat": "readerprobe firstframe differed at most1 intensity unit; compare representative frames separately",
+  "elapsed_seconds": 204.90165091701783,
+  "encoding": "H264CRF0 fullrangeYUV420, no spatialresize or frame interpolation",
+  "video_sha256": "a07148e9a369ad06e9da00075b9f335497ef884bfe51169b7dfad192396bdfd4"
+}

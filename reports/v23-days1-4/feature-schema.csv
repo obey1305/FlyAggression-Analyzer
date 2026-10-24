@@ -1,0 +1,37 @@
+column_1based,feature,base_physical_unit,base_transform,temporal_transform,analysis_fps
+1,vel,mm/s,log10 offset .001,upstream raw feature; fixed three-sample smoothing where applicable,30
+2,ang_vel,rad/s,log10 offset 1e-6,upstream raw feature; fixed three-sample smoothing where applicable,30
+3,min_wing_ang,rad,log10 offset .001,upstream raw feature; fixed three-sample smoothing where applicable,30
+4,max_wing_ang,rad,log10 offset .001,upstream raw feature; fixed three-sample smoothing where applicable,30
+5,mean_wing_length,mm,per-fly whole-recording median normalization,upstream raw feature; fixed three-sample smoothing where applicable,30
+6,axis_ratio,ratio or unitless,per-fly whole-recording median normalization,upstream raw feature; fixed three-sample smoothing where applicable,30
+7,fg_body_ratio,ratio or unitless,log10 offset .001,upstream raw feature; fixed three-sample smoothing where applicable,30
+8,contrast,ratio or unitless,per-fly whole-recording median normalization,upstream raw feature; fixed three-sample smoothing where applicable,30
+9,dist_to_other,mm,unchanged,upstream raw feature; fixed three-sample smoothing where applicable,30
+10,angle_between,rad,unchanged,upstream raw feature; fixed three-sample smoothing where applicable,30
+11,facing_angle,rad,unchanged,upstream raw feature; fixed three-sample smoothing where applicable,30
+12,leg_dist,mm,unchanged,upstream raw feature; fixed three-sample smoothing where applicable,30
+13,vel_diff1,mm/s,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+14,vel_diff2,mm/s,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+15,ang_vel_diff1,rad/s,log10 offset 1e-6,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+16,ang_vel_diff2,rad/s,log10 offset 1e-6,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+17,min_wing_ang_diff1,rad,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+18,min_wing_ang_diff2,rad,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+19,max_wing_ang_diff1,rad,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+20,max_wing_ang_diff2,rad,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+21,mean_wing_length_diff1,mm,per-fly whole-recording median normalization,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+22,mean_wing_length_diff2,mm,per-fly whole-recording median normalization,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+23,axis_ratio_diff1,ratio or unitless,per-fly whole-recording median normalization,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+24,axis_ratio_diff2,ratio or unitless,per-fly whole-recording median normalization,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+25,fg_body_ratio_diff1,ratio or unitless,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+26,fg_body_ratio_diff2,ratio or unitless,log10 offset .001,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+27,contrast_diff1,ratio or unitless,per-fly whole-recording median normalization,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+28,contrast_diff2,ratio or unitless,per-fly whole-recording median normalization,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+29,dist_to_other_diff1,mm,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+30,dist_to_other_diff2,mm,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+31,angle_between_diff1,rad,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+32,angle_between_diff2,rad,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+33,facing_angle_diff1,rad,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+34,facing_angle_diff2,rad,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+35,leg_dist_diff1,mm,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30
+36,leg_dist_diff2,mm,unchanged,"five-sample finite filter, edge-response padding; sample-based, not per-second derivative",30

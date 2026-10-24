@@ -1,0 +1,3 @@
+[vost#1:0/rawvideo @ 0xa0f104300] One of -r/-fpsmax was specified together a non-CFR -vsync/-fps_mode. This is contradictory.
+Error opening output file /Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/reports/v23-days1-4/source-selected-frames.framemd5.
+Error opening output files: Invalid argument

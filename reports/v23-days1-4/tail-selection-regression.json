@@ -1,0 +1,13 @@
+{
+  "full_recording_original_selection_matches_frame_map": true,
+  "full_recording_guarded_selection_matches_frame_map": true,
+  "frame_count": 38390,
+  "fix": "Reject rounded analysis index beyond ceil(source_frames*30/200); prevents extra clipped-tail frames on other clip lengths. Existing full conversion has correct38390 frames and is preserved.",
+  "short_fixture_lengths_tested": [
+    7,
+    8,
+    13,
+    31,
+    40
+  ]
+}

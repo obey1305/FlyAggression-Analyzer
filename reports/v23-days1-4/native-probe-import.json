@@ -1,0 +1,11 @@
+{
+  "source_start_seconds": 640,
+  "source_frame_1based_start": 128001,
+  "source_fps": 200,
+  "frames": 400,
+  "sha256": "ecc69e31dfca2eb5f709509027fea2577e764d1150e3d2ba7e71daf6a35ded5e",
+  "first_native_frame_matches_source_at640seconds": true,
+  "first_frame_decoded_yuv_md5": "MD5=657810b271594323e11d29a0e5875d1a",
+  "selection": "fixed time, independent of annotations/predictions",
+  "reproduction_script": "scripts/v23/prepare_native_probe.py"
+}

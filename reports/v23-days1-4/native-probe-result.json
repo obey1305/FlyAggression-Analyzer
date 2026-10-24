@@ -1,0 +1,28 @@
+{
+  "status": "short native tracking completed with full-recording background/body calibration",
+  "native_fps": 200,
+  "track_shape": [
+    2,
+    400,
+    35
+  ],
+  "feature_shape": [
+    2,
+    400,
+    13
+  ],
+  "velocity_kernel_samples": 9,
+  "full_native_recording_tracked": false,
+  "standalone_short_calibration_passed": false,
+  "source_clip_offset_seconds": 640,
+  "native_track_warning_frames": 0,
+  "native_missing_xy_rows": 0,
+  "converted_shape": [
+    2,
+    400,
+    36
+  ],
+  "nonfinite_feature_rows": 0,
+  "note": "Native200FPS feature values not passed to frozen30FPS classifier; five-sample derivative footprint differs.",
+  "aggression_classifier_used": false
+}

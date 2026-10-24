@@ -1,0 +1,71 @@
+test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) ... 
+  test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) (n=13) ... FAIL
+  test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) (n=31) ... FAIL
+  test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) (n=40) ... FAIL
+test_inclusive_single_source_frame (test_import.ImportTests.test_inclusive_single_source_frame) ... ok
+test_invalid_geometry_and_rate (test_import.ImportTests.test_invalid_geometry_and_rate) ... ok
+test_long_video_no_drift (test_import.ImportTests.test_long_video_no_drift) ... ok
+test_rectangle_edges_inclusive (test_import.ImportTests.test_rectangle_edges_inclusive) ... ok
+test_short_tail_is_clipped (test_import.ImportTests.test_short_tail_is_clipped) ... ok
+test_unobserved_lunge_is_flagged (test_import.ImportTests.test_unobserved_lunge_is_flagged) ... ok
+
+======================================================================
+FAIL: test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) (n=13)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/tests/v23/test_ffmpeg_mapping.py", line 15, in test_selection_matches_map_including_partial_tail
+    self.assertEqual(selected,[native[i-1] for i in frame_map(n).source_frame])
+AssertionError: Lists differ: ['69f[40 chars]f35e829e5a3d96cbaaf22bbb6', '69fcf25f35e829e5a3d96cbaaf22bbb6'] != ['69f[40 chars]f35e829e5a3d96cbaaf22bbb6']
+
+First list contains 1 additional elements.
+First extra element 2:
+'69fcf25f35e829e5a3d96cbaaf22bbb6'
+
++ ['69fcf25f35e829e5a3d96cbaaf22bbb6', '69fcf25f35e829e5a3d96cbaaf22bbb6']
+- ['69fcf25f35e829e5a3d96cbaaf22bbb6',
+-  '69fcf25f35e829e5a3d96cbaaf22bbb6',
+-  '69fcf25f35e829e5a3d96cbaaf22bbb6']
+
+======================================================================
+FAIL: test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) (n=31)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/tests/v23/test_ffmpeg_mapping.py", line 15, in test_selection_matches_map_including_partial_tail
+    self.assertEqual(selected,[native[i-1] for i in frame_map(n).source_frame])
+AssertionError: Lists differ: ['69f[148 chars]f35e829e5a3d96cbaaf22bbb6', '69fcf25f35e829e5a3d96cbaaf22bbb6'] != ['69f[148 chars]f35e829e5a3d96cbaaf22bbb6']
+
+First list contains 1 additional elements.
+First extra element 5:
+'69fcf25f35e829e5a3d96cbaaf22bbb6'
+
+  ['69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6',
+-  '69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6']
+
+======================================================================
+FAIL: test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) (n=40)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/tests/v23/test_ffmpeg_mapping.py", line 15, in test_selection_matches_map_including_partial_tail
+    self.assertEqual(selected,[native[i-1] for i in frame_map(n).source_frame])
+AssertionError: Lists differ: ['69f[184 chars]f35e829e5a3d96cbaaf22bbb6', '69fcf25f35e829e5a3d96cbaaf22bbb6'] != ['69f[184 chars]f35e829e5a3d96cbaaf22bbb6']
+
+First list contains 1 additional elements.
+First extra element 6:
+'69fcf25f35e829e5a3d96cbaaf22bbb6'
+
+  ['69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6',
+-  '69fcf25f35e829e5a3d96cbaaf22bbb6',
+   '69fcf25f35e829e5a3d96cbaaf22bbb6']
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.282s
+
+FAILED (failures=3)

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "provider_downloads_reverified": [
+    "BoyMeetsBoy_wo_movies.zip",
+    "movie5.avi",
+    "visualizer.m"
+  ],
+  "full_feature_shape": [
+    2,
+    38390,
+    36
+  ],
+  "mat_provenance_marker_present": true,
+  "generated_tracking_and_features_hashes_verified": 3,
+  "missingness_matches_report": true,
+  "full_video_receipt_verified": true,
+  "frozen_classifier_hash_verified": true,
+  "classifier_deserialized_or_invoked": false
+}

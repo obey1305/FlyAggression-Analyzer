@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/scripts/v23/convert_video.py", line 17, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/scripts/v23/convert_video.py", line 12, in main
+    with (R/'conversion.log').open('w') as log:subprocess.run(command,stdout=log,stderr=subprocess.STDOUT,check=True)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityasinghchauhan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/homebrew/bin/ffmpeg', '-v', 'error', '-i', '/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/new-training-data/BoyMeetsBoy/downloads/movie5.avi', '-filter_complex', "select='eq(n,min(255928,floor(floor(n*30/200+0.5)*200/30+0.5)))',setpts=N/(30*TB),split=2[a][b]", '-map', '[a]', '-an', '-c:v', 'libx264', '-preset', 'fast', '-crf', '0', '-pix_fmt', 'yuvj420p', '-color_range', 'pc', '-colorspace', 'smpte170m', '-r', '30', '-fps_mode', 'cfr', '-movflags', '+faststart', '/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/data/v23-input/movie5-analysis30.mp4', '-map', '[b]', '-an', '-c:v', 'rawvideo', '-pix_fmt', 'yuvj420p', '-r', '30', '-fps_mode', 'passthrough', '-f', 'framemd5', '/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/reports/v23-days1-4/source-selected-frames.framemd5']' returned non-zero exit status 234.

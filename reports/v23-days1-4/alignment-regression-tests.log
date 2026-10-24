@@ -1,0 +1,11 @@
+test_alignment_module (test_preparation.PreparationTests.test_alignment_module) ... ok
+test_bout_exclusion_overlap_closure (test_preparation.PreparationTests.test_bout_exclusion_overlap_closure) ... ok
+test_overlapping_flies_never_confirmed (test_preparation.PreparationTests.test_overlapping_flies_never_confirmed) ... ok
+test_reference_warning_is_buffered (test_preparation.PreparationTests.test_reference_warning_is_buffered) ... ok
+test_swapped_ids_and_ambiguity (test_preparation.PreparationTests.test_swapped_ids_and_ambiguity) ... ok
+test_unknown_flag_and_inclusive_boundaries (test_preparation.PreparationTests.test_unknown_flag_and_inclusive_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.761s
+
+OK

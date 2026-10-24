@@ -1,0 +1,57 @@
+{
+  "namespace": "flyvsfly_boymeetsboy_movie5",
+  "source_frames": 255929,
+  "source_fps": 200,
+  "analysis_frames": 38390,
+  "analysis_fps": 30,
+  "native_full_decode_exit_code": 0,
+  "native_full_decode_error_log_bytes": 0,
+  "reference_shape": [
+    2,
+    255929,
+    17
+  ],
+  "reference_warning_frames": 8,
+  "reference_position_min": [
+    21.25,
+    11.25
+  ],
+  "reference_position_max": [
+    610.0,
+    478.75
+  ],
+  "reference_centroids_inside_padded_mask": 489381,
+  "reference_centroids_total": 511858,
+  "reference_centroids_nonfinite": 22477,
+  "finite_reference_centroids_outside_mask": 0,
+  "mask_bounds_inclusive": [
+    8,
+    1,
+    632,
+    480
+  ],
+  "scale_pixels_per_mm": 12,
+  "scale_evidence": "Published cohort-level nominal; not independently measured per recording",
+  "annotation_indexing": "MATLAB 1-based inclusive frame ranges, confirmed by provider visualizer.m start:end indexing",
+  "extra_annotation_columns": "Preserved, semantics not assumed; annotators remain separate",
+  "model_inference_performed": false,
+  "training_performed": false,
+  "timing": {
+    "primary": {
+      "bouts": 42,
+      "lost_entirely": 0,
+      "one_or_two_analysis_samples": 18,
+      "median_analysis_samples": 3.0,
+      "max_absolute_onset_grid_shift_seconds": 0.029999999999972715,
+      "max_absolute_stop_grid_shift_seconds": 0.030000000000001137
+    },
+    "secondary": {
+      "bouts": 48,
+      "lost_entirely": 0,
+      "one_or_two_analysis_samples": 33,
+      "median_analysis_samples": 2.0,
+      "max_absolute_onset_grid_shift_seconds": 0.02833333333342125,
+      "max_absolute_stop_grid_shift_seconds": 0.029999999999972715
+    }
+  }
+}

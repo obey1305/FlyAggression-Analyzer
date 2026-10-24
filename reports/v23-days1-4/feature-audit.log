@@ -1,0 +1,95 @@
+{
+  "status": "tracking and schema extraction completed; scientific compatibility remains qualified",
+  "raw_feature_shape": [
+    2,
+    38390,
+    13
+  ],
+  "converted_shape": [
+    2,
+    38390,
+    36
+  ],
+  "feature_names_and_order_match": true,
+  "model_inference_performed": false,
+  "training_performed": false,
+  "identity_corrections_applied": false,
+  "reference_warning_time_bins": 7,
+  "new_tracking_warning_frames": 38,
+  "finite_position_comparison_frames": 34828,
+  "best_assignment_max_per_fly_error_pixels_quantiles": {
+    "q01": 0.07892943887880555,
+    "q25": 0.21987061689394072,
+    "median": 0.3097638599331616,
+    "q75": 0.4198367369297997,
+    "q99": 3.533369941131843
+  },
+  "conservative_geometric_mapping_reliable_frames": 33704,
+  "conservative_geometric_mapping_reliable_fraction": 0.8779369627507163,
+  "best_assignment_changes": 12,
+  "assignment_changes_warning": "Changes include ambiguous close interactions and missing values; not a certified identity-switch count",
+  "mapping_rules": {
+    "maximum_position_error_pixels": 3,
+    "minimum_assignment_margin_pixels": 4,
+    "minimum_reference_separation_pixels": 8,
+    "minimum_stable_mapping_frames": 15,
+    "boundary_exclusion_frames": 5
+  },
+  "frame_offset_diagnostic": [
+    {
+      "new_analysis_frame_offset": -3,
+      "median_best_pair_error_pixels": 3.5497143413073076
+    },
+    {
+      "new_analysis_frame_offset": -2,
+      "median_best_pair_error_pixels": 2.415723900547964
+    },
+    {
+      "new_analysis_frame_offset": -1,
+      "median_best_pair_error_pixels": 1.3756501218672383
+    },
+    {
+      "new_analysis_frame_offset": 0,
+      "median_best_pair_error_pixels": 0.4693479594796644
+    },
+    {
+      "new_analysis_frame_offset": 1,
+      "median_best_pair_error_pixels": 1.2156673909649558
+    },
+    {
+      "new_analysis_frame_offset": 2,
+      "median_best_pair_error_pixels": 2.2296134994419203
+    },
+    {
+      "new_analysis_frame_offset": 3,
+      "median_best_pair_error_pixels": 3.339887195942003
+    }
+  ],
+  "zero_offset_excess_median_pair_error_pixels": 0.0,
+  "timing_alignment_review_required": false,
+  "missingness": [
+    {
+      "fly": 1,
+      "missing_position_frames": 216,
+      "missing_with_both_reference_positions_finite": 43,
+      "missing_with_any_reference_position_nonfinite": 173,
+      "longest_missing_position_gap_frames": 31,
+      "nonfinite_36feature_rows": 2634
+    },
+    {
+      "fly": 2,
+      "missing_position_frames": 3258,
+      "missing_with_both_reference_positions_finite": 147,
+      "missing_with_any_reference_position_nonfinite": 3111,
+      "longest_missing_position_gap_frames": 2631,
+      "nonfinite_36feature_rows": 2669
+    }
+  ],
+  "normalization": "Pinned adapter, whole-recording per-fly median/log transforms and fixed five-sample derivatives; no fitted imputer or scaler. Upstream feat_compute interpolates internal gaps, so finite features do not certify valid original tracking.",
+  "wall_distance": "Excluded from36 schema; padded tracking-mask distance is not a physical wall measurement",
+  "files": {
+    "data/v23-tracking/movie5-analysis30/movie5-analysis30-track.mat": "cf15f76bf4d51ad5084592b28bf1b657a0e61c2dc6fc8978b9ab6c8dae785831",
+    "data/v23-tracking/movie5-analysis30/movie5-analysis30-feat.mat": "e5bbe307fbd6572491145d69197465ecafa7bc7381fab5453c9eff4478aa0eec",
+    "data/v23-derived/features36.mat": "f09a68f64c292a8abafaf9dfe2900028126fb115e0f2ddf9444626e57fd49f40"
+  }
+}

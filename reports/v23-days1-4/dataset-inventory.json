@@ -1,0 +1,1689 @@
+[
+  {
+    "recording": "movie1",
+    "file": "extracted/Boy_meets_boy light/movie1/movie1_actions.mat",
+    "bytes": 2061,
+    "sha256": "77bc512ee6e16a938f121f0e65c50ca721a6df4257b65a178330a80fc63a095d",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          177,
+          3
+        ],
+        "count": 177
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          23,
+          3
+        ],
+        "count": 23
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          25,
+          3
+        ],
+        "count": 25
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          17,
+          3
+        ],
+        "count": 17
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          8,
+          3
+        ],
+        "count": 8
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          177,
+          3
+        ],
+        "count": 177
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          2,
+          3
+        ],
+        "count": 2
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          6,
+          3
+        ],
+        "count": 6
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          11,
+          3
+        ],
+        "count": 11
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          3
+        ],
+        "count": 1
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "recording": "movie1",
+    "file": "extracted/Boy_meets_boy light/movie1/movie1_feat.mat",
+    "bytes": 102909413,
+    "sha256": "f196d3a973bbafa5c128a5e5afaad8e4f635dab8458f4f6ae8d8eca42eb3666d",
+    "top_level_keys": [
+      "feat"
+    ],
+    "shape": [
+      2,
+      252261,
+      36
+    ],
+    "names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ]
+  },
+  {
+    "recording": "movie1",
+    "file": "extracted/Boy_meets_boy light/movie1/movie1_track.mat",
+    "bytes": 30602851,
+    "sha256": "5978ba5bd95f6055270622c5735c8647cad289b7e417e9e483236810c5d86950",
+    "top_level_keys": [
+      "trk"
+    ],
+    "shape": [
+      2,
+      252261,
+      17
+    ],
+    "names": [
+      "pos x",
+      "pos y",
+      "ori",
+      "major axis len",
+      "minor axis len",
+      "wing l x",
+      "wing l y",
+      "wing r x",
+      "wing r y",
+      "body area",
+      "fg area",
+      "img contrast",
+      "min fg dist",
+      "wing l ang",
+      "wing r ang",
+      "wing l len",
+      "wing r len"
+    ],
+    "warning_frames": 40
+  },
+  {
+    "recording": "movie2",
+    "file": "extracted/Boy_meets_boy light/movie2/movie2_actions.mat",
+    "bytes": 1759,
+    "sha256": "7d041000b4320e61452a020afb4d8e6636b33a79a67b38338133131b36205553",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          129,
+          3
+        ],
+        "count": 129
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          3,
+          3
+        ],
+        "count": 3
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          3
+        ],
+        "count": 1
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          6,
+          3
+        ],
+        "count": 6
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          129,
+          3
+        ],
+        "count": 129
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          15,
+          3
+        ],
+        "count": 15
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          23,
+          3
+        ],
+        "count": 23
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          32,
+          3
+        ],
+        "count": 32
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          5,
+          3
+        ],
+        "count": 5
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          10,
+          3
+        ],
+        "count": 10
+      }
+    ]
+  },
+  {
+    "recording": "movie2",
+    "file": "extracted/Boy_meets_boy light/movie2/movie2_feat.mat",
+    "bytes": 103215861,
+    "sha256": "8368904d1cd9db8f16a73184a84b20f257bb3323f782950ef8ccd14fe4baba49",
+    "top_level_keys": [
+      "feat"
+    ],
+    "shape": [
+      2,
+      247477,
+      36
+    ],
+    "names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ]
+  },
+  {
+    "recording": "movie2",
+    "file": "extracted/Boy_meets_boy light/movie2/movie2_track.mat",
+    "bytes": 30884721,
+    "sha256": "b0e2b89cc58c6515c2f08e7d013caa5a1dbcf1f8736c98c133791d89754f1b46",
+    "top_level_keys": [
+      "trk"
+    ],
+    "shape": [
+      2,
+      247477,
+      17
+    ],
+    "names": [
+      "pos x",
+      "pos y",
+      "ori",
+      "major axis len",
+      "minor axis len",
+      "wing l x",
+      "wing l y",
+      "wing r x",
+      "wing r y",
+      "body area",
+      "fg area",
+      "img contrast",
+      "min fg dist",
+      "wing l ang",
+      "wing r ang",
+      "wing l len",
+      "wing r len"
+    ],
+    "warning_frames": 32
+  },
+  {
+    "recording": "movie3",
+    "file": "extracted/Boy_meets_boy light/movie3/movie3_actions.mat",
+    "bytes": 1939,
+    "sha256": "7128ba3ab85f5f8800b3cd0f25d107a327313a3e8a674e9e844336de3fe3f12f",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          204,
+          3
+        ],
+        "count": 204
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          7,
+          3
+        ],
+        "count": 7
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          6,
+          3
+        ],
+        "count": 6
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          8,
+          3
+        ],
+        "count": 8
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          6,
+          3
+        ],
+        "count": 6
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          204,
+          3
+        ],
+        "count": 204
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          9,
+          3
+        ],
+        "count": 9
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          10,
+          3
+        ],
+        "count": 10
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          3,
+          3
+        ],
+        "count": 3
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          6,
+          3
+        ],
+        "count": 6
+      }
+    ]
+  },
+  {
+    "recording": "movie3",
+    "file": "extracted/Boy_meets_boy light/movie3/movie3_feat.mat",
+    "bytes": 102094098,
+    "sha256": "a3b300351bdcda5db5d0403b153e0e3045699812dbd6f39e381ce450c9cfe301",
+    "top_level_keys": [
+      "feat"
+    ],
+    "shape": [
+      2,
+      241741,
+      36
+    ],
+    "names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ]
+  },
+  {
+    "recording": "movie3",
+    "file": "extracted/Boy_meets_boy light/movie3/movie3_track.mat",
+    "bytes": 31692612,
+    "sha256": "5e351b5a46dd68af666f802e7f9ed66fe2ec2c7d409b801e80660a3818f2df80",
+    "top_level_keys": [
+      "trk"
+    ],
+    "shape": [
+      2,
+      241741,
+      17
+    ],
+    "names": [
+      "pos x",
+      "pos y",
+      "ori",
+      "major axis len",
+      "minor axis len",
+      "wing l x",
+      "wing l y",
+      "wing r x",
+      "wing r y",
+      "body area",
+      "fg area",
+      "img contrast",
+      "min fg dist",
+      "wing l ang",
+      "wing r ang",
+      "wing l len",
+      "wing r len"
+    ],
+    "warning_frames": 77
+  },
+  {
+    "recording": "movie4",
+    "file": "extracted/Boy_meets_boy light/movie4/movie4_actions.mat",
+    "bytes": 2625,
+    "sha256": "8f9492045d3d2c1de4ac00a12dfb242f5566344ee4f2aa71b0c64e6cb7bf05f7",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          287,
+          3
+        ],
+        "count": 287
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          3,
+          3
+        ],
+        "count": 3
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          11,
+          3
+        ],
+        "count": 11
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          12,
+          3
+        ],
+        "count": 12
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          17,
+          3
+        ],
+        "count": 17
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          287,
+          3
+        ],
+        "count": 287
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          5,
+          3
+        ],
+        "count": 5
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          3,
+          3
+        ],
+        "count": 3
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          26,
+          3
+        ],
+        "count": 26
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          14,
+          3
+        ],
+        "count": 14
+      }
+    ]
+  },
+  {
+    "recording": "movie4",
+    "file": "extracted/Boy_meets_boy light/movie4/movie4_feat.mat",
+    "bytes": 102982197,
+    "sha256": "bac57f8ba736d3c8917ca74c3cb227332c2c05cfe430232d58177b6d92ebef3e",
+    "top_level_keys": [
+      "feat"
+    ],
+    "shape": [
+      2,
+      246732,
+      36
+    ],
+    "names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ]
+  },
+  {
+    "recording": "movie4",
+    "file": "extracted/Boy_meets_boy light/movie4/movie4_second_actions.mat",
+    "bytes": 2723,
+    "sha256": "86a209362ebf9a767782b284bc83c97efda12b712633646eef7acb418436bbe3",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          129,
+          3
+        ],
+        "count": 129
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          7,
+          3
+        ],
+        "count": 7
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          9,
+          3
+        ],
+        "count": 9
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          9,
+          3
+        ],
+        "count": 9
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          36,
+          3
+        ],
+        "count": 36
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          129,
+          3
+        ],
+        "count": 129
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          17,
+          3
+        ],
+        "count": 17
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          194,
+          3
+        ],
+        "count": 194
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          0
+        ],
+        "count": 0
+      }
+    ]
+  },
+  {
+    "recording": "movie4",
+    "file": "extracted/Boy_meets_boy light/movie4/movie4_track.mat",
+    "bytes": 31846417,
+    "sha256": "b9991e644f2247e172be43610cc3624ced2ae8e98b3f39e71786c83912d989bb",
+    "top_level_keys": [
+      "trk"
+    ],
+    "shape": [
+      2,
+      246732,
+      17
+    ],
+    "names": [
+      "pos x",
+      "pos y",
+      "ori",
+      "major axis len",
+      "minor axis len",
+      "wing l x",
+      "wing l y",
+      "wing r x",
+      "wing r y",
+      "body area",
+      "fg area",
+      "img contrast",
+      "min fg dist",
+      "wing l ang",
+      "wing r ang",
+      "wing l len",
+      "wing r len"
+    ],
+    "warning_frames": 115
+  },
+  {
+    "recording": "movie5",
+    "file": "extracted/Boy_meets_boy light/movie5/movie5_actions.mat",
+    "bytes": 2445,
+    "sha256": "d0bb58dd098d5579c5c260a4f5d9493ae365dbcaa20ac4a2650acc4dd72e5ac1",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          217,
+          3
+        ],
+        "count": 217
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          3
+        ],
+        "count": 1
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          8,
+          3
+        ],
+        "count": 8
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          6,
+          3
+        ],
+        "count": 6
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          10,
+          3
+        ],
+        "count": 10
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          217,
+          3
+        ],
+        "count": 217
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          41,
+          3
+        ],
+        "count": 41
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          21,
+          3
+        ],
+        "count": 21
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          28,
+          3
+        ],
+        "count": 28
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          6,
+          3
+        ],
+        "count": 6
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          3,
+          3
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "recording": "movie5",
+    "file": "extracted/Boy_meets_boy light/movie5/movie5_feat.mat",
+    "bytes": 105145106,
+    "sha256": "38fff8e8fb6cd7e77864a7110070580d721948e253b9dfda9ea706bc8fad5e4b",
+    "top_level_keys": [
+      "feat"
+    ],
+    "shape": [
+      2,
+      255929,
+      36
+    ],
+    "names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ]
+  },
+  {
+    "recording": "movie5",
+    "file": "extracted/Boy_meets_boy light/movie5/movie5_second_actions.mat",
+    "bytes": 1386,
+    "sha256": "9452d813e012583b97afea9889d48dfcd6080b0322e9d53e3989dc0c5014d12d",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          2,
+          3
+        ],
+        "count": 2
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          9,
+          3
+        ],
+        "count": 9
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          5,
+          3
+        ],
+        "count": 5
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          19,
+          3
+        ],
+        "count": 19
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          46,
+          3
+        ],
+        "count": 46
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          22,
+          3
+        ],
+        "count": 22
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          24,
+          3
+        ],
+        "count": 24
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          28,
+          3
+        ],
+        "count": 28
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          0
+        ],
+        "count": 0
+      }
+    ]
+  },
+  {
+    "recording": "movie5",
+    "file": "extracted/Boy_meets_boy light/movie5/movie5_track.mat",
+    "bytes": 32672803,
+    "sha256": "de1b524bc846dcec636ccbb63032202e0084473ca8b3ae28ddaf98ec5fe6e635",
+    "top_level_keys": [
+      "trk"
+    ],
+    "shape": [
+      2,
+      255929,
+      17
+    ],
+    "names": [
+      "pos x",
+      "pos y",
+      "ori",
+      "major axis len",
+      "minor axis len",
+      "wing l x",
+      "wing l y",
+      "wing r x",
+      "wing r y",
+      "body area",
+      "fg area",
+      "img contrast",
+      "min fg dist",
+      "wing l ang",
+      "wing r ang",
+      "wing l len",
+      "wing r len"
+    ],
+    "warning_frames": 8
+  },
+  {
+    "recording": "movie6",
+    "file": "extracted/Boy_meets_boy light/movie6/movie6_actions.mat",
+    "bytes": 1862,
+    "sha256": "386543f1d0883511b682ab8fd8ca1f8ed95bbfa727051f5242f50c28caf7f2b9",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          158,
+          3
+        ],
+        "count": 158
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          5,
+          3
+        ],
+        "count": 5
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          4,
+          3
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          5,
+          3
+        ],
+        "count": 5
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          7,
+          3
+        ],
+        "count": 7
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          158,
+          3
+        ],
+        "count": 158
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          2,
+          3
+        ],
+        "count": 2
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          27,
+          3
+        ],
+        "count": 27
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          16,
+          3
+        ],
+        "count": 16
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          5,
+          3
+        ],
+        "count": 5
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          16,
+          3
+        ],
+        "count": 16
+      }
+    ]
+  },
+  {
+    "recording": "movie6",
+    "file": "extracted/Boy_meets_boy light/movie6/movie6_feat.mat",
+    "bytes": 102061290,
+    "sha256": "3470500456b4fe546c713c469c0c89aa61298655ae7f42f60ed6794a593a7431",
+    "top_level_keys": [
+      "feat"
+    ],
+    "shape": [
+      2,
+      244445,
+      36
+    ],
+    "names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ]
+  },
+  {
+    "recording": "movie6",
+    "file": "extracted/Boy_meets_boy light/movie6/movie6_second_actions.mat",
+    "bytes": 2123,
+    "sha256": "348a7ab6cf69917f84d1b56c42b2eb50f7c08546a492c4ab412e8d38688f4d90",
+    "top_level_keys": [
+      "behs",
+      "bouts"
+    ],
+    "behaviors": [
+      "touch",
+      "lunge",
+      "wing_threat",
+      "charge",
+      "wing_extension",
+      "unknown"
+    ],
+    "bouts_cell_shape": [
+      2,
+      6
+    ],
+    "bouts": [
+      {
+        "reference_fly": 1,
+        "behavior": "touch",
+        "shape": [
+          117,
+          3
+        ],
+        "count": 117
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "lunge",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_threat",
+        "shape": [
+          9,
+          3
+        ],
+        "count": 9
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "charge",
+        "shape": [
+          5,
+          3
+        ],
+        "count": 5
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "wing_extension",
+        "shape": [
+          50,
+          3
+        ],
+        "count": 50
+      },
+      {
+        "reference_fly": 1,
+        "behavior": "unknown",
+        "shape": [
+          0
+        ],
+        "count": 0
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "touch",
+        "shape": [
+          117,
+          3
+        ],
+        "count": 117
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "lunge",
+        "shape": [
+          4,
+          2
+        ],
+        "count": 4
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_threat",
+        "shape": [
+          23,
+          3
+        ],
+        "count": 23
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "charge",
+        "shape": [
+          14,
+          3
+        ],
+        "count": 14
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "wing_extension",
+        "shape": [
+          50,
+          3
+        ],
+        "count": 50
+      },
+      {
+        "reference_fly": 2,
+        "behavior": "unknown",
+        "shape": [
+          0
+        ],
+        "count": 0
+      }
+    ]
+  },
+  {
+    "recording": "movie6",
+    "file": "extracted/Boy_meets_boy light/movie6/movie6_track.mat",
+    "bytes": 30890415,
+    "sha256": "7c946c93a4eb38b91a97881be0ebba63f13e0609ede02bd684f558fa384da121",
+    "top_level_keys": [
+      "trk"
+    ],
+    "shape": [
+      2,
+      244445,
+      17
+    ],
+    "names": [
+      "pos x",
+      "pos y",
+      "ori",
+      "major axis len",
+      "minor axis len",
+      "wing l x",
+      "wing l y",
+      "wing r x",
+      "wing r y",
+      "body area",
+      "fg area",
+      "img contrast",
+      "min fg dist",
+      "wing l ang",
+      "wing r ang",
+      "wing l len",
+      "wing r len"
+    ],
+    "warning_frames": 219
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "v22_tracked_regular_files_verified": 585,
+  "external_release_and_launchers_verified": 3,
+  "original_frozen_files_verified": 9,
+  "original_extractor_sources_verified": 6,
+  "pinned_dependency_files_verified": 209,
+  "inherited_v23_files_changed": 0,
+  "v22_worktree_status": "",
+  "model_inference_in_v23_audit": false
+}
