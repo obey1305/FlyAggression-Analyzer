@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "protocol_lock_matches_preinference_commit": "4025d01",
+  "all_locked_inputs_and_prediction_hashes_match": true,
+  "new_probability_rows": 76780,
+  "operational_events": 64,
+  "accounting": [
+    {
+      "scope": "primary",
+      "source_expert_events": 42,
+      "retained": 9,
+      "scored_predictions": 7,
+      "matches": 6,
+      "whole_event_accounting": "PASS"
+    },
+    {
+      "scope": "secondary",
+      "source_expert_events": 48,
+      "retained": 32,
+      "scored_predictions": 46,
+      "matches": 28,
+      "whole_event_accounting": "PASS"
+    },
+    {
+      "scope": "primary-common",
+      "source_expert_events": 42,
+      "retained": 9,
+      "scored_predictions": 7,
+      "matches": 6,
+      "whole_event_accounting": "PASS"
+    },
+    {
+      "scope": "secondary-common",
+      "source_expert_events": 48,
+      "retained": 9,
+      "scored_predictions": 7,
+      "matches": 6,
+      "whole_event_accounting": "PASS"
+    }
+  ],
+  "integer_lattice_threshold_classification_differences": 0,
+  "v22_tracked_files_preserved": 585,
+  "original_frozen_files_preserved": 9,
+  "inherited_v23_days1_4_files_modified": 0,
+  "model_or_threshold_tuned": false,
+  "no_additional_model_inference_in_verifier": true
+}

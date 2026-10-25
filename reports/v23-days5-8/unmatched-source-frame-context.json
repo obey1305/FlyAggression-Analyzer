@@ -1,0 +1,44 @@
+[
+  {
+    "annotator": "primary",
+    "operational_event_id": 49,
+    "source_frame_1based": 220921,
+    "source_time_seconds": 1104.6,
+    "visual_review_scope": "spatial/interaction context only; no new expert label or biological FP adjudication"
+  },
+  {
+    "annotator": "primary",
+    "operational_event_id": 49,
+    "source_frame_1based": 220931,
+    "source_time_seconds": 1104.65,
+    "visual_review_scope": "spatial/interaction context only; no new expert label or biological FP adjudication"
+  },
+  {
+    "annotator": "primary",
+    "operational_event_id": 49,
+    "source_frame_1based": 220941,
+    "source_time_seconds": 1104.7,
+    "visual_review_scope": "spatial/interaction context only; no new expert label or biological FP adjudication"
+  },
+  {
+    "annotator": "secondary",
+    "operational_event_id": 6,
+    "source_frame_1based": 175821,
+    "source_time_seconds": 879.1,
+    "visual_review_scope": "spatial/interaction context only; no new expert label or biological FP adjudication"
+  },
+  {
+    "annotator": "secondary",
+    "operational_event_id": 6,
+    "source_frame_1based": 175834,
+    "source_time_seconds": 879.165,
+    "visual_review_scope": "spatial/interaction context only; no new expert label or biological FP adjudication"
+  },
+  {
+    "annotator": "secondary",
+    "operational_event_id": 6,
+    "source_frame_1based": 175848,
+    "source_time_seconds": 879.235,
+    "visual_review_scope": "spatial/interaction context only; no new expert label or biological FP adjudication"
+  }
+]

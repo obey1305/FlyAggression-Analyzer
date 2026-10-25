@@ -17,7 +17,7 @@ def main():
   content=subprocess.check_output(['/opt/homebrew/bin/ffmpeg','-v','error','-ss',str(k/30),'-i',str(ROOT/'data/v23-input/movie5-analysis30.mp4'),'-frames:v','1','-f','image2pipe','-vcodec','png','-']);ax.imshow(Image.open(io.BytesIO(content)))
   for fly in (0,1):
    for label,xy,marker,color in [('reference',ref[:,native],'o','#00bbcc'),('new',new[:,k],'+','#ff3333')]:
-    if np.isfinite(xy[fly]).all():ax.scatter(*xy[fly],marker=marker,c=color,s=60);ax.annotate(f'{label}{fly+1}',xy[fly]+[5,5],color=color,fontsize=8)
+    if np.isfinite(xy[fly]).all():ax.scatter(*xy[fly],marker=marker,c=color,s=60);ax.annotate(f'{label} {fly+1}',xy[fly],xytext=(7,-12 if label=='reference' else 12),textcoords='offset points',color=color,fontsize=8,bbox=dict(facecolor='white',alpha=.6,edgecolor='none',pad=1))
   ax.set_title(f'Expert{row.event_id}, t={k/30:.3f}s\n{row.exclusion_reasons.replace(";",chr(10))}',fontsize=9);ax.set_axis_off();rows.append({'source_event_id':int(row.event_id),'analysis_frame':k+1,'source_frame':native+1,'exclusion_reasons':row.exclusion_reasons,'review_scope':'position correspondence only; no expert biological identity adjudication'})
  for ax in axes.ravel()[len(rows):]:ax.set_axis_off()
  fig.savefig(R/'uncertain-alignment-examples.png',dpi=140);plt.close(fig);(R/'uncertain-alignment-examples.json').write_text(json.dumps(rows,indent=2)+'\n')
