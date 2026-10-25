@@ -1,0 +1,7 @@
+test_exact_three_frame_interval_can_match (test_temporal_limits.TemporalLimitTests.test_exact_three_frame_interval_can_match) ... ok
+test_short_interval_cannot_match_minimum_duration (test_temporal_limits.TemporalLimitTests.test_short_interval_cannot_match_minimum_duration) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK

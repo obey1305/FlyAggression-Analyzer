@@ -1,0 +1,10 @@
+recording,annotator,event_id,source_event_id,reference_fly_id,source_start_frame,source_end_frame,start_seconds,stop_seconds_exclusive,source_duration_seconds,cover_start,cover_stop,extra_columns,extra_uncertain,sample_count,analysis_start_frame,analysis_end_frame,fly_id,initially_eligible,exclusion_reasons,retained,outcome,matched_pred_event_id,overlaps_any_prediction
+flyvsfly_boymeetsboy_movie5,primary,1000001,1,1,136598,136606,682.985,683.03,0.045,20489,20491,[0],False,1,20491,20491,1,True,,True,matched,4,True
+flyvsfly_boymeetsboy_movie5,primary,2000002,2,2,34756,34774,173.775,173.87,0.095,5213,5217,[0],False,3,5215,5217,2,True,,True,matched,3,True
+flyvsfly_boymeetsboy_movie5,primary,2000005,5,2,54447,54464,272.23,272.32,0.09,8166,8170,[0],False,3,8168,8170,2,True,,True,matched,11,True
+flyvsfly_boymeetsboy_movie5,primary,2000008,8,2,83636,83655,418.175,418.275,0.1,12545,12549,[0],False,3,12547,12549,2,True,,True,FN,0,False
+flyvsfly_boymeetsboy_movie5,primary,2000009,9,2,85894,85910,429.465,429.55,0.085,12883,12887,[0],False,3,12885,12887,2,True,,True,matched,15,True
+flyvsfly_boymeetsboy_movie5,primary,2000021,21,2,161311,161328,806.55,806.64,0.09,24196,24200,[0],False,3,24198,24200,2,True,,True,matched,31,True
+flyvsfly_boymeetsboy_movie5,primary,2000026,26,2,190850,190866,954.245,954.33,0.085,28627,28630,[0],False,2,28629,28630,2,True,,True,FN,0,False
+flyvsfly_boymeetsboy_movie5,primary,2000028,28,2,196624,196640,983.115,983.2,0.085,29493,29496,[0],False,2,29495,29496,2,True,,True,FN,0,False
+flyvsfly_boymeetsboy_movie5,primary,2000031,31,2,203761,203777,1018.8,1018.885,0.085,30564,30567,[0],False,3,30565,30567,2,True,,True,matched,44,True

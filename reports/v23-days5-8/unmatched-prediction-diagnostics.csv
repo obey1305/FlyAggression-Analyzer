@@ -1,0 +1,20 @@
+annotator,operational_event_id,fly_id,reference_fly_id,start_seconds,stop_seconds_exclusive,duration_seconds,overlaps_other_annotator_lunge,overlapping_other_behaviors,interpretation
+primary,49,2,2,1104.6,1104.7,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,5,1,1,692.5666666666667,692.6666666666666,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,6,1,1,879.1,879.2333333333333,0.1333333333333333,False,wing_threat,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,7,1,1,881.2666666666667,881.3666666666667,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,9,1,1,990.7333333333332,990.8333333333334,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,4,2,2,182.66666666666663,182.83333333333337,0.1666666666666666,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,6,2,2,206.76666666666668,206.86666666666667,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,8,2,2,226.26666666666668,226.36666666666667,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,9,2,2,242.56666666666663,242.66666666666663,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,12,2,2,283.6,283.7,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,20,2,2,596.6,596.9,0.3,True,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,25,2,2,692.3,692.4,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,28,2,2,745.3666666666667,745.4666666666667,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,29,2,2,746.0333333333333,746.1333333333333,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,30,2,2,805.9,806.0666666666667,0.1666666666666666,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,33,2,2,829.9333333333333,830.0333333333333,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,42,2,2,1001.6333333333332,1001.7333333333332,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,49,2,2,1104.6,1104.7,0.1,False,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive
+secondary,55,2,2,1260.9666666666667,1261.2,0.2333333333333333,True,,unmatched provided lunge annotation; other behaviours/absence of labels do not independently certify a biological false positive

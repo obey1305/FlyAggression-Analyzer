@@ -1,0 +1,134 @@
+{
+  "primary": {
+    "coverage": 0.21428571428571427,
+    "event": {
+      "iou_threshold": 0.3,
+      "predicted_events": 7,
+      "expert_events": 9,
+      "true_positive_events": 6,
+      "false_positive_events": 1,
+      "false_negative_events": 3,
+      "precision": 0.8571428571428571,
+      "recall": 0.6666666666666666,
+      "f1": 0.75
+    },
+    "frame": {
+      "rows": 61202,
+      "positive_labels": 23,
+      "positive_predictions": 76,
+      "confusion_matrix_TN_FP_FN_TP": [
+        [
+          61124,
+          55
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      "precision": 0.27631578947368424,
+      "recall": 0.9130434782608695,
+      "f1": 0.42424242424242425,
+      "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+    }
+  },
+  "secondary": {
+    "coverage": 0.6666666666666666,
+    "event": {
+      "iou_threshold": 0.3,
+      "predicted_events": 46,
+      "expert_events": 32,
+      "true_positive_events": 28,
+      "false_positive_events": 18,
+      "false_negative_events": 4,
+      "precision": 0.6086956521739131,
+      "recall": 0.875,
+      "f1": 0.717948717948718
+    },
+    "frame": {
+      "rows": 65844,
+      "positive_labels": 73,
+      "positive_predictions": 301,
+      "confusion_matrix_TN_FP_FN_TP": [
+        [
+          65542,
+          229
+        ],
+        [
+          1,
+          72
+        ]
+      ],
+      "precision": 0.23920265780730898,
+      "recall": 0.9863013698630136,
+      "f1": 0.3850267379679144,
+      "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+    }
+  },
+  "primary-common": {
+    "coverage": 0.21428571428571427,
+    "event": {
+      "iou_threshold": 0.3,
+      "predicted_events": 7,
+      "expert_events": 9,
+      "true_positive_events": 6,
+      "false_positive_events": 1,
+      "false_negative_events": 3,
+      "precision": 0.8571428571428571,
+      "recall": 0.6666666666666666,
+      "f1": 0.75
+    },
+    "frame": {
+      "rows": 60522,
+      "positive_labels": 23,
+      "positive_predictions": 75,
+      "confusion_matrix_TN_FP_FN_TP": [
+        [
+          60445,
+          54
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      "precision": 0.28,
+      "recall": 0.9130434782608695,
+      "f1": 0.42857142857142855,
+      "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+    }
+  },
+  "secondary-common": {
+    "coverage": 0.1875,
+    "event": {
+      "iou_threshold": 0.3,
+      "predicted_events": 7,
+      "expert_events": 9,
+      "true_positive_events": 6,
+      "false_positive_events": 1,
+      "false_negative_events": 3,
+      "precision": 0.8571428571428571,
+      "recall": 0.6666666666666666,
+      "f1": 0.75
+    },
+    "frame": {
+      "rows": 60522,
+      "positive_labels": 19,
+      "positive_predictions": 75,
+      "confusion_matrix_TN_FP_FN_TP": [
+        [
+          60447,
+          56
+        ],
+        [
+          0,
+          19
+        ]
+      ],
+      "precision": 0.25333333333333335,
+      "recall": 1.0,
+      "f1": 0.40425531914893614,
+      "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+    }
+  }
+}

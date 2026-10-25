@@ -1,0 +1,8 @@
+recording,fly_id,event_id,start_frame,end_frame,duration_frames,start_seconds,stop_seconds_exclusive,duration_seconds,support_frames,merged_gap_frames,mean_smoothed_probability,peak_probability,contains_missing_features,technical_fully_eligible,relative_identity_stable,reference_fly_id,scorable,exclusion_reason,outcome,matched_expert_event_id,overlaps_any_expert
+flyvsfly_boymeetsboy_movie5,1,4,20490,20493,4,682.9666666666667,683.1,0.1333333333333333,4,0,0.341796875,0.4609375,False,True,True,1,True,,TP,1000001,True
+flyvsfly_boymeetsboy_movie5,2,3,5213,5216,4,173.73333333333332,173.86666666666667,0.1333333333333333,4,0,0.39453125,0.6953125,False,True,True,2,True,,TP,2000002,True
+flyvsfly_boymeetsboy_movie5,2,11,8167,8170,4,272.2,272.3333333333333,0.1333333333333333,4,0,0.4453125,0.5078125,False,True,True,2,True,,TP,2000005,True
+flyvsfly_boymeetsboy_movie5,2,15,12884,12887,4,429.43333333333334,429.56666666666666,0.1333333333333333,4,0,0.3203125,0.609375,False,True,True,2,True,,TP,2000011,True
+flyvsfly_boymeetsboy_movie5,2,31,24197,24201,5,806.5333333333333,806.7,0.1666666666666666,5,0,0.775,0.96875,False,True,True,2,True,,TP,2000023,True
+flyvsfly_boymeetsboy_movie5,2,44,30563,30567,5,1018.7333333333332,1018.9,0.1666666666666666,5,0,0.2046875,0.390625,False,True,True,2,True,,TP,2000033,True
+flyvsfly_boymeetsboy_movie5,2,49,33139,33141,3,1104.6,1104.7,0.1,3,0,0.2057291666666666,0.2890625,False,True,True,2,True,,FP,0,False

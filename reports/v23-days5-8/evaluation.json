@@ -1,0 +1,587 @@
+{
+  "scope": "one externally collected lunge-count-selected recording; no blind representative cohort claim",
+  "protocol_sha256": "313a48ff3096083321a915d462eea199285dcbbf26b23cb7b3160c2ec6874e8b",
+  "model_tuned": false,
+  "metrics": {
+    "primary": {
+      "annotator": "primary",
+      "source_bouts": 42,
+      "retained_bouts": 9,
+      "excluded_bouts": 33,
+      "expert_bout_coverage": 0.21428571428571427,
+      "operational_predictions": 64,
+      "excluded_operational_predictions": 57,
+      "scorable_analysis_frames": 30601,
+      "scorable_fly_frame_rows": 61202,
+      "native_time_event_metrics": {
+        "iou_threshold": 0.3,
+        "predicted_events": 7,
+        "expert_events": 9,
+        "true_positive_events": 6,
+        "false_positive_events": 1,
+        "false_negative_events": 3,
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1": 0.75
+      },
+      "projected_grid_sensitivity": {
+        "iou_threshold": 0.3,
+        "predicted_events": 7,
+        "expert_events": 9,
+        "true_positive_events": 5,
+        "false_positive_events": 2,
+        "false_negative_events": 4,
+        "precision": 0.7142857142857143,
+        "recall": 0.5555555555555556,
+        "f1": 0.625
+      },
+      "conditional_frame_metrics": {
+        "rows": 61202,
+        "positive_labels": 23,
+        "positive_predictions": 76,
+        "confusion_matrix_TN_FP_FN_TP": [
+          [
+            61124,
+            55
+          ],
+          [
+            2,
+            21
+          ]
+        ],
+        "precision": 0.27631578947368424,
+        "recall": 0.9130434782608695,
+        "f1": 0.42424242424242425,
+        "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+      },
+      "per_fly": [
+        {
+          "fly_id": 1,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 1,
+            "expert_events": 1,
+            "true_positive_events": 1,
+            "false_positive_events": 0,
+            "false_negative_events": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "frames": {
+            "rows": 30601,
+            "positive_labels": 1,
+            "positive_predictions": 9,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                30592,
+                8
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "precision": 0.1111111111111111,
+            "recall": 1.0,
+            "f1": 0.2,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        },
+        {
+          "fly_id": 2,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 6,
+            "expert_events": 8,
+            "true_positive_events": 5,
+            "false_positive_events": 1,
+            "false_negative_events": 3,
+            "precision": 0.8333333333333334,
+            "recall": 0.625,
+            "f1": 0.7142857142857143
+          },
+          "frames": {
+            "rows": 30601,
+            "positive_labels": 22,
+            "positive_predictions": 67,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                30532,
+                47
+              ],
+              [
+                2,
+                20
+              ]
+            ],
+            "precision": 0.29850746268656714,
+            "recall": 0.9090909090909091,
+            "f1": 0.449438202247191,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        }
+      ],
+      "timing_errors_seconds": {
+        "onset_error_seconds": {
+          "median": -0.030833333333333712,
+          "median_absolute": 0.030833333333333712,
+          "min": -0.06666666666671972,
+          "max": -0.01666666666665151
+        },
+        "offset_error_seconds": {
+          "median": 0.015833333333318933,
+          "median_absolute": 0.015833333333318933,
+          "min": -0.0033333333333303017,
+          "max": 0.07000000000005002
+        },
+        "duration_error_seconds": {
+          "median": 0.0625,
+          "median_absolute": 0.0625,
+          "min": 0.03833333333335531,
+          "max": 0.08833333333336668
+        }
+      },
+      "fragmented_expert_intervals": 0,
+      "predictions_overlapping_multiple_expert_intervals": 0
+    },
+    "secondary": {
+      "annotator": "secondary",
+      "source_bouts": 48,
+      "retained_bouts": 32,
+      "excluded_bouts": 16,
+      "expert_bout_coverage": 0.6666666666666666,
+      "operational_predictions": 64,
+      "excluded_operational_predictions": 18,
+      "scorable_analysis_frames": 32922,
+      "scorable_fly_frame_rows": 65844,
+      "native_time_event_metrics": {
+        "iou_threshold": 0.3,
+        "predicted_events": 46,
+        "expert_events": 32,
+        "true_positive_events": 28,
+        "false_positive_events": 18,
+        "false_negative_events": 4,
+        "precision": 0.6086956521739131,
+        "recall": 0.875,
+        "f1": 0.717948717948718
+      },
+      "projected_grid_sensitivity": {
+        "iou_threshold": 0.3,
+        "predicted_events": 46,
+        "expert_events": 32,
+        "true_positive_events": 25,
+        "false_positive_events": 21,
+        "false_negative_events": 7,
+        "precision": 0.5434782608695652,
+        "recall": 0.78125,
+        "f1": 0.6410256410256411
+      },
+      "conditional_frame_metrics": {
+        "rows": 65844,
+        "positive_labels": 73,
+        "positive_predictions": 301,
+        "confusion_matrix_TN_FP_FN_TP": [
+          [
+            65542,
+            229
+          ],
+          [
+            1,
+            72
+          ]
+        ],
+        "precision": 0.23920265780730898,
+        "recall": 0.9863013698630136,
+        "f1": 0.3850267379679144,
+        "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+      },
+      "per_fly": [
+        {
+          "fly_id": 1,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 5,
+            "expert_events": 2,
+            "true_positive_events": 1,
+            "false_positive_events": 4,
+            "false_negative_events": 1,
+            "precision": 0.2,
+            "recall": 0.5,
+            "f1": 0.2857142857142857
+          },
+          "frames": {
+            "rows": 32922,
+            "positive_labels": 3,
+            "positive_predictions": 56,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                32865,
+                54
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "precision": 0.03571428571428571,
+            "recall": 0.6666666666666666,
+            "f1": 0.06779661016949153,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        },
+        {
+          "fly_id": 2,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 41,
+            "expert_events": 30,
+            "true_positive_events": 27,
+            "false_positive_events": 14,
+            "false_negative_events": 3,
+            "precision": 0.6585365853658537,
+            "recall": 0.9,
+            "f1": 0.7605633802816901
+          },
+          "frames": {
+            "rows": 32922,
+            "positive_labels": 70,
+            "positive_predictions": 245,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                32677,
+                175
+              ],
+              [
+                0,
+                70
+              ]
+            ],
+            "precision": 0.2857142857142857,
+            "recall": 1.0,
+            "f1": 0.4444444444444444,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        }
+      ],
+      "timing_errors_seconds": {
+        "onset_error_seconds": {
+          "median": -0.03083333333330529,
+          "median_absolute": 0.03083333333330529,
+          "min": -0.14833333333319842,
+          "max": 0.0
+        },
+        "offset_error_seconds": {
+          "median": 0.0324999999999136,
+          "median_absolute": 0.0324999999999136,
+          "min": 0.0,
+          "max": 0.10333333333323935
+        },
+        "duration_error_seconds": {
+          "median": 0.07499999999997442,
+          "median_absolute": 0.07499999999997442,
+          "min": 0.01999999999998181,
+          "max": 0.14833333333319842
+        }
+      },
+      "fragmented_expert_intervals": 0,
+      "predictions_overlapping_multiple_expert_intervals": 1
+    },
+    "primary-common": {
+      "annotator": "primary-common",
+      "source_bouts": 42,
+      "retained_bouts": 9,
+      "excluded_bouts": 33,
+      "expert_bout_coverage": 0.21428571428571427,
+      "operational_predictions": 64,
+      "excluded_operational_predictions": 57,
+      "scorable_analysis_frames": 30261,
+      "scorable_fly_frame_rows": 60522,
+      "native_time_event_metrics": {
+        "iou_threshold": 0.3,
+        "predicted_events": 7,
+        "expert_events": 9,
+        "true_positive_events": 6,
+        "false_positive_events": 1,
+        "false_negative_events": 3,
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1": 0.75
+      },
+      "projected_grid_sensitivity": {
+        "iou_threshold": 0.3,
+        "predicted_events": 7,
+        "expert_events": 9,
+        "true_positive_events": 5,
+        "false_positive_events": 2,
+        "false_negative_events": 4,
+        "precision": 0.7142857142857143,
+        "recall": 0.5555555555555556,
+        "f1": 0.625
+      },
+      "conditional_frame_metrics": {
+        "rows": 60522,
+        "positive_labels": 23,
+        "positive_predictions": 75,
+        "confusion_matrix_TN_FP_FN_TP": [
+          [
+            60445,
+            54
+          ],
+          [
+            2,
+            21
+          ]
+        ],
+        "precision": 0.28,
+        "recall": 0.9130434782608695,
+        "f1": 0.42857142857142855,
+        "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+      },
+      "per_fly": [
+        {
+          "fly_id": 1,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 1,
+            "expert_events": 1,
+            "true_positive_events": 1,
+            "false_positive_events": 0,
+            "false_negative_events": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "frames": {
+            "rows": 30261,
+            "positive_labels": 1,
+            "positive_predictions": 9,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                30252,
+                8
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "precision": 0.1111111111111111,
+            "recall": 1.0,
+            "f1": 0.2,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        },
+        {
+          "fly_id": 2,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 6,
+            "expert_events": 8,
+            "true_positive_events": 5,
+            "false_positive_events": 1,
+            "false_negative_events": 3,
+            "precision": 0.8333333333333334,
+            "recall": 0.625,
+            "f1": 0.7142857142857143
+          },
+          "frames": {
+            "rows": 30261,
+            "positive_labels": 22,
+            "positive_predictions": 66,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                30193,
+                46
+              ],
+              [
+                2,
+                20
+              ]
+            ],
+            "precision": 0.30303030303030304,
+            "recall": 0.9090909090909091,
+            "f1": 0.45454545454545453,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        }
+      ],
+      "timing_errors_seconds": {
+        "onset_error_seconds": {
+          "median": -0.030833333333333712,
+          "median_absolute": 0.030833333333333712,
+          "min": -0.06666666666671972,
+          "max": -0.01666666666665151
+        },
+        "offset_error_seconds": {
+          "median": 0.015833333333318933,
+          "median_absolute": 0.015833333333318933,
+          "min": -0.0033333333333303017,
+          "max": 0.07000000000005002
+        },
+        "duration_error_seconds": {
+          "median": 0.0625,
+          "median_absolute": 0.0625,
+          "min": 0.03833333333335531,
+          "max": 0.08833333333336668
+        }
+      },
+      "fragmented_expert_intervals": 0,
+      "predictions_overlapping_multiple_expert_intervals": 0
+    },
+    "secondary-common": {
+      "annotator": "secondary-common",
+      "source_bouts": 48,
+      "retained_bouts": 9,
+      "excluded_bouts": 39,
+      "expert_bout_coverage": 0.1875,
+      "operational_predictions": 64,
+      "excluded_operational_predictions": 57,
+      "scorable_analysis_frames": 30261,
+      "scorable_fly_frame_rows": 60522,
+      "native_time_event_metrics": {
+        "iou_threshold": 0.3,
+        "predicted_events": 7,
+        "expert_events": 9,
+        "true_positive_events": 6,
+        "false_positive_events": 1,
+        "false_negative_events": 3,
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1": 0.75
+      },
+      "projected_grid_sensitivity": {
+        "iou_threshold": 0.3,
+        "predicted_events": 7,
+        "expert_events": 9,
+        "true_positive_events": 5,
+        "false_positive_events": 2,
+        "false_negative_events": 4,
+        "precision": 0.7142857142857143,
+        "recall": 0.5555555555555556,
+        "f1": 0.625
+      },
+      "conditional_frame_metrics": {
+        "rows": 60522,
+        "positive_labels": 19,
+        "positive_predictions": 75,
+        "confusion_matrix_TN_FP_FN_TP": [
+          [
+            60447,
+            56
+          ],
+          [
+            0,
+            19
+          ]
+        ],
+        "precision": 0.25333333333333335,
+        "recall": 1.0,
+        "f1": 0.40425531914893614,
+        "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+      },
+      "per_fly": [
+        {
+          "fly_id": 1,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 1,
+            "expert_events": 1,
+            "true_positive_events": 1,
+            "false_positive_events": 0,
+            "false_negative_events": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "frames": {
+            "rows": 30261,
+            "positive_labels": 1,
+            "positive_predictions": 9,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                30252,
+                8
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "precision": 0.1111111111111111,
+            "recall": 1.0,
+            "f1": 0.2,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        },
+        {
+          "fly_id": 2,
+          "events": {
+            "iou_threshold": 0.3,
+            "predicted_events": 6,
+            "expert_events": 8,
+            "true_positive_events": 5,
+            "false_positive_events": 1,
+            "false_negative_events": 3,
+            "precision": 0.8333333333333334,
+            "recall": 0.625,
+            "f1": 0.7142857142857143
+          },
+          "frames": {
+            "rows": 30261,
+            "positive_labels": 18,
+            "positive_predictions": 66,
+            "confusion_matrix_TN_FP_FN_TP": [
+              [
+                30195,
+                48
+              ],
+              [
+                0,
+                18
+              ]
+            ],
+            "precision": 0.2727272727272727,
+            "recall": 1.0,
+            "f1": 0.42857142857142855,
+            "scientific_status": "conditional on exhaustive supplied lunge labels, not confirmed expert negatives"
+          }
+        }
+      ],
+      "timing_errors_seconds": {
+        "onset_error_seconds": {
+          "median": -0.03333333333333144,
+          "median_absolute": 0.03333333333333144,
+          "min": -0.07666666666671063,
+          "max": -0.011666666666656056
+        },
+        "offset_error_seconds": {
+          "median": 0.0274999999999892,
+          "median_absolute": 0.0274999999999892,
+          "min": 0.01999999999998181,
+          "max": 0.06500000000005457
+        },
+        "duration_error_seconds": {
+          "median": 0.07500000000003126,
+          "median_absolute": 0.07500000000003126,
+          "min": 0.05833333333328028,
+          "max": 0.09666666666669244
+        }
+      },
+      "fragmented_expert_intervals": 0,
+      "predictions_overlapping_multiple_expert_intervals": 0
+    }
+  },
+  "annotation_agreement_asymmetric_primary_predictions_secondary_reference": {
+    "iou_threshold": 0.3,
+    "predicted_events": 42,
+    "expert_events": 48,
+    "true_positive_events": 42,
+    "false_positive_events": 0,
+    "false_negative_events": 6,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+  },
+  "annotation_agreement_warning": "Agreement describes two annotation sets, not an adjudicated ground truth or expert accuracy."
+}

@@ -1,0 +1,35 @@
+{
+  "operational_events": 64,
+  "operational_events_touching_imputed_features": 0,
+  "operational_events_not_fully_technical_eligible": 10,
+  "per_annotator": {
+    "primary": {
+      "source_events_with_at_most2selected_samples": 18,
+      "source_events_unmatchable_at_native_iou03_even_with_optimal30fps_min3": 0,
+      "retained_events_unmatchable_at_native_iou03": 0,
+      "missed_retained_events": 3,
+      "missed_retained_events_with_at_most2selected_samples": 2,
+      "unmatched_predictions": 1,
+      "unmatched_overlapping_other_annotator_lunge": 0,
+      "unmatched_overlapping_nonlunge_behaviour_label": 0
+    },
+    "secondary": {
+      "source_events_with_at_most2selected_samples": 33,
+      "source_events_unmatchable_at_native_iou03_even_with_optimal30fps_min3": 0,
+      "retained_events_unmatchable_at_native_iou03": 0,
+      "missed_retained_events": 4,
+      "missed_retained_events_with_at_most2selected_samples": 4,
+      "unmatched_predictions": 18,
+      "unmatched_overlapping_other_annotator_lunge": 2,
+      "unmatched_overlapping_nonlunge_behaviour_label": 1
+    }
+  },
+  "evidence_supported": "Coverage is restricted; native-to30FPS temporal quantization changes matching; common-mask annotator metrics can separate coverage effects; descriptive feature shifts exist. None isolates a causal effect of tracking vs feature differences vs classifier.",
+  "primary_limitation": "Scientific interpretation is constrained first by annotation/identity/coverage. Within retained intervals, short event timing and extra predicted support reduce frame precision. Cross-dataset classifier/feature shift remains a plausible contributor, not causally established.",
+  "prohibited_claims": [
+    "whole-recording75%F1",
+    "expert-equivalent measurements",
+    "proof of causal failure mode",
+    "model improvement from test-data tuning"
+  ]
+}

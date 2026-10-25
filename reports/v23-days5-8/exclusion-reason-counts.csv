@@ -1,0 +1,8 @@
+annotator,reason,excluded_source_bouts,counts_overlap
+primary,annotation_unknown_or_extra_uncertain,29,True
+primary,technical_or_unknown_coverage,33,True
+primary,native_reference_missing,1,True
+primary,native_reference_warning,1,True
+secondary,annotation_unknown_or_extra_uncertain,8,True
+secondary,technical_or_unknown_coverage,16,True
+secondary,native_reference_missing,1,True
