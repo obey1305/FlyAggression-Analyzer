@@ -1,0 +1,12 @@
+test_cardinality_precedes_iou (test_evaluation.EvaluationTests.test_cardinality_precedes_iou) ... ok
+test_censor_closure_retains_short_complete_bout (test_evaluation.EvaluationTests.test_censor_closure_retains_short_complete_bout) ... ok
+test_continuous_match_not_frame_count_iou (test_evaluation.EvaluationTests.test_continuous_match_not_frame_count_iou) ... ok
+test_initially_excluded_bout_censors_other_stream (test_evaluation.EvaluationTests.test_initially_excluded_bout_censors_other_stream) ... ok
+test_native_half_open_bin_boundaries (test_evaluation.EvaluationTests.test_native_half_open_bin_boundaries) ... ok
+test_no_predictions_preserves_missed_event (test_evaluation.EvaluationTests.test_no_predictions_preserves_missed_event) ... ok
+test_prediction_crossing_mask_or_mapping_is_excluded (test_evaluation.EvaluationTests.test_prediction_crossing_mask_or_mapping_is_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.022s
+
+OK

@@ -1,0 +1,30 @@
+[
+  {
+    "source_event_id": 2000001,
+    "analysis_frame": 4764,
+    "source_frame": 31754,
+    "exclusion_reasons": "annotation_unknown_or_extra_uncertain;technical_or_unknown_coverage",
+    "review_scope": "position correspondence only; no expert biological identity adjudication"
+  },
+  {
+    "source_event_id": 2000006,
+    "analysis_frame": 8779,
+    "source_frame": 58521,
+    "exclusion_reasons": "native_reference_missing;technical_or_unknown_coverage",
+    "review_scope": "position correspondence only; no expert biological identity adjudication"
+  },
+  {
+    "source_event_id": 2000024,
+    "analysis_frame": 26385,
+    "source_frame": 175894,
+    "exclusion_reasons": "technical_or_unknown_coverage",
+    "review_scope": "position correspondence only; no expert biological identity adjudication"
+  },
+  {
+    "source_event_id": 2000038,
+    "analysis_frame": 34999,
+    "source_frame": 233321,
+    "exclusion_reasons": "native_reference_warning;technical_or_unknown_coverage",
+    "review_scope": "position correspondence only; no expert biological identity adjudication"
+  }
+]

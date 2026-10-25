@@ -1,0 +1,7 @@
+test_changed_locked_input_rejected (test_frozen_guard.FrozenGuardTests.test_changed_locked_input_rejected) ... ok
+test_existing_prediction_run_not_overwritten (test_frozen_guard.FrozenGuardTests.test_existing_prediction_run_not_overwritten) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

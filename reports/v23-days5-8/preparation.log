@@ -1,0 +1,6 @@
+annotator  reference_fly_id  source_bouts  retained_bouts  excluded_bouts  coverage_fraction  joint_scorable_analysis_frames  joint_total_analysis_frames  annotation_unknown_bins  technical_eligible_bins_before_unknown
+  primary                 1             1               1               0           1.000000                           30601                        38390                     2917                                   33482
+  primary                 2            41               8              33           0.195122                           30601                        38390                     2917                                   33482
+secondary                 1             2               2               0           1.000000                           32922                        38390                      586                                   33482
+secondary                 2            46              30              16           0.652174                           32922                        38390                      586                                   33482
+LOCKED 313a48ff3096083321a915d462eea199285dcbbf26b23cb7b3160c2ec6874e8b
