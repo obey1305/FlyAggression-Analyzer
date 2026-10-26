@@ -1,0 +1,33 @@
+test_duplicate_keys (test_days3_6.CalibrationDatasetTests.test_duplicate_keys) ... ok
+test_flagged_overlap_remains_unknown (test_days3_6.CalibrationDatasetTests.test_flagged_overlap_remains_unknown) ... ok
+test_inclusive_annotation_boundaries (test_days3_6.CalibrationDatasetTests.test_inclusive_annotation_boundaries) ... ok
+test_invalid_scale (test_days3_6.CalibrationDatasetTests.test_invalid_scale) ... ok
+test_out_of_bounds_annotation (test_days3_6.CalibrationDatasetTests.test_out_of_bounds_annotation) ... ok
+test_physical_scaling_only (test_days3_6.CalibrationDatasetTests.test_physical_scaling_only) ... ok
+test_recording_leakage (test_days3_6.CalibrationDatasetTests.test_recording_leakage) ... ok
+test_ambiguous_parallel_axes_remain_uncertain (test_identity.IdentityTests.test_ambiguous_parallel_axes_remain_uncertain) ... ok
+test_long_gap_not_filled (test_identity.IdentityTests.test_long_gap_not_filled) ... ok
+test_missing_orientation_not_interpolated (test_identity.IdentityTests.test_missing_orientation_not_interpolated) ... ok
+test_motion_disagreement_not_bridged (test_identity.IdentityTests.test_motion_disagreement_not_bridged) ... ok
+test_original_arrays_unmodified (test_identity.IdentityTests.test_original_arrays_unmodified) ... ok
+test_pose_and_continuity_supported_bridge (test_identity.IdentityTests.test_pose_and_continuity_supported_bridge) ... ok
+test_warning_not_overridden (test_identity.IdentityTests.test_warning_not_overridden) ... ok
+test_altered_threshold_rejected (test_release.Release22Tests.test_altered_threshold_rejected) ... ok
+test_app_version_warning_and_feature_example (test_release.Release22Tests.test_app_version_warning_and_feature_example) ... 2026-10-26 11:29:16.860 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+FAIL
+test_candidate_does_not_mix_with_21 (test_release.Release22Tests.test_candidate_does_not_mix_with_21) ... ok
+test_raw_routes_to_22 (test_release.Release22Tests.test_raw_routes_to_22) ... ok
+
+======================================================================
+FAIL: test_app_version_warning_and_feature_example (test_release.Release22Tests.test_app_version_warning_and_feature_example)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/tests/v22/test_release.py", line 21, in test_app_version_warning_and_feature_example
+    a=AppTest.from_file(str(ROOT/'app.py')).run(timeout=30);self.assertEqual(len(a.exception),0);self.assertTrue(any('VERSION 2.2' in x.value for x in a.markdown));a.button[1].click().run(timeout=30);self.assertEqual(len(a.exception),0);self.assertEqual(a.metric[0].value,'325');a.radio[0].set_value('Experimental raw video').run(timeout=30);self.assertEqual(len(a.metric),0);self.assertTrue(any('2.2' in x.value for x in a.warning));self.assertTrue(any(x.label=='Analyse video' and x.disabled for x in a.button))
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.440s
+
+FAILED (failures=1)

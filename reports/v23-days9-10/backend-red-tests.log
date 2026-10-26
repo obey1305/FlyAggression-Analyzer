@@ -1,0 +1,21 @@
+test_video_integration (unittest.loader._FailedTest.test_video_integration) ... ERROR
+
+======================================================================
+ERROR: test_video_integration (unittest.loader._FailedTest.test_video_integration)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_video_integration
+Traceback (most recent call last):
+  File "/Users/adityasinghchauhan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/adityasinghchauhan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/tests/v23/test_video_integration.py", line 4, in <module>
+    from video_pipeline import validate_metadata,validate_rectangle
+ModuleNotFoundError: No module named 'video_pipeline'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

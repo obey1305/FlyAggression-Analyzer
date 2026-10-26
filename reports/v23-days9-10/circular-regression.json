@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "actual_circular_upload_success": true,
+  "frames_per_fly": 300,
+  "frozen_model_version": "2.2.0",
+  "png_zip_csv_verified": true,
+  "event_count": 3,
+  "elapsed_seconds": 62.648832125007175,
+  "scope": "functional regression on known training-source excerpt; not accuracy validation"
+}

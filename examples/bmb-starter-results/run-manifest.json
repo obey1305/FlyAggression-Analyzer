@@ -1,0 +1,204 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-10-26T05:59:57.402483+00:00",
+  "elapsed_seconds": 0.42528991698054597,
+  "input": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/data/v23-final-full/experimental_feat.mat",
+  "input_sha256": "9d5213fbef20de5dbd98d4c87771e70d6a51c79b7e307badc7c8bf27e4c07ef6",
+  "model": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/models/raw-v2.2/lunge-detector.joblib",
+  "model_sha256": "8be5bf703442f1035fadc0ae23a0215c8d61b7257de18b54d764adbe57219909",
+  "input_schema": {
+    "source_feature_names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ],
+    "selected_feature_names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ],
+    "ignored_extra_names": [],
+    "flies": 2,
+    "frames_per_fly": 38390,
+    "nonfinite_source_values": 110921,
+    "matlab_format": "scipy-readable MAT v5/v7 through v7.2; scalar feat struct",
+    "fps_inferred_from_mat": false
+  },
+  "fps": 30.0,
+  "fps_policy": "Explicit/project-default 30 fps, not derived from MATLAB feature metadata",
+  "threshold": 0.15,
+  "event_rules": {
+    "median_window": 3,
+    "max_gap_frames": 1,
+    "min_event_frames": 3
+  },
+  "event_unit": "One source fly bout, with original 1-based inclusive endpoints",
+  "annotation_files_read": false,
+  "model_training_recordings": [
+    "movie1",
+    "movie2",
+    "movie3",
+    "movie4"
+  ],
+  "recording_id_matches_training_id": false,
+  "training_id_caveat": "ID comparison alone does not establish novelty if a file is renamed; the Day10 audit checks recorded training feature hashes separately.",
+  "feature_engineering_version": 0,
+  "predictor_count": 36,
+  "missing_value_policy": "Use the saved training-only imputer; no fit/refit or expert labels are used",
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1"
+  },
+  "outputs": [
+    {
+      "file": "frame-predictions.csv",
+      "rows": 76780,
+      "sha256": "3e8060f88a6990e9ba13886a4199143af5ffd35c1d99675cbf909e6c4c6ddcf4"
+    },
+    {
+      "file": "lunge-events.csv",
+      "rows": 64,
+      "sha256": "ea3993ab5d658a74017278bfc89f1a6c37c4e36a49aab2c4d46b8aa5fbf798cc"
+    },
+    {
+      "file": "summary-by-fly.csv",
+      "rows": 2,
+      "sha256": "b55de01b7b6ca4bb77473bf1511e35a5ed31ed92e99ce5d7f4f178d58b24ed5e"
+    },
+    {
+      "file": "summary-by-recording.csv",
+      "rows": 1,
+      "sha256": "a18c7306e42bf531780ec2792d67c10b9fdf53361cdaf0ab51fe1a739e7e25b8"
+    }
+  ],
+  "model_version": "2.2.0",
+  "application_version": "2.3.0",
+  "analysis_mode": "rectangular-raw-video",
+  "scientific_status": "operational predictions; no whole-recording accuracy established",
+  "source_import": {
+    "width": 640,
+    "height": 480,
+    "frames": 255929,
+    "fps": 200,
+    "duration_seconds": 1279.645,
+    "analysis_fps": 30,
+    "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/new-training-data/BoyMeetsBoy/downloads/movie5.avi",
+    "pix_fmt": "yuvj420p",
+    "color_range": "pc",
+    "color_space": "bt470bg"
+  },
+  "analysis_import": {
+    "width": 640,
+    "height": 480,
+    "frames": 38390,
+    "fps": 30,
+    "duration_seconds": 1279.6666666666667,
+    "analysis_fps": 30,
+    "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/data/v23-final-full/analysis.mp4",
+    "pix_fmt": "yuvj420p",
+    "color_range": "pc",
+    "color_space": "bt470bg",
+    "maximum_sample_time_error_seconds": 0.0016666666667788377,
+    "decoded_pixel_hash_parity": true,
+    "duration_grid_tail_difference_seconds": 0.021666666666760648
+  },
+  "scale_source": "published-nominal",
+  "tracking_quality": {
+    "tracking_warning_frames": 38,
+    "missing_xy_rows_by_fly": [
+      216,
+      3258
+    ],
+    "nonfinite36feature_rows_by_fly": [
+      2634,
+      2669
+    ],
+    "identity_policy": "native FlyTracker IDs retained; biological continuity not verified",
+    "reference_identity_or_expert_annotations_used": false
+  },
+  "arena_calibration": {
+    "bounds": [
+      20,
+      10,
+      620,
+      479
+    ],
+    "padding": 12,
+    "pixels_per_mm": 12.0,
+    "tracking_bounds": [
+      8,
+      1,
+      632,
+      480
+    ]
+  }
+}

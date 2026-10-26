@@ -1,0 +1,143 @@
+{
+  "status": "complete",
+  "pipeline_version": "2.3.0",
+  "source": {
+    "width": 640,
+    "height": 480,
+    "frames": 255929,
+    "fps": 200,
+    "duration_seconds": 1279.645,
+    "analysis_fps": 30,
+    "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/new-training-data/BoyMeetsBoy/downloads/movie5.avi",
+    "pix_fmt": "yuvj420p",
+    "color_range": "pc",
+    "color_space": "bt470bg"
+  },
+  "geometry": {
+    "bounds": [
+      20,
+      10,
+      620,
+      479
+    ],
+    "padding": 12,
+    "pixels_per_mm": 12.0,
+    "tracking_bounds": [
+      8,
+      1,
+      632,
+      480
+    ]
+  },
+  "scale_source": "published-nominal",
+  "scale_independently_verified": false,
+  "model_release": {
+    "release_version": "2.2.0",
+    "mode": "raw-video-only",
+    "threshold": 0.15,
+    "event_rules": {
+      "median_window": 3,
+      "max_gap_frames": 1,
+      "min_event_frames": 3
+    },
+    "source_feature_names": [
+      "vel",
+      "ang_vel",
+      "min_wing_ang",
+      "max_wing_ang",
+      "mean_wing_length",
+      "axis_ratio",
+      "fg_body_ratio",
+      "contrast",
+      "dist_to_other",
+      "angle_between",
+      "facing_angle",
+      "leg_dist",
+      "vel_diff1",
+      "vel_diff2",
+      "ang_vel_diff1",
+      "ang_vel_diff2",
+      "min_wing_ang_diff1",
+      "min_wing_ang_diff2",
+      "max_wing_ang_diff1",
+      "max_wing_ang_diff2",
+      "mean_wing_length_diff1",
+      "mean_wing_length_diff2",
+      "axis_ratio_diff1",
+      "axis_ratio_diff2",
+      "fg_body_ratio_diff1",
+      "fg_body_ratio_diff2",
+      "contrast_diff1",
+      "contrast_diff2",
+      "dist_to_other_diff1",
+      "dist_to_other_diff2",
+      "angle_between_diff1",
+      "angle_between_diff2",
+      "facing_angle_diff1",
+      "facing_angle_diff2",
+      "leg_dist_diff1",
+      "leg_dist_diff2"
+    ],
+    "feature_engineering_version": 0,
+    "model_sha256": "8be5bf703442f1035fadc0ae23a0215c8d61b7257de18b54d764adbe57219909",
+    "adapter_sha256": "b1f28e1c12ad55ad87847b6f3cf1a5e140c82f3b9785bbe5e0540f116ce9aaf4",
+    "scientific_status": "retrospective development evaluation; no independent generalization or accuracy improvement established",
+    "candidate_source_sha256": "9180cd7c2261f6b0bc9030655b9c01ae7f49d9224eedca3e958432409f2d2d05",
+    "training_recordings": [
+      "movie1",
+      "movie2",
+      "movie3",
+      "movie4"
+    ],
+    "selection_recordings": [
+      "movie5"
+    ],
+    "identity_policy": "native source identities; no unsupported reference-assisted correction integrated"
+  },
+  "source_sha256": "966c3f3c660b175a24c217da2980bf7a83717e6c3969ae7aa63de0ebd5834262",
+  "model_sha256": "8be5bf703442f1035fadc0ae23a0215c8d61b7257de18b54d764adbe57219909",
+  "stages": [
+    "lossless mapped30FPS import",
+    "fresh full rectangular tracking",
+    "pinned36feature conversion",
+    "frozen model prediction; no tuning"
+  ],
+  "annotations_used": false,
+  "model_fit": false,
+  "stage": "Complete",
+  "source_timestamp_max_error_seconds": 0.0,
+  "source_start_timestamp_seconds": 0.0,
+  "analysis": {
+    "width": 640,
+    "height": 480,
+    "frames": 38390,
+    "fps": 30,
+    "duration_seconds": 1279.6666666666667,
+    "analysis_fps": 30,
+    "path": "/Users/adityasinghchauhan/Documents/Codex/2026-10-16/fi/outputs/flyaggression-v2.3/data/v23-final-full/analysis.mp4",
+    "pix_fmt": "yuvj420p",
+    "color_range": "pc",
+    "color_space": "bt470bg",
+    "maximum_sample_time_error_seconds": 0.0016666666667788377,
+    "decoded_pixel_hash_parity": true,
+    "duration_grid_tail_difference_seconds": 0.021666666666760648
+  },
+  "quality": {
+    "tracking_warning_frames": 38,
+    "missing_xy_rows_by_fly": [
+      216,
+      3258
+    ],
+    "nonfinite36feature_rows_by_fly": [
+      2634,
+      2669
+    ],
+    "identity_policy": "native FlyTracker IDs retained; biological continuity not verified",
+    "reference_identity_or_expert_annotations_used": false
+  },
+  "elapsed_seconds": 718.2971235000005,
+  "event_count": 64,
+  "feature_sha256": "9d5213fbef20de5dbd98d4c87771e70d6a51c79b7e307badc7c8bf27e4c07ef6",
+  "analysis_video_sha256": "8fd6999608877493ee52fb6325b6dfcedade803aaddf81c6830f81901d6bc24a",
+  "model_sha256_after": "8be5bf703442f1035fadc0ae23a0215c8d61b7257de18b54d764adbe57219909"
+}

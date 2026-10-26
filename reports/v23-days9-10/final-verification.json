@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "current_v23_tests": 33,
+  "current_root_regression_tests": 26,
+  "preserved_v22_tests": 18,
+  "total_tests_passed": 77,
+  "fresh_full_pipeline_events": 64,
+  "fresh_vs_locked_max_feature_difference": 0.0,
+  "fresh_vs_locked_max_probability_difference": 0.0,
+  "original_example_events": 325,
+  "actual_circle_upload_passed": true,
+  "actual_200fps_rectangular_upload_passed": true,
+  "package_verification": "PASS",
+  "software_freeze_hashes_verified": true,
+  "locked_study_input_hashes_verified": true,
+  "new_desktop_launcher": "/Users/adityasinghchauhan/Desktop/FlyAggression Analyzer v2.3.command",
+  "raw_model_unchanged": true,
+  "full_video_biological_accuracy_claimed": false
+}

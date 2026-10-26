@@ -1,0 +1,13 @@
+{
+  "tracking_warning_frames": 38,
+  "missing_xy_rows_by_fly": [
+    216,
+    3258
+  ],
+  "nonfinite36feature_rows_by_fly": [
+    2634,
+    2669
+  ],
+  "identity_policy": "native FlyTracker IDs retained; biological continuity not verified",
+  "reference_identity_or_expert_annotations_used": false
+}

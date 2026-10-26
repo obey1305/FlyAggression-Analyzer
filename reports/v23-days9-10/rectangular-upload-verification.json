@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "actual_uploaded_bytes_service_success": true,
+  "original_filename_preserved": true,
+  "source_fps": 200,
+  "analysis_fps": 30,
+  "analysis_frames_per_fly": 600,
+  "events": 0,
+  "elapsed_seconds": 55.095127958018566,
+  "scope": "functional fixed20second excerpt from already examined external recording; not fresh independent accuracy"
+}

@@ -1,0 +1,40 @@
+test_consent_and_empty_upload (test_app_v23.AppV23Tests.test_consent_and_empty_upload) ... ok
+test_corrupt_rectangular_video_rejected (test_app_v23.AppV23Tests.test_corrupt_rectangular_video_rejected) ... ok
+test_original_example_still_325_and_rectangular_controls (test_app_v23.AppV23Tests.test_original_example_still_325_and_rectangular_controls) ... 2026-10-26 11:38:28.086 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_saved_demo_downloads_include_mapping_and_calibration (test_completed_demo.CompletedDemoTests.test_saved_demo_downloads_include_mapping_and_calibration) ... ok
+test_saved_demo_renders64_and_is_explicitly_saved (test_completed_demo.CompletedDemoTests.test_saved_demo_renders64_and_is_explicitly_saved) ... 2026-10-26 11:38:30.281 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_generated_mat_cannot_enter_original_workflow (test_derived_routing.DerivedRoutingTests.test_generated_mat_cannot_enter_original_workflow) ... ok
+test_cardinality_precedes_iou (test_evaluation.EvaluationTests.test_cardinality_precedes_iou) ... ok
+test_censor_closure_retains_short_complete_bout (test_evaluation.EvaluationTests.test_censor_closure_retains_short_complete_bout) ... ok
+test_continuous_match_not_frame_count_iou (test_evaluation.EvaluationTests.test_continuous_match_not_frame_count_iou) ... ok
+test_initially_excluded_bout_censors_other_stream (test_evaluation.EvaluationTests.test_initially_excluded_bout_censors_other_stream) ... ok
+test_native_half_open_bin_boundaries (test_evaluation.EvaluationTests.test_native_half_open_bin_boundaries) ... ok
+test_no_predictions_preserves_missed_event (test_evaluation.EvaluationTests.test_no_predictions_preserves_missed_event) ... ok
+test_prediction_crossing_mask_or_mapping_is_excluded (test_evaluation.EvaluationTests.test_prediction_crossing_mask_or_mapping_is_excluded) ... ok
+test_selection_matches_map_including_partial_tail (test_ffmpeg_mapping.EncodedSelectionTests.test_selection_matches_map_including_partial_tail) ... ok
+test_changed_locked_input_rejected (test_frozen_guard.FrozenGuardTests.test_changed_locked_input_rejected) ... ok
+test_existing_prediction_run_not_overwritten (test_frozen_guard.FrozenGuardTests.test_existing_prediction_run_not_overwritten) ... ok
+test_inclusive_single_source_frame (test_import.ImportTests.test_inclusive_single_source_frame) ... ok
+test_invalid_geometry_and_rate (test_import.ImportTests.test_invalid_geometry_and_rate) ... ok
+test_long_video_no_drift (test_import.ImportTests.test_long_video_no_drift) ... ok
+test_rectangle_edges_inclusive (test_import.ImportTests.test_rectangle_edges_inclusive) ... ok
+test_short_tail_is_clipped (test_import.ImportTests.test_short_tail_is_clipped) ... ok
+test_unobserved_lunge_is_flagged (test_import.ImportTests.test_unobserved_lunge_is_flagged) ... ok
+test_exact_three_frame_interval_can_match (test_temporal_limits.TemporalLimitTests.test_exact_three_frame_interval_can_match) ... ok
+test_short_interval_cannot_match_minimum_duration (test_temporal_limits.TemporalLimitTests.test_short_interval_cannot_match_minimum_duration) ... ok
+test_inclusive_warning_interval (test_tracking_io.TrackingIOTests.test_inclusive_warning_interval) ... ok
+test_matlab_empty_dimensions_are_not_warning_rows (test_tracking_io.TrackingIOTests.test_matlab_empty_dimensions_are_not_warning_rows) ... ok
+test_decode_failure_has_user_error (test_ui_provenance.UIProvenanceTests.test_decode_failure_has_user_error) ... ok
+test_same_content_renamed_upload_changes_result_identity (test_ui_provenance.UIProvenanceTests.test_same_content_renamed_upload_changes_result_identity) ... ok
+test_upload_display_name_separate_from_storage (test_ui_provenance.UIProvenanceTests.test_upload_display_name_separate_from_storage) ... ok
+test_rectangle_not_full_mask (test_video_integration.VideoIntegrationTests.test_rectangle_not_full_mask) ... ok
+test_supported_native_metadata (test_video_integration.VideoIntegrationTests.test_supported_native_metadata) ... ok
+test_unknown_scale_and_outside_bounds_rejected (test_video_integration.VideoIntegrationTests.test_unknown_scale_and_outside_bounds_rejected) ... ok
+test_variable_or_fractional_rate_rejected (test_video_integration.VideoIntegrationTests.test_variable_or_fractional_rate_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 2.766s
+
+OK

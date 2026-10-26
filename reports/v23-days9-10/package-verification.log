@@ -1,0 +1,12 @@
+PASS: 685 packaged files verified
+{
+  "status": "PASS",
+  "package_files_verified": 685,
+  "zip_crc_and_all_manifest_bytes_verified": true,
+  "relocated_original_feature_example_events": 325,
+  "relocated_rectangular_demo_events": 64,
+  "imports_verified_from_relocated_package": true,
+  "model_sha256": "8be5bf703442f1035fadc0ae23a0215c8d61b7257de18b54d764adbe57219909",
+  "large_source_videos_bundled": false,
+  "matlab_python_environment_bundled": false
+}

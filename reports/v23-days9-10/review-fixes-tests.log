@@ -1,0 +1,8 @@
+test_decode_failure_has_user_error (test_ui_provenance.UIProvenanceTests.test_decode_failure_has_user_error) ... ok
+test_same_content_renamed_upload_changes_result_identity (test_ui_provenance.UIProvenanceTests.test_same_content_renamed_upload_changes_result_identity) ... ok
+test_upload_display_name_separate_from_storage (test_ui_provenance.UIProvenanceTests.test_upload_display_name_separate_from_storage) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

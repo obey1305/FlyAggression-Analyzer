@@ -1,0 +1,9 @@
+test_rectangle_not_full_mask (test_video_integration.VideoIntegrationTests.test_rectangle_not_full_mask) ... ok
+test_supported_native_metadata (test_video_integration.VideoIntegrationTests.test_supported_native_metadata) ... ok
+test_unknown_scale_and_outside_bounds_rejected (test_video_integration.VideoIntegrationTests.test_unknown_scale_and_outside_bounds_rejected) ... ok
+test_variable_or_fractional_rate_rejected (test_video_integration.VideoIntegrationTests.test_variable_or_fractional_rate_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK

@@ -1,0 +1,9 @@
+test_consent_and_empty_upload (test_app_v23.AppV23Tests.test_consent_and_empty_upload) ... ok
+test_corrupt_rectangular_video_rejected (test_app_v23.AppV23Tests.test_corrupt_rectangular_video_rejected) ... ok
+test_original_example_still_325_and_rectangular_controls (test_app_v23.AppV23Tests.test_original_example_still_325_and_rectangular_controls) ... 2026-10-26 11:20:29.417 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.564s
+
+OK
