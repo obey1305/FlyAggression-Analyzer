@@ -1,30 +1,47 @@
-# FlyAggression Analyzer Version2.2 research release
+# FlyAggression Analyzer
 
-See [final report](FINAL-REPORT-V22.md), [installation/user guide](INSTALLATION-V22.md) and [demonstration](DEMONSTRATION-V22.md). Both workflows are integrated and tested. Retrospective evaluation found no accuracy, identity or annotation-coverage improvement over2.1; no independent annotated test recording was available. Historical reports below describe earlier development stages.
+PRJ 501 research prototype for automated Drosophila lunge detection and quantification.
 
-# Version 2.2 development — Days 3–6
+**Current software: Version 2.3.** The raw-video workflow uses the unchanged frozen Version 2.2 Random Forest. The original MATLAB feature-file classifier remains available.
 
-See [Days 3–6 report](DAYS3-6-REPORT.md) for calibration audit, rebuilt data, separate fresh candidate and temporal search. No accuracy or coverage improvement was measured. Nominal physical scale remains unverified per recording; candidate is offline and not integrated.
+## Start here
 
-# Version 2.2 development — Days 1–2
+- [Download the packaged application](https://github.com/obey1305/FlyAggression-Analyzer/releases/tag/v2.3.0)
+- [Installation](INSTALLATION-V23.md) · [User guide](USER-GUIDE-V23.md)
+- [Final report](FINAL-REPORT-V23.md) · [PRJ 501 demonstration](DEMONSTRATION-V23.md)
+- [Dataset and compatibility inspection](DAYS1-4-REPORT-V23.md)
+- [Cross-dataset evaluation and failure analysis](DAYS5-8-REPORT-V23.md)
 
-Offline exclusion audit and conservative reference-assisted identity alignment. See [Days 1–2 report](DAYS1-2-REPORT.md). No new classifier or runtime integration is included; Version 2.1 remains the working application.
+The packaged release includes the companion runtime files needed by the application. A source checkout preserves the research history; several research scripts reference the original local data layout. Use the release package and installation guide for the tested runnable distribution. Python dependencies, licensed MATLAB and FFmpeg must be installed separately. This is a macOS-tested research prototype, not a validated clinical or production system.
 
-The following inherited documentation describes the preserved Version 2.1 baseline.
+## Supported workflows
 
-# FlyAggression Analyzer 2.1
+- Compatible original MATLAB feature files with the frozen original classifier.
+- Circular-arena 30 FPS MP4 recordings with the preserved calibration and tracking workflow.
+- Tested rectangular-arena constant 30/200 FPS AVI/MP4 recordings, timestamp mapping, FlyTracker and 36-feature extraction.
+- Lunge counts, durations, timelines and CSV, PNG and ZIP exports.
 
-Completed local research prototype through Days9–10. See **FINAL-REPORT.pdf** for the measured results and limitations, **INSTALLATION.md** for setup, and **DEMONSTRATION.md** for the PRJ501 walkthrough.
+## Scientific results and limits
 
-- Workspace app: `app.py`, opened by the Desktop **FlyAggression Analyzer.command**, port8502.
-- Original MATLAB workflow: original frozen1.0.0 classifier, preserved unchanged.
-- Raw MP4 workflow: unchanged automatic calibration and tracker/36-feature adapter, separate frozen2.1.0 Random Forest.
-- Raw model: `models/raw-v2.1/` (threshold0.15, median3, gap1, minimum3 frames).
-- Training: movies1–4; development selection: movie5. No untouched final-test recording available.
-- Final development results on filtered movie5 coverage: frame F1 **62.32%**, event F1 **75.63%**. Event evaluation retains124/303 source bouts; these are not independent full-video accuracy estimates.
-- Fresh full30-minute movie1 functional test: **244.8 seconds**, **68 predicted events**, **11.2 summed fly-seconds**. Training-source test, not accuracy validation.
-- Final checks: **26 Version2.1 tests**, **55 original-workflow tests**, nine handled invalid-input cases, independent export/metric audits and relocated package verification.
+The frozen model was evaluated on one externally collected Boy Meets Boy recording under a locked protocol. Primary annotations retained **9/42 expert events (21.43%)**, with conditional event F1 **0.750**; secondary annotations retained **32/48 (66.67%)**, with event F1 **0.718**. These are restricted-coverage results, not full-recording accuracy estimates. Frame-level scoring assumes the supplied labels are exhaustive in eligible intervals. Arena scale is published nominal scale, not a verified per-recording measurement. Fly identity and tracking uncertainty remain documented limitations.
 
-The release ZIP and folder are siblings of this repository: `../FlyAggression-Analyzer-v2.1-Release.zip` and `../FlyAggression-Analyzer-v2.1-Release/`. The extracted launcher uses port8503 and requires a separately installed compatible Python environment and licensed MATLAB. The relocated package was tested with the existing pinned environment, not a clean dependency installation on another machine.
+The fresh full-video functional run reproduced **64 operational predicted events**. Operational counts differ from the subset of predictions eligible for expert comparison. No classifier retraining or threshold tuning occurred during Version 2.3 evaluation. See the final report before interpreting any metric.
 
-Detailed evidence is under `reports/day9/`, `reports/day10/` and `reports/day9-final-verification.json`. Earlier reports preserve the Days1–3 preparation, Day4 baseline and Days5–8 development history. Training data and source release snapshots remain outside Git under `data/` and `source-snapshot/`; their hashes are recorded. No training or parameter tuning occurred during Days9–10.
+## Repository organization
+
+| Location | Contents |
+| --- | --- |
+| `app.py`, `scripts/` | Interface, import, tracking integration and analysis tools |
+| `models/`, `config/` | Frozen models, preprocessing, provenance and evaluation locks |
+| `tests/` | Regression and integration tests |
+| `reports/` | Recorded development and validation evidence |
+| `examples/` | Completed demonstration exports |
+| `docs/` | Implementation plans and historical documentation |
+
+Large raw videos, Python environments and temporary processing folders are excluded. The source dataset is attributed in the installation guide: [Boy Meets Boy, Caltech Data](https://data.caltech.edu/records/zrznw-w7386), DOI 10.22002/D1.1893. Obtain data from its provider under the provider's terms. Third-party components retain their original notices; this repository does not grant new rights over them.
+
+## Preserved versions
+
+`main` contains the GitHub handoff documentation above Version 2.3. Branches `v2.1`, `v2.2` and `v2.3` preserve their original commits. Release tags identify the corresponding frozen snapshots. Do not overwrite frozen model files or reuse evaluation recordings as untouched test data after tuning.
+
+The original development narrative is preserved in [historical README](docs/HISTORICAL-README.md).
