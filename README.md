@@ -4,6 +4,10 @@ PRJ 501 research prototype for automated Drosophila lunge detection and quantifi
 
 **Current software: Version 2.3.** The raw-video workflow uses the unchanged frozen Version 2.2 Random Forest. The original MATLAB feature-file classifier remains available.
 
+## Project overview
+
+This project demonstrates scientific Python development for behavioral research: importing experimental recordings, integrating tracking and feature extraction, applying a frozen Random Forest classifier, and producing reviewable event-level outputs. My contributions include the analysis workflow, feature-based classification and event detection, evaluation against expert annotations, and automated reporting. The reports below document methodology, reproducibility checks, and failure analysis.
+
 ## Start here
 
 - [Download the packaged application](https://github.com/obey1305/FlyAggression-Analyzer/releases/tag/v2.3.0)
